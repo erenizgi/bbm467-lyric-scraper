@@ -20,30 +20,39 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex  w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <h1>Lyric Avcısı 🎤</h1>
-        <form onSubmit={handleSearch}>
-          <input
+      <main className="flex w-full max-w-4xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+        <h1 className='mb-4'>Lyric Hunter 🎤</h1>
+        <form onSubmit={handleSearch} className='flex flex-col gap-4 w-fit'>
+          <div className='flex gap-4 w-fit'>
+            <input
             value={song}
             onChange={e => setSong(e.target.value)}
-            placeholder="Şarkı adı "
-          />&nbsp;
+            placeholder="Song name"
+            className="border-1 rounded-md border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
           <input
             value={artist}
             onChange={e => setArtist(e.target.value)}
-            placeholder="Sanatçı adı"
-          />&nbsp;
-          <button type="submit" disabled={loading}>{loading ? 'Aranıyor...' : 'Bul!'}</button>
-        </form>
-        {result && (
-          <div style={{ marginTop: 24 }}>
-            {result.url ? (
-              <a href={result.url} target="_blank" rel="noopener noreferrer">Lyrics burada bak &#x1F449;</a>
-            ) : (
-              <div style={{ color: 'red' }}>{result.error}</div>
-            )}
+            placeholder="Artist name"
+            className="border-1 rounded-md border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+
+          />
+          <button
+            type="submit"
+            disabled={loading}
+            className='border-1 min-w-32 rounded-md border-gray-300 px-4 py-2 flex items-center justify-center disabled:opacity-50'
+            style={{textAlign: "center"}}
+          >
+            {loading ? 'Searching...' : 'Find!'}
+          </button>
           </div>
-        )}
+          <div className="h-[100px] w-full flex items-center justify-center mt-4 text-center">
+            {result && "Lyrics have been saved to lyrics_files folder!"}
+          </div>
+          
+        </form>
+        
+        
 
       </main>
     </div>

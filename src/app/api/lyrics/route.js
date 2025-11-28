@@ -2,7 +2,6 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
-import sanitize from '../sanitize';
 
 
 export async function GET(request) {
@@ -11,7 +10,7 @@ export async function GET(request) {
   const artist = searchParams.get('artist');
 
   if (!song || !artist) {
-    return Response.json({ error: 'Şarkı veya sanatçı eksik bro' }, { status: 400 });
+    return Response.json({ error: 'Song or artist missing' }, { status: 400 });
   }
 
   
@@ -32,7 +31,7 @@ export async function GET(request) {
 
     const hit = response.data.response.hits[0];
     if (!hit) {
-      return Response.json({ error: 'Şarkı bulunamadı' }, { status: 404 });
+      return Response.json({ error: 'No songs found' }, { status: 404 });
     }
 
     
@@ -51,7 +50,6 @@ export async function GET(request) {
           
           if (currLine.trim() !== "") {
             lines.push(currLine.trim());
-            console.log(currLine.trim());
             currLine = "";
           }
         }
@@ -62,14 +60,14 @@ export async function GET(request) {
     });
 
     if (!lines.length) {
-      return Response.json({ error: 'Lirik ayıklanamadı' }, { status: 404 });
+      return Response.json({ error: 'Couldnt sanitize lyrics' }, { status: 404 });
     }
     const lyrics = lines.join('\n');
 
 
 
-    const safeArtist = sanitize(artist);
-    const safeSong = sanitize(song);
+    const safeArtist = hit.result.primary_artist.name;
+    const safeSong = hit.result.title;
     const fileName = `${safeSong}-${safeArtist}.txt`;
     const saveDir = path.join(process.cwd(), 'lyrics_files');
     const savePath = path.join(saveDir, fileName);
@@ -78,7 +76,7 @@ export async function GET(request) {
     }
 
     fs.writeFileSync(savePath, lyrics, 'utf8');
-    console.log(`Lirik kaydedildi: ${savePath} \n${lyrics}`);
+    console.log(`Lyrics saved: ${savePath}`);
 
     return Response.json({
       lyrics: lyrics,
@@ -86,7 +84,7 @@ export async function GET(request) {
     });
 
   } catch (err) {
-    console.log('Hata:', err);
+    console.log('Error:', err);
     return Response.json({ error: err }, { status: 500 });
   }
 }
