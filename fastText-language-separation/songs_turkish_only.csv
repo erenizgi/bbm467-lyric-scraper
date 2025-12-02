@@ -2,7 +2,6 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 388,7KC4B2R255iYIPVG8S7Eey,Hanare Gumi,だれそかれそ,接吻,33,369200,False,0.707,0.296,7,-11.633,1,0.078,0.283,0.0,0.0601,0.65,88.006,4,acoustic,tr,0.4034345149993896
 2159,6CkLcIjIAWHJp3nZWhNQvF,Duman,Best Viral Tunes,Her Şeyi Yak,0,270280,False,0.629,0.538,2,-6.79,1,0.0244,0.461,0.0,0.123,0.205,100.038,4,alt-rock,tr,0.8802748322486877
 2160,2iwsJcPB5HIVTuHHwdTNO4,Duman,Viral Şarkılar,Her Şeyi Yak,0,270280,False,0.629,0.538,2,-6.79,1,0.0244,0.461,0.0,0.123,0.205,100.038,4,alt-rock,tr,0.8802748322486877
-2341,3NSLr0b5MRGgLM298WQjMZ,Fito Paez,Rock x siempre,11 Y 6,0,175720,False,0.746,0.506,7,-7.945,1,0.0267,0.159,0.0,0.273,0.35,101.361,4,alt-rock,tr,0.5899189114570618
 2472,1ZLExfqDJGcoZfc6l1vDws,Flört,Cemiyette Pişiyoruz,Bir Tek Sen Gelmedin,49,261373,False,0.611,0.7,9,-7.966,0,0.0302,0.00181,0.00248,0.291,0.707,145.943,4,alt-rock,tr,0.7328442335128784
 2625,6kHjMdhMOz1Y84X3DHvbni,Ne Jupiter,Aklımın Derinlerinde,Gökyüzüm Siyah Olsa Da,47,259200,False,0.599,0.563,1,-7.317,0,0.0407,0.526,0.0623,0.053,0.302,150.009,4,alt-rock,tr,0.7161980867385864
 2769,13DqxJiOQYYbgcFVhd8Rtk,Birileri,...aynı yer,...aynı yer,46,213033,False,0.635,0.414,11,-10.369,0,0.0322,0.165,2.13e-05,0.229,0.692,88.978,4,alt-rock,tr,0.9995614886283876
@@ -15,17 +14,7 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 3316,6CkLcIjIAWHJp3nZWhNQvF,Duman,Best Viral Tunes,Her Şeyi Yak,0,270280,False,0.629,0.538,2,-6.79,1,0.0244,0.461,0.0,0.123,0.205,100.038,4,alternative,tr,0.8802748322486877
 3545,3NSLr0b5MRGgLM298WQjMZ,Fito Paez,Rock x siempre,11 Y 6,0,175720,False,0.746,0.506,7,-7.945,1,0.0267,0.159,0.0,0.273,0.35,101.361,4,alternative,tr,0.5899189114570618
 3724,1ZLExfqDJGcoZfc6l1vDws,Flört,Cemiyette Pişiyoruz,Bir Tek Sen Gelmedin,49,261373,False,0.611,0.7,9,-7.966,0,0.0302,0.00181,0.00248,0.291,0.707,145.943,4,alternative,tr,0.7328442335128784
-4212,233sHWbC7v5XM9dYZnaUHx,Novo Amor,Birthplace,Seneca,52,267746,False,0.182,0.341,0,-9.966,0,0.0337,0.972,0.608,0.1,0.113,78.895,4,ambient,tr,0.2658905684947967
 4613,1veZkUONsfxYDfqcGo6YbG,Niklas Paschburg;Andy Barlow,Svalbard,Duvet,50,204845,False,0.403,0.16,6,-22.779,1,0.0369,0.959,0.941,0.0911,0.16,72.571,4,ambient,tr,0.3729539811611175
-5329,1yPluCl0c17RcWyGjV7tw5,Otaku,Ghibli Lofi,Aryetti's Song,60,115616,False,0.49,0.296,3,-20.157,0,0.0301,0.726,0.862,0.106,0.339,75.012,4,anime,tr,0.3691752552986145
-5554,5ZaKWYtQTpOyRogPpE5Tyj,Ikimonogakari,BAKU,BAKU,49,227213,False,0.64,0.939,1,-3.368,0,0.0421,0.068,0.0,0.0762,0.756,113.985,4,anime,tr,0.4279841780662536
-5624,25hbD2ZhTlBv0MQAAAI6DY,FictionJunction;LiSA,from the edge -TV ver.-,from the edge -TV ver.-,47,90102,False,0.416,0.922,8,-4.044,1,0.162,0.238,0.0,0.059,0.161,162.167,4,anime,tr,0.3876939713954925
-5898,7FAjPbS7XPN7o79eqk2rb3,Adlomusic,Thor vs. Lu Bu,Thor vs. Lu Bu,34,259354,False,0.663,0.903,1,-5.288,0,0.131,0.325,0.0,0.153,0.24,93.004,4,anime,tr,0.5460311770439148
-11653,6r52OQ9oSR9IBD2p9JOj2X,Dominic Lewis,Bullet Train (Original Motion Picture Score),Kyoto Eki,38,98693,False,0.387,0.506,5,-14.42,0,0.0348,0.00907,0.935,0.124,0.331,139.919,4,british,tr,0.3610366284847259
-12215,0oE2ojWoZcNmGABQi8l1xk,Miriam Yeung,電光幻影,處處吻,42,199041,False,0.758,0.794,1,-4.734,0,0.0405,0.364,0.0,0.099,0.77,119.021,4,cantopop,tr,0.4230904281139374
-15768,61dht7XTCDnjRa3f1HgVdj,Finding Hope,Daydream,Daydream,43,164000,False,0.818,0.371,8,-8.319,1,0.0502,0.189,0.000489,0.124,0.39,90.006,4,chill,tr,0.1987923681735992
-22494,6Re0uKy6U63UiHICSY7WV8,DeadSquad,Anatomi Dosa 2.0,Anatomi Dosa 2.0,23,179626,True,0.406,0.971,1,-5.354,1,0.185,0.000147,0.939,0.196,0.142,144.928,4,death-metal,tr,0.2254027724266052
-22692,47vY4Ll7FV4CUWDbu5sfM9,DeadSquad,Profanatik,Anatomi Dosa,22,209093,False,0.396,0.939,1,-5.604,1,0.543,0.0014,0.256,0.226,0.135,143.958,4,death-metal,tr,0.247447207570076
 23340,2xIC5DmTHaGBL83a9OUXM4,Buray;Arem Ozguc;Arman Aydin,Senin Yüzünden,Senin Yüzünden,62,173250,False,0.724,0.807,3,-4.021,0,0.0682,0.047,4.57e-05,0.0762,0.704,94.978,4,deep-house,tr,0.8732770085334778
 23356,23mm9aftN5GODdix3IY64M,Buray,Çift Gökkuşağı (Ada Masalı Orijinal Dizi Müziği),Çift Gökkuşağı (Ada Masalı Orijinal Dizi Müziği),53,142470,False,0.634,0.579,6,-7.964,0,0.075,0.418,0.0,0.297,0.901,82.021,4,deep-house,tr,0.987090528011322
 23509,6KybXlftuqmAxRI05yqDfk,Hadise,Küçük Bir Yol,Küçük Bir Yol,69,280739,False,0.561,0.658,3,-6.023,0,0.028,0.0123,0.0,0.15,0.417,112.014,4,deep-house,tr,0.9566411972045898
@@ -35,24 +24,12 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 23851,3rTnSsUS6gD2BDnMlPB2u8,Buray,Deli Kız,Deli Kız,58,195582,False,0.639,0.837,9,-4.632,0,0.0517,0.263,1.82e-06,0.0756,0.717,98.017,4,deep-house,tr,0.8396190404891968
 23950,2W6XpjOKbmZ1NNVNtwBr5b,Emrah Karaduman;Aleyna Tilki,Cevapsız Çınlama,Cevapsız Çınlama,52,212535,False,0.677,0.963,7,-3.0,1,0.104,0.00469,1.17e-06,0.358,0.598,108.016,4,deep-house,tr,0.9616982936859132
 23952,0I8oQaAdhVgx19qXiVKDuI,Hadise,Şampiyon,Sıfır Tolerans,62,225794,False,0.755,0.834,6,-6.021,0,0.0662,0.00509,0.0,0.18,0.558,127.981,4,deep-house,tr,0.8783478736877441
-25720,7bvuyE21cfzzM3JzRNtyp7,Ikke Hüftgold;Lorenz Büffel,Asamoah,Asamoah,31,192733,False,0.659,0.944,10,-2.854,1,0.0441,0.0127,0.0,0.208,0.682,134.0,4,disco,tr,0.2476481944322586
-27150,6DJV0w34C2GAuKQqXzfHfy,Mohican Sun,Darkest Hour [UKF10],Darkest Hour,53,285393,False,0.395,0.875,2,-4.613,0,0.0448,0.0725,0.116,0.225,0.0656,86.956,4,drum-and-bass,tr,0.1184660494327545
-27703,0heLGGv1IyGOgFobFrbUgv,Document One,LSD,LSD,50,252342,False,0.642,0.845,5,-4.736,0,0.0428,0.0155,0.284,0.736,0.0373,87.528,4,drum-and-bass,tr,0.288644015789032
-28536,1pG91KqhQR2otR6fdNwgNf,Disciples,Switch,Di Saat Badai,29,212826,False,0.775,0.613,2,-7.019,1,0.0416,0.566,1.14e-05,0.0914,0.534,94.015,4,dub,tr,0.2712605893611908
-29807,5CPb3hIAHW1YAJsy5n2DQj,JVNA,Gurenge,Gurenge,40,204800,False,0.262,0.679,4,-3.882,0,0.0414,0.0737,0.0,0.145,0.0667,149.577,4,dubstep,tr,0.4128456115722656
-31657,1ER18JtNiSnKkZX26zdkG9,6091,Kummati,Kummati,45,213333,False,0.578,0.459,11,-11.68,1,0.0863,0.674,0.349,0.377,0.182,152.94,4,electro,tr,0.3603564500808716
-32061,1ER18JtNiSnKkZX26zdkG9,6091,Kummati,Kummati,45,213333,False,0.578,0.459,11,-11.68,1,0.0863,0.674,0.349,0.377,0.182,152.94,4,electronic,tr,0.3603564500808716
-32159,0uETXz9EaPbQPgvHppOQYr,Shanti People;Droplex,Gayatri,Gayatri,39,311101,False,0.468,0.641,10,-7.881,0,0.106,0.0122,0.342,0.366,0.146,137.969,4,electronic,tr,0.3098853528499603
-32700,7KAQwDyAcdiHZhQU01KLkN,TroyBoi,Left Is Right,ili,24,245000,False,0.634,0.588,9,-6.753,1,0.106,0.0575,0.00231,0.441,0.77,174.006,4,electronic,tr,0.6875591278076172
-32906,072R0du8qjb8TQEKKvYktK,Prabh Deep,Dosh,Dosh,24,288623,False,0.529,0.62,1,-7.832,0,0.252,0.788,3.01e-06,0.105,0.162,177.811,4,electronic,tr,0.5073426961898804
 33475,14PlDNjNh3pXyHXzkhX8n5,6ix9ine;Fetty Wap;A Boogie Wit da Hoodie,Day69: Graduation Day,KEKE,60,151914,True,0.599,0.857,7,-5.7,1,0.299,0.0321,0.0,0.4,0.469,187.985,4,emo,tr,0.6026289463043213
 34598,6NNiVBkstx4zWrQVbEpZ8I,Nurettin Rençber,Eski Yara,Yürürüm,46,306013,False,0.344,0.42,5,-11.73,0,0.0454,0.605,2.11e-05,0.206,0.519,91.766,4,folk,tr,0.991616427898407
 34729,197CWknsQggubzqaiuTt9o,Zeki Müren,Ayrıldık İşte,Seni Sordum Yıldızlara,46,309173,False,0.457,0.542,2,-13.463,0,0.0411,0.76,0.0,0.43,0.691,81.408,4,folk,tr,0.8162702918052673
 34732,2ol1ST9LqK6gR7QOp03exs,Aşık Veysel,"Dostlar Beni Hatırlasın 1894-1973, Vol. 1 (Hiç Unutulmayacaklar)",Güzelliğin on para etmez,45,138386,False,0.472,0.221,8,-13.813,1,0.0317,0.948,0.0,0.0715,0.563,107.345,4,folk,tr,0.9953428506851196
-34960,2q3D4sdAMJSJRS9t6oaBRo,Nusrat Fateh Ali Khan,Salaam - Nusrat Fateh Ali Khan,Piya Re Piya Re,31,464426,False,0.708,0.474,7,-14.007,1,0.0815,0.0719,0.0,0.112,0.423,91.948,4,folk,tr,0.5426501631736755
 34986,27LtwN20Rvhi6LVmUaaucZ,Ezginin Günlügü,İlk Aşk,Zerdaliler,45,260480,False,0.407,0.292,2,-10.662,0,0.0497,0.94,0.00121,0.11,0.293,86.411,1,folk,tr,0.2741007506847381
 34995,5eI11836uL4Ek3jGS1p50y,Ferhat Tunç,Her Mevsim Bahardır,Sen Ateş Ol Ben Yanayım,42,297746,False,0.735,0.463,5,-9.386,1,0.0332,0.736,0.000148,0.136,0.502,110.085,4,folk,tr,0.9849941730499268
-35180,6WEag0EvrG3T2LGOqcQyMA,Desejo de Menina,"Moldura, Vol. 3",Moldura,45,217720,False,0.436,0.826,2,-5.61,0,0.0489,0.673,3.14e-05,0.101,0.854,83.764,4,forro,tr,0.6309099793434143
 36564,0BD9boQC7jUTWkAoib4Z0d,Soolking;Dadju,Vintage,Meleğim,65,220280,False,0.682,0.697,3,-4.276,0,0.0757,0.188,0.0,0.334,0.57,95.012,4,french,tr,0.999819815158844
 37596,61a7QY8DC9rwybJU33zaYj,MC Cabelinho;Dj Juninho da Espanha;Ariel Donato,Ainda,Agradecer,46,173120,False,0.864,0.556,3,-4.394,0,0.0634,0.866,1.2e-05,0.107,0.137,105.051,4,funk,tr,0.3014610111713409
 39171,5zQ3PIpMrPKumeI6E0qoKL,MERO;Murda,Best Viral Tunes,Konum Gizli,0,198581,False,0.862,0.506,10,-8.651,0,0.267,0.0542,2.96e-05,0.117,0.512,136.052,4,german,tr,0.2515295743942261
@@ -63,21 +40,13 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 41582,4p3wDuF9AJjckCENj17zod,Håkan Hellström,Samlade singlar! 2000-2010,Ramlar,23,195720,False,0.139,0.967,0,-4.801,1,0.0782,0.00165,0.0,0.346,0.327,168.427,4,goth,tr,0.6085058450698853
 41977,58Vjrz6dVx8ZfLKH7NAIK1,She Past Away,Kasvetli Kutlama,Bozbulanık,20,293333,False,0.427,0.882,11,-8.906,0,0.0412,0.000392,0.736,0.0973,0.14,180.078,4,goth,tr,0.6292690634727478
 41987,29V3bcqiiUhqCjX1zdipAI,She Past Away,Narin Yalnızlık,Kuruyordu Nehir,20,204587,False,0.742,0.748,0,-6.434,1,0.0339,0.104,0.632,0.0956,0.919,119.988,4,goth,tr,0.978358268737793
-43511,0w4qpFbzCjnOiJApkkt3Uw,DJ Tarkan;Yalena,Get Better (Gon Haziri Remix),Get Better - Gon Haziri Remix,47,410015,False,0.794,0.836,2,-4.125,0,0.0397,0.001,0.358,0.567,0.545,120.006,4,groove,tr,0.4372924864292145
 43706,6MNgLwZRqrySZETau0pm05,DJ Tarkan,Oldu Olanlar,Oldu Olanlar,25,232909,False,0.806,0.444,9,-11.264,0,0.0491,0.0883,0.871,0.102,0.391,110.017,4,groove,tr,0.8642181754112244
 43855,6d2ztWPZcsIX3UrxuCVROf,Hakan Akkus;Ilkan Gunuc,I Can't Be (Ilkan Gunuc Remix),I Can't Be - Ilkan Gunuc Remix,37,254237,False,0.722,0.536,10,-7.868,0,0.0287,0.0678,0.129,0.0935,0.337,117.997,4,groove,tr,0.2196474969387054
-45921,5iEv15cIwHtxh96FpDKatM,Little Symphony,Rialto Beach,Elirid,20,144000,False,0.265,0.00222,7,-28.335,1,0.0628,0.974,0.968,0.107,0.04,82.746,4,guitar,tr,0.3360626995563507
-46682,6Hf2tnXowdcOLh5Drk6kYb,Korsakoff,Korsakoff Pres. Pink Noise,Daydream,18,317170,False,0.46,0.983,5,-6.44,1,0.0672,0.00624,0.159,0.14,0.415,169.033,4,happy,tr,0.1987923681735992
 48243,3SyCVJ4izJSa6kGefqB3xK,Seringai,Taring,Tragedi,37,235733,False,0.58,0.895,4,-4.805,0,0.0454,0.000188,0.00915,0.1,0.503,82.509,4,hardcore,tr,0.1369151920080185
 48779,7JZhk6TjIo3K9SUlhxUjGR,Total Jerks,Fear,Depresi,30,65664,False,0.346,0.998,11,-2.866,0,0.224,0.000194,0.884,0.189,0.309,171.865,4,hardcore,tr,0.6449506282806396
 51816,5m62bM6EN1ysBb3nnedLBR,Satinder Sartaaj,Titli,Titli,57,277500,False,0.723,0.831,6,-6.685,1,0.111,0.543,0.0,0.0755,0.839,143.885,4,hip-hop,tr,0.2911806404590606
-55702,1ER18JtNiSnKkZX26zdkG9,6091,Kummati,Kummati,45,213333,False,0.578,0.459,11,-11.68,1,0.0863,0.674,0.349,0.377,0.182,152.94,4,indian,tr,0.3603564500808716
-56653,42qNWdLKCI41S4uzfamhFM,bôa,Twilight,Duvet,77,203600,False,0.583,0.888,11,-9.414,0,0.0349,0.191,4.58e-05,0.0936,0.706,93.206,4,indie-pop,tr,0.3729539811611175
-58257,3sxNhARfL8uj7NlMqwF61p,Marilyn Manson,Heaven Upside Down,SAY10,52,258519,False,0.601,0.741,2,-6.424,1,0.0698,0.000989,0.00237,0.053,0.129,126.963,4,industrial,tr,0.5711978673934937
-59052,1qWCr2CQkdnutRbk1m46Xd,Porya Hatami;Roberto Attanasio;Aaron Martin,Sallaw,Rêbendan,10,546000,False,0.0886,0.185,9,-22.113,0,0.0394,0.932,0.968,0.0891,0.0381,85.833,3,iranian,tr,0.1375939548015594
 59586,1cOQgoRQ2ESo6gtZ31VgTU,Sabke Morde,PeeranSal,Hame Yeksoo,0,969250,False,0.337,0.658,7,-5.929,0,0.0447,0.202,4.08e-05,0.556,0.0847,112.504,3,iranian,tr,0.1463608145713806
 59888,3KmEutU45TA4JMK3hDXSsV,Martin Shamoonpour,8 Bit,Zirkeshe Salmak (Dastgahe Shur),0,95760,False,0.555,0.0863,0,-4.599,0,0.0604,0.657,0.982,0.13,0.651,128.021,3,iranian,tr,0.3686795234680176
-60458,0EIgCM5mScspP2MnSq2WCT,WEDNESDAY CAMPANELLA,Neon,Orihime,35,164576,False,0.789,0.912,6,-4.458,0,0.0665,0.0907,3.64e-05,0.329,0.672,123.028,4,j-dance,tr,0.5758376121520996
 62345,27LtwN20Rvhi6LVmUaaucZ,Ezginin Günlügü,İlk Aşk,Zerdaliler,45,260480,False,0.407,0.292,2,-10.662,0,0.0497,0.94,0.00121,0.11,0.293,86.411,1,j-pop,tr,0.2741007506847381
 62346,006tmNZLXEXPqdb23wwSN1,İlhan İrem,Bezginin Gizli Mektupları,Yemyeşil Bir Deniz,44,358173,False,0.486,0.568,9,-9.199,0,0.0417,0.652,0.0,0.834,0.65,127.184,4,j-pop,tr,0.9097525477409364
 62349,2LxGrlboLTVvmegFyRtdP5,Sertab Erener;Can Bonomo,İyiliğe Ninniler,Fış Fış Kayıkçı,45,424029,False,0.657,0.134,0,-13.431,1,0.0357,0.986,0.0,0.114,0.119,117.838,4,j-pop,tr,0.9130123257637024
@@ -166,7 +135,6 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 63644,6GStJVAVmvF0m0vnoEAdvf,Zeki Müren,Anılarım,Bir Yangının Külünü (Aşiyan Yollarında),36,234666,False,0.433,0.566,2,-11.007,1,0.0752,0.767,0.0,0.121,0.622,91.758,4,j-rock,tr,0.9218740463256836
 63648,3eKcbrTzvzPQqyD0T0C6N9,İlhan İrem,Dünden Yarına,İşte Hayat (Sensiz de Yaşanıyor),35,224666,False,0.606,0.742,9,-11.092,0,0.0966,0.393,0.0,0.317,0.791,131.587,4,j-rock,tr,0.9944133758544922
 63649,44PwPWrLCiQT02K2EJ6gaU,İlhan İrem,Uçun Kuşlar Uçun,Gemiler Döner Geriye,35,255200,False,0.49,0.366,7,-13.07,0,0.0341,0.799,0.0,0.191,0.204,127.556,4,j-rock,tr,0.5030521750450134
-63658,7KC4B2R255iYIPVG8S7Eey,Hanare Gumi,だれそかれそ,接吻,33,369200,False,0.707,0.296,7,-11.633,1,0.078,0.283,0.0,0.0601,0.65,88.006,4,j-rock,tr,0.4034345149993896
 63678,2TiOUmPgDYrs4uV50fWKyg,Peyk,İçimdeki İz,Piç,35,210295,False,0.799,0.563,4,-6.068,0,0.0468,0.349,1.91e-05,0.0875,0.708,120.094,4,j-rock,tr,0.6053462028503418
 63690,7CvRTmR8q6rCm0QMwNm1ft,Yavuz Çetin,Satılık,Bul Beni,35,250403,False,0.458,0.853,7,-9.13,1,0.0437,8.67e-05,0.0103,0.517,0.785,105.394,4,j-rock,tr,0.4615342319011688
 63693,4H2pA3ieEkPvU6stjc9MI6,Evrencan Gündüz,Mevsim Çiçekleri,Yeni Bir Şarkı,34,281813,False,0.562,0.324,1,-13.484,0,0.0731,0.508,0.0,0.293,0.678,75.072,4,j-rock,tr,0.98386150598526
@@ -247,23 +215,6 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 64978,1NyBy7w03Bpum3LfvQBT9Q,Levent Yüksel,Uslanmadım,Bu Aşkın Katili Sensin,37,245585,False,0.656,0.797,5,-5.863,1,0.0373,0.0207,2.79e-06,0.0605,0.397,96.041,4,jazz,tr,0.8516890406608582
 64979,4aoN6rHl9SkAZJw8BFh4yf,Zülfü Livaneli,Nefesim Nefesine,Nefesim Nefesine,38,338866,False,0.398,0.318,3,-12.283,1,0.0299,0.544,6.02e-06,0.0875,0.137,105.849,4,jazz,tr,0.9182142615318298
 64981,6s2u8neVUCKOxvKDW6ZT9o,Sertab Erener,Ben Yaşarım,Belki De Aşk Lazım Değildir,38,222733,False,0.461,0.39,7,-10.973,0,0.0385,0.577,7.04e-06,0.12,0.498,172.044,4,jazz,tr,0.9884967803955078
-65645,65LacQaIIbzQG19gUhnrZV,Vijay Antony;VV Prassanna;Supriya Joshi,Velayudham (Original Motion Picture Soundtrack),Molachu Moonu,48,292546,False,0.71,0.519,1,-9.507,1,0.0348,0.709,0.000397,0.074,0.81,149.982,1,k-pop,tr,0.135271281003952
-65656,3LTwMQ9kkn5VVhP3jipBlR,BTS,Wings,Stigma,67,216063,False,0.566,0.475,0,-5.556,0,0.089,0.148,0.0,0.139,0.335,136.442,4,k-pop,tr,0.1621552556753158
-66844,4E0GiSMs5E60MvX3pLW70H,Mini Pop Kids,Mini Pop Kids 17,The Git Up,8,201200,False,0.66,0.601,4,-6.94,1,0.16,0.0108,0.0,0.196,0.678,98.357,4,kids,tr,0.3371839523315429
-67889,3NSLr0b5MRGgLM298WQjMZ,Fito Paez,Rock x siempre,11 Y 6,0,175720,False,0.746,0.506,7,-7.945,1,0.0267,0.159,0.0,0.273,0.35,101.361,4,latin,tr,0.5899189114570618
-69202,7zZsi7kpplYLn7q7K6qQUu,Reyan;Melvin,Thamburati,Thamburati,42,178217,False,0.612,0.609,9,-8.059,0,0.247,0.233,0.0,0.0564,0.619,201.985,4,malay,tr,0.4057708978652954
-69247,1XgVJi1Ry9U8uGOqJFjnwx,Sujatha;Vaishali;Subha;Richa Sharma,Sakhi,Yede Yedeydey,35,347580,False,0.825,0.337,9,-14.704,1,0.157,0.299,0.0236,0.0703,0.411,130.987,4,malay,tr,0.8233873248100281
-69279,2WTSn1V3jenhbeKVTljPLC,Sachin Warrier;Anna Kathrina,Left Right Left (Original Motion Picture Soundtrack),Aa Nadhiyoram,32,379452,False,0.858,0.363,8,-8.237,0,0.0474,0.115,0.023,0.106,0.599,99.993,4,malay,tr,0.9196984767913818
-69388,7BosUZ9e8o4E0pEv7jqNPz,Sujatha,Poomoodam Devi (Kadambuzha Devi Devotional),Iniyoru Janmam,30,320466,False,0.506,0.455,0,-7.21,1,0.0435,0.721,0.00054,0.321,0.693,165.968,4,malay,tr,0.99854177236557
-69546,3kmmE29tWhiYq6Icpd3Y3z,Sujatha;Shreekumar Vakkiyil,Mulla (Original Motion Picture Soundtrack),Kanalukalaadiya,25,274311,False,0.722,0.7,5,-7.059,1,0.032,0.0787,0.00025,0.577,0.718,102.973,4,malay,tr,0.318261981010437
-69694,3NNDJfWMGHuNpvHWTImmlW,Fish Leong,我好嗎? - 太陽如常升起,慢冷,62,289604,False,0.521,0.471,4,-8.247,1,0.0317,0.786,0.0,0.105,0.269,92.054,4,malay,tr,0.2335795760154724
-69706,7yLqPKdXQVvFAfyHByAK1Q,Santesh,Kili,Kili,28,216595,False,0.645,0.712,5,-12.176,0,0.145,0.0132,0.000437,0.344,0.627,149.904,4,malay,tr,0.3906151354312897
-69803,4cTy9wGYTIk0M2bpducJ2y,Rap Tale;V3K;Haritha Jyothi,Kili,Kili,20,222798,False,0.875,0.588,5,-7.139,0,0.13,0.114,8.62e-05,0.482,0.865,95.028,4,malay,tr,0.3906151354312897
-69875,4KSex9N56LdrHa98xP6fej,Franco,Vazhthunnu Njan (Christian Devotional Song),Dinavum Esuvinte Koode,20,351895,False,0.566,0.53,7,-7.315,1,0.0285,0.0619,5.32e-06,0.0929,0.568,144.015,4,malay,tr,0.1678968667984008
-69922,3mkg02Z5cUHI8HVCqK7rAW,Najim Arshad,Onam Vannallo,Vazhiyorakkaatte,18,232517,False,0.683,0.693,2,-8.919,1,0.0349,0.39,0.00499,0.193,0.546,104.01,4,malay,tr,0.414385050535202
-70049,3WLubatGVRtuQo0AI7qIQD,Ricky Hsiao,秋日思念絮語,慢冷,0,305028,False,0.289,0.328,0,-7.991,1,0.0342,0.883,0.0,0.121,0.258,86.384,4,mandopop,tr,0.2335795760154724
-70092,3NNDJfWMGHuNpvHWTImmlW,Fish Leong,我好嗎? - 太陽如常升起,慢冷,62,289604,False,0.521,0.471,4,-8.247,1,0.0317,0.786,0.0,0.105,0.269,92.054,4,mandopop,tr,0.2335795760154724
-70305,4XipvtwRgtUrGb2j2l0wNG,Jolin Tsai,城堡,倒帶,54,266146,False,0.57,0.669,5,-3.722,1,0.0279,0.11,0.0,0.085,0.344,130.413,4,mandopop,tr,0.7307745814323425
 71538,3jpzdLvSyufByWuvgBNPxU,DEHA INC.,Baskın,Baskın,45,149700,True,0.609,0.935,4,-3.182,1,0.234,0.23,1.42e-05,0.35,0.288,119.974,4,metal,tr,0.946078896522522
 71740,28ewfZ6bTCVCNOFEZ1Q7q8,Pentagram,Makina Elektrika,Maymunlar Gezegeni,40,296187,False,0.322,0.981,2,-6.576,1,0.075,3.05e-05,0.483,0.262,0.402,174.884,4,metal,tr,0.7199671864509583
 71840,7DT6NuQBHmsSvA1RWuxoeX,Disidente,Y si tuviera disquera,Decidir,42,277533,False,0.368,0.872,5,-4.323,0,0.0318,0.00475,0.0,0.0877,0.558,168.035,4,metal,tr,0.5572749376296997
@@ -275,20 +226,8 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 78353,7bvuyE21cfzzM3JzRNtyp7,Ikke Hüftgold;Lorenz Büffel,Asamoah,Asamoah,31,192733,False,0.659,0.944,10,-2.854,1,0.0441,0.0127,0.0,0.208,0.682,134.0,4,party,tr,0.2476481944322586
 78606,5wOby0SgajxMlOFce5HLyh,voXXclub,Hitmedley,Hitmedley,27,358653,False,0.407,0.936,3,-4.503,1,0.195,0.028,0.0,0.0686,0.6,127.047,4,party,tr,0.3936527669429779
 78781,2sZ2ZOH2KWZ9sS60X0BoY1,voXXclub,Rock Mi - Die größten Hits,Hitmedley,25,358653,False,0.407,0.936,3,-4.503,1,0.195,0.028,0.0,0.0686,0.6,127.047,4,party,tr,0.3936527669429779
-78982,4IJ011JrNpjcndXCGH854X,Markus Becker;Jörg Lück,Düdeldü,Düdeldü (Original Mix),23,238333,False,0.761,0.826,11,-6.12,1,0.0307,0.00629,6.73e-06,0.02,0.835,135.059,4,party,tr,0.2122874855995178
 79432,2d64USUwOGOfA2Zh9gpXqb,Fazıl Say;Serenad Bağcan,Zülfü Livaneli 50. Yıl - Bir Kuşaktan Bir Kuşağa,Yiğidim Aslanım Burda Yatıyor,35,360240,False,0.401,0.214,9,-10.528,0,0.0401,0.969,0.00199,0.121,0.0729,121.477,4,piano,tr,0.9998630881309508
-79703,3MHeGswE0BGskmSYhU1n6M,Marika Takeuchi,Daydream,Daydream,47,174893,False,0.434,0.45,6,-16.443,0,0.0437,0.827,0.914,0.1,0.137,179.742,4,piano,tr,0.1987923681735992
 79878,5JaEvKVQbXVxqq2S6a1CVj,Fazıl Say;Jamal Aliyev,Hayat Ağacı,"Hayat Ağacı Süiti, Op. 100: III. Ece",29,187541,False,0.291,0.109,10,-20.775,0,0.043,0.986,0.884,0.12,0.229,108.154,3,piano,tr,0.5032715797424316
-79968,2DqzdGlNJtimH8XbA173La,Smyang Piano;Bibimbeats,Just a Nap,Stigma,36,158769,False,0.686,0.105,7,-25.182,0,0.036,0.921,0.8,0.131,0.0948,129.985,4,piano,tr,0.1621552556753158
-80226,5a11x5PUFvJEadMRqtNtTr,Atif Aslam;Shreya Ghoshal,Tere Naal Love Ho Gaya (Original Motion Picture Soundtrack),Piya O Re Piya,66,292746,False,0.442,0.574,2,-6.394,1,0.0828,0.273,0.0,0.094,0.308,167.857,4,pop-film,tr,0.7023877501487732
-80650,0joXv5niso2T8YXWOlIe1X,Chinmayi;Gopi Sundar,Chennai Express,Titli,59,350617,False,0.679,0.421,7,-9.13,0,0.0344,0.685,6.81e-06,0.244,0.65,81.012,4,pop-film,tr,0.2911806404590606
-80825,4SLWJ2ff0RHSJOSp2MPIHH,Atif Aslam,Rafta Rafta,Rafta Rafta,58,203750,False,0.647,0.792,11,-5.103,0,0.0372,0.389,1.65e-05,0.147,0.499,96.073,4,pop-film,tr,0.3373115360736847
-80883,7m64tTau2Rh6hzVDA1oV6K,Harish Raghavendra,Rajubhai,Evare Nuvvu,56,250866,False,0.813,0.696,10,-6.243,1,0.0363,0.122,0.0,0.104,0.521,119.96,4,pop-film,tr,0.3277750611305237
-80938,3geKpJNdURFqbA8OqaR7vr,Neha Bhasin,Current,Atu Nuvve,56,302480,False,0.661,0.655,2,-4.556,0,0.0939,0.604,1.88e-05,0.0881,0.577,164.033,4,pop-film,tr,0.2713249325752258
-81604,5DEp8hauuZ45oG38YOkkQq,Pratsofficial,Aziyat,Aziyat,65,221714,False,0.682,0.437,10,-8.655,1,0.0271,0.758,0.00801,0.106,0.233,104.961,4,pop,tr,0.923638105392456
-81811,0YxzH0SUc10Vw4yLFqU06I,Saaj Bhatt,Halki Si Barsaat,Halki Si Barsaat,65,212560,False,0.591,0.606,8,-6.977,1,0.066,0.574,0.0,0.06,0.767,82.185,4,pop,tr,0.3438133895397186
-81834,1xtlT8C62HToUvB0xmwvyi,Vishal Chandrashekhar;Sai Vignesh,Sita Ramam (Tamil) [Original Motion Picture Soundtrack],Kurumugil,65,218808,False,0.419,0.342,4,-10.985,1,0.0636,0.518,0.0,0.106,0.599,149.798,3,pop,tr,0.6454083323478699
-81869,5a11x5PUFvJEadMRqtNtTr,Atif Aslam;Shreya Ghoshal,Tere Naal Love Ho Gaya (Original Motion Picture Soundtrack),Piya O Re Piya,66,292746,False,0.442,0.574,2,-6.394,1,0.0828,0.273,0.0,0.094,0.308,167.857,4,pop,tr,0.7023877501487732
 84128,1ZLExfqDJGcoZfc6l1vDws,Flört,Cemiyette Pişiyoruz,Bir Tek Sen Gelmedin,49,261373,False,0.611,0.7,9,-7.966,0,0.0302,0.00181,0.00248,0.291,0.707,145.943,4,psych-rock,tr,0.7328442335128784
 84178,26g90nfKw79y5ZcRRqHLCz,Cem Karaca,Haykırış,Çökertme,43,181973,False,0.629,0.521,6,-9.27,1,0.0378,0.285,0.0,0.125,0.615,124.178,4,psych-rock,tr,0.4557056128978729
 84192,294JL3Xexu3sVRH9tpn60G,Rana Alagöz;Selçuk Alagöz,Biz Sizin Şarkılarınızla Büyüdük,Aşkın Gözü Kör Mü,47,210560,False,0.477,0.789,4,-5.426,0,0.0699,0.537,0.0,0.325,0.856,87.798,4,psych-rock,tr,0.891075849533081
@@ -397,20 +336,9 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 86174,1TyzAag3Pjh9D3eslUjuSX,Last Child,Our Biggest Thing Ever,Rindumu Disana,50,194430,False,0.502,0.925,4,-4.319,1,0.0529,0.00197,0.0,0.302,0.646,80.02,4,punk,tr,0.3685040771961212
 86659,4SBTogXwTxT4Okzrej5PtW,Çilekeş,Y.O.K.,Yetmiyor,40,276080,False,0.472,0.749,1,-6.537,0,0.0304,0.000954,9.72e-06,0.153,0.107,141.986,4,punk,tr,1.0000137090682983
 86807,4bPBhZBFJ2OR6VoRa09Cj0,Kilink,Kasaba,Oc (Aslında Alkol Hala Damarımda),37,140355,False,0.593,0.284,4,-12.263,1,0.039,0.628,2.99e-06,0.11,0.104,147.403,4,punk,tr,0.8946013450622559
-86822,3V0wIlV00u7Y0XHqclth2N,Fiersa Besari,20:20,Obsesi,39,194370,False,0.64,0.214,4,-9.747,0,0.0381,0.681,0.0,0.142,0.431,119.999,4,punk,tr,0.4954921901226043
 86866,2GiUWH13wdIfvvR2vjemAH,Athena;Aylin Aslım;Bülent Ortaçgil;Feridun Düzağaç;Koray Candemir;mor ve ötesi;Nejat Yavaşoğulları;Vega,Savaşa Hiç Gerek Yok,Savaşa Hiç Gerek Yok - Version 1,37,218120,False,0.591,0.617,0,-10.068,1,0.0252,0.0225,0.0,0.101,0.36,97.963,3,punk,tr,0.7661421895027161
 86961,7LxeS6YSxwhKkEevTfBEFm,Kilink,3 Akorun İntikamı,Torba Var Mı Beyler?,36,134226,False,0.393,0.802,11,-7.284,1,0.0671,0.279,0.0,0.48,0.691,108.498,3,punk,tr,0.3930580019950866
 86967,0S9PrA2MvOcCmGxoArJdUK,Drunk High Jinks,Çöplük Günleri,Hayal Gücümde Ölücem,36,140210,False,0.45,0.927,11,-6.004,0,0.179,0.0122,1.59e-05,0.111,0.82,190.078,4,punk,tr,0.9264505505561828
-90857,2ctgZALPuTO2TkF5BVm0vS,Los Matematicos,Go-Go en Rojo,La Niña Bu (Ring Dang Doo),28,142946,False,0.654,0.697,4,-10.402,1,0.0382,0.253,0.0,0.165,0.943,145.052,4,rock-n-roll,tr,0.2549904286861419
-93089,0armmWaLqevs0Cqhb1fms5,Rashid Beibutov;Tofiq Quliyev,Baku gözel çeher,Baku gözel çeher,10,176506,False,0.525,0.535,8,-6.597,1,0.0673,0.965,4.06e-05,0.391,0.668,93.768,4,romance,tr,0.9762275815010072
-93135,4KnUH9XeFVaBvpgWaoG97x,Rashid Beibutov;Tofiq Quliyev;Üzeyir Hacibeyov,Džan Azerbajdžan!,Xezer şefeqleri,8,168176,False,0.316,0.328,5,-10.9,0,0.0626,0.99,0.0147,0.377,0.643,180.653,4,romance,tr,0.9654178619384766
-93209,65yOmsCfT6sxIDroEULeg6,Rashid Beibutov,Ayrılıq,Ha Bu Diyar - Türk Xalq Mahnısı,4,79373,False,0.637,0.4,11,-12.446,1,0.157,0.979,0.00265,0.264,0.922,125.024,4,romance,tr,0.7280808091163635
-93224,2gFrejz48wRgBnBQVixUNO,Rashid Beibutov,Qalalıyam Qalalı (Azərbaycan Xalq Mahnıları),Girdim Yarın Bağçasına,5,201200,False,0.361,0.169,11,-13.005,0,0.0344,0.989,0.000171,0.0933,0.198,109.309,3,romance,tr,0.994975447654724
-93251,3sFb9wmlGaj6M8T64p59v1,Rashid Beibutov,Qalalıyam Qalalı (Azərbaycan Xalq Mahnıları),Qalalı,7,190533,False,0.585,0.397,0,-12.943,1,0.064,0.92,0.000227,0.3,0.756,69.471,4,romance,tr,0.8888578414916992
-93263,1AuBpin6OF7zskX2zOcNYg,Rashid Beibutov,Arshin Mul Ullun,Kahlik,7,150099,False,0.446,0.13,0,-14.682,1,0.0538,0.995,0.00826,0.0826,0.324,64.172,4,romance,tr,0.6911320686340332
-93639,7oPeylKTrY3ALtZvhQxgR0,Tamara Tsereteli,Velikie ispolniteli Rossii XX veka: Tamara Tsereteli (Deluxe),"O, pozabud'!",0,172710,False,0.35,0.194,7,-15.448,0,0.0973,0.981,0.000629,0.108,0.316,68.762,3,romance,tr,0.3635868430137634
-93693,6Lt01VhlbYELBIRO5OX8Tp,Nikolai Erdenko,The Best Gypsy Music - vol.1 (CD2),Snilsya Mne Sad,0,183680,False,0.216,0.0683,0,-18.52,1,0.0521,0.986,0.0374,0.0721,0.0375,81.431,3,romance,tr,0.608020544052124
-93824,1hgitBIufJCzMGWatsfA6l,Izabella Jur'eva,Velikie ispolniteli Rossii XX veka: Izabella Jur'eva (Deluxe Version),Lokon materi,0,192039,False,0.41,0.144,6,-13.811,0,0.133,0.992,0.00609,0.145,0.158,145.496,3,romance,tr,0.1744947135448455
 98115,2KSGTavlWWB3QuKAIvC355,Serkan Kaya,Dağların Dumanı (Son Bir Kez),Dağların Dumanı - Son Bir Kez,33,263297,False,0.574,0.694,2,-6.211,0,0.0447,0.152,0.0,0.0956,0.332,94.104,5,show-tunes,tr,0.9438062310218812
 98142,4XdEWemLPasGaMFFXB6ADG,Serkan Kaya,Gönül Bahçem,Gönül Bahçem,33,321245,False,0.4,0.367,10,-5.023,0,0.0331,0.891,0.0,0.347,0.357,72.397,4,show-tunes,tr,0.6009722948074341
 98269,6Xyykk1RigrvX50lDCqqXM,Serkan Kaya,Miras,Bu Şehrin Geceleri,28,373523,False,0.634,0.786,0,-3.695,1,0.0278,0.364,6.98e-06,0.372,0.469,104.993,4,show-tunes,tr,0.9826837778091432
@@ -419,7 +347,6 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 98871,1b5yadCeqXSlIg9QJuY6kA,Serkan Kaya,Miras,Aşk Benim Neyime,20,288518,False,0.63,0.868,5,-3.561,0,0.0517,0.146,3.5e-05,0.117,0.566,119.779,4,show-tunes,tr,0.993711233139038
 98992,0F8CO7YkFHFh1zPa4Bv9Vg,Serkan Kaya,Aşk Ne Demek Bilen Var Mi,Kizim Olursa,20,252786,False,0.634,0.688,2,-4.087,0,0.0376,0.723,0.0,0.231,0.579,140.041,4,show-tunes,tr,0.5258939862251282
 99482,5ptQepn6HP5jMllqHCmr4F,Emre Fel,Sevgilim Biz Ayrıldık,Sevgilim Biz Ayrıldık,49,259320,False,0.444,0.423,9,-12.036,1,0.0452,0.736,0.0,0.113,0.538,88.178,4,singer-songwriter,tr,0.9750047326087952
-99701,4pqPoUxXjbk8iqL0vSaRg7,Taba Chake,Bombay Dreams,In Waadiyon Mein,35,214000,False,0.648,0.649,1,-9.26,1,0.0321,0.113,0.397,0.0855,0.522,125.042,4,singer-songwriter,tr,0.3048873543739319
 99799,2LxGrlboLTVvmegFyRtdP5,Sertab Erener;Can Bonomo,İyiliğe Ninniler,Fış Fış Kayıkçı,45,424029,False,0.657,0.134,0,-13.431,1,0.0357,0.986,0.0,0.114,0.119,117.838,4,singer-songwriter,tr,0.9130123257637024
 99880,1E5Zumas0loctbiUN2whpi,Sera Savaş,Kiraz,Anlatsam Anlatamam,43,138165,False,0.605,0.402,8,-13.79,1,0.293,0.448,0.0,0.133,0.781,115.321,4,singer-songwriter,tr,0.1483519971370697
 99903,4hv9mEWi4911k1uhU4fPEH,Ufuk Beydemir,Sevda Gibi,Ay Tenli Kadın,67,197967,False,0.533,0.541,6,-7.854,1,0.0252,0.217,4.39e-06,0.11,0.335,144.135,4,singer-songwriter,tr,0.8632274866104126
@@ -440,9 +367,6 @@ Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explici
 102997,171luCSfSTBnaIVnfTVbS6,Melike Şahin,Merhem: İlk Konserler (Live),Nasır (Live @ Zorlu PSM),42,269354,False,0.551,0.478,10,-10.58,0,0.0378,0.526,0.0,0.288,0.523,98.056,4,songwriter,tr,0.866752028465271
 104933,7r1FJ6IvMqNr9WAWiXFB5w,Chulito Camacho,Las Heridas del Corazón,Marihuana Cura,25,205346,False,0.735,0.573,10,-9.518,0,0.0846,0.799,0.00466,0.0473,0.887,170.059,4,spanish,tr,0.3706935048103332
 105159,1KlHmKF2WqIjWvQ1anYvHh,Ensidya,Daydream,Daydream,41,158571,False,0.68,0.206,8,-10.361,1,0.0671,0.582,0.519,0.0957,0.168,70.094,4,study,tr,0.1987923681735992
-106595,7Es7k21eGdO2VK7NjIcPD1,Östen Med Resten,...Och Bilen Går Bra,Vägen Hem,37,242360,False,0.443,0.646,6,-8.501,0,0.0305,0.0453,1.53e-06,0.148,0.635,190.602,4,swedish,tr,0.2501165568828583
-106726,4lFdLwEusNE7odpDRnGLaE,Frej Larsson;Jocke Boberg,Leavin La Vida Larsson,LSD,37,130613,True,0.521,0.577,9,-14.146,1,0.0624,0.887,3.77e-06,0.158,0.673,87.746,4,swedish,tr,0.288644015789032
-108458,1x0qP5pQy0BYh5GZ9qvJ8J,Rubén Juárez;Carlos Garcia,20 Grandes Exitos,Mi Bandoneon Y Yo,20,168906,False,0.573,0.249,10,-14.947,1,0.0747,0.882,0.0,0.11,0.778,109.519,4,tango,tr,0.3758272528648376
 112001,1acHg5hL2dLV7Zo2tBWSj5,Lil Zey;Kozmos,Viral Şarkılar,Eskisi Gibi,0,186461,True,0.802,0.592,1,-7.495,0,0.12,0.629,0.0058,0.09,0.665,129.899,4,turkish,tr,0.6632971167564392
 112002,21monEVgRlouZOarTXChkL,Serhat Durmus,Gesi Bağları,Gesi Bağları,51,215973,False,0.59,0.46,5,-11.046,0,0.0271,0.0396,0.121,0.134,0.0392,100.987,4,turkish,tr,0.9636216759681702
 112007,294KvzBHtUO0nmbPS5uhJU,Lil Zey;Kozmos,Best Viral Tunes,Eskisi Gibi,0,186461,True,0.802,0.592,1,-7.495,0,0.12,0.629,0.0058,0.09,0.665,129.899,4,turkish,tr,0.6632971167564392
