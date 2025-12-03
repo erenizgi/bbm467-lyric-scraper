@@ -88,5 +88,6 @@ def analyze_local_files():
         # Google Translate API ban yememek için bekleme
         time.sleep(1.5)
 
+
 if __name__ == "__main__":
     analyze_local_files()

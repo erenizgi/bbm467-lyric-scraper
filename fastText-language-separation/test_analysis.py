@@ -3,6 +3,8 @@ from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# basit bir test. silmek istemedim kalsın bir süre.
+
 # 1. Temiz CSV'leri Yükle
 df_tr = pd.read_csv("songs_turkish_only.csv")
 df_balkan = pd.read_csv("songs_balkan_only.csv")
