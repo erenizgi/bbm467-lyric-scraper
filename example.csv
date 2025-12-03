@@ -1,7 +1,54 @@
 Unnamed: 0,track_id,artists,album_name,track_name,popularity,duration_ms,explicit,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature,track_genre,lang_fasttext,lang_confidence
-388,7KC4B2R255iYIPVG8S7Eey,Hanare Gumi,だれそかれそ,接吻,33,369200,False,0.707,0.296,7,-11.633,1,0.078,0.283,0.0,0.0601,0.65,88.006,4,acoustic,tr,0.4034345149993896
-2159,6CkLcIjIAWHJp3nZWhNQvF,Duman,Best Viral Tunes,Her Şeyi Yak,0,270280,False,0.629,0.538,2,-6.79,1,0.0244,0.461,0.0,0.123,0.205,100.038,4,alt-rock,tr,0.8802748322486877
+2160,2iwsJcPB5HIVTuHHwdTNO4,Duman,Viral Şarkılar,Her Şeyi Yak,0,270280,False,0.629,0.538,2,-6.79,1,0.0244,0.461,0.0,0.123,0.205,100.038,4,alt-rock,tr,0.8802748322486877
 2472,1ZLExfqDJGcoZfc6l1vDws,Flört,Cemiyette Pişiyoruz,Bir Tek Sen Gelmedin,49,261373,False,0.611,0.7,9,-7.966,0,0.0302,0.00181,0.00248,0.291,0.707,145.943,4,alt-rock,tr,0.7328442335128784
 2625,6kHjMdhMOz1Y84X3DHvbni,Ne Jupiter,Aklımın Derinlerinde,Gökyüzüm Siyah Olsa Da,47,259200,False,0.599,0.563,1,-7.317,0,0.0407,0.526,0.0623,0.053,0.302,150.009,4,alt-rock,tr,0.7161980867385864
 2769,13DqxJiOQYYbgcFVhd8Rtk,Birileri,...aynı yer,...aynı yer,46,213033,False,0.635,0.414,11,-10.369,0,0.0322,0.165,2.13e-05,0.229,0.692,88.978,4,alt-rock,tr,0.9995614886283876
 2816,5i9YJPhJo1RrWHKjkbkgmk,Büyük Ev Ablukada,FIRTINAYT,BENİM KAFAM SİKTİRMİŞ GİTMİŞ,45,117460,True,0.761,0.652,11,-10.534,0,0.236,0.0632,0.0,0.104,0.847,125.018,4,alt-rock,tr,0.8560805916786194
+2821,4gBNgq0v7fG5kGC857Pb8M,Birileri,Pür Akustik,Aşık Olmamam Gerek - Canlı Akustik,45,211700,False,0.516,0.733,4,-10.627,0,0.0376,0.352,0.0,0.29,0.657,90.563,4,alt-rock,tr,0.3812274932861328
+2926,0jdfbvSdaWvxfAlD20TtNc,Yaşlı Amca,Akşamüstü,Sanki Yapamadım,44,213198,False,0.442,0.567,8,-6.346,0,0.0516,0.238,0.000325,0.0852,0.639,138.616,0,alt-rock,tr,0.968794047832489
+2929,56AD3PBYdPepniv4VtsV7s,Yüzyüzeyken Konuşuruz,Evdekilere Selam,Kendi Evimde Deplasmandayım,44,274773,False,0.346,0.717,2,-7.727,0,0.138,0.347,0.0,0.225,0.838,182.498,4,alt-rock,tr,0.9340181946754456
+2973,6E9deAT9PHY3xwZwD0fvhZ,Batu Akdeniz,Bir Kalbin Çöküşü,Ona Gitme,44,199872,False,0.475,0.728,11,-4.741,0,0.0362,0.0331,0.0,0.198,0.483,82.474,4,alt-rock,tr,0.5470090508460999
+3315,2iwsJcPB5HIVTuHHwdTNO4,Duman,Viral Şarkılar,Her Şeyi Yak,0,270280,False,0.629,0.538,2,-6.79,1,0.0244,0.461,0.0,0.123,0.205,100.038,4,alternative,tr,0.8802748322486877
+3316,6CkLcIjIAWHJp3nZWhNQvF,Duman,Best Viral Tunes,Her Şeyi Yak,0,270280,False,0.629,0.538,2,-6.79,1,0.0244,0.461,0.0,0.123,0.205,100.038,4,alternative,tr,0.8802748322486877
+3545,3NSLr0b5MRGgLM298WQjMZ,Fito Paez,Rock x siempre,11 Y 6,0,175720,False,0.746,0.506,7,-7.945,1,0.0267,0.159,0.0,0.273,0.35,101.361,4,alternative,tr,0.5899189114570618
+3724,1ZLExfqDJGcoZfc6l1vDws,Flört,Cemiyette Pişiyoruz,Bir Tek Sen Gelmedin,49,261373,False,0.611,0.7,9,-7.966,0,0.0302,0.00181,0.00248,0.291,0.707,145.943,4,alternative,tr,0.7328442335128784
+4613,1veZkUONsfxYDfqcGo6YbG,Niklas Paschburg;Andy Barlow,Svalbard,Duvet,50,204845,False,0.403,0.16,6,-22.779,1,0.0369,0.959,0.941,0.0911,0.16,72.571,4,ambient,tr,0.3729539811611175
+23340,2xIC5DmTHaGBL83a9OUXM4,Buray;Arem Ozguc;Arman Aydin,Senin Yüzünden,Senin Yüzünden,62,173250,False,0.724,0.807,3,-4.021,0,0.0682,0.047,4.57e-05,0.0762,0.704,94.978,4,deep-house,tr,0.8732770085334778
+23356,23mm9aftN5GODdix3IY64M,Buray,Çift Gökkuşağı (Ada Masalı Orijinal Dizi Müziği),Çift Gökkuşağı (Ada Masalı Orijinal Dizi Müziği),53,142470,False,0.634,0.579,6,-7.964,0,0.075,0.418,0.0,0.297,0.901,82.021,4,deep-house,tr,0.987090528011322
+23509,6KybXlftuqmAxRI05yqDfk,Hadise,Küçük Bir Yol,Küçük Bir Yol,69,280739,False,0.561,0.658,3,-6.023,0,0.028,0.0123,0.0,0.15,0.417,112.014,4,deep-house,tr,0.9566411972045898
+23544,7H4baUrCPnLkLOl6o9zkMO,Hadise,Şampiyon,Şampiyon - Gürcell Remix,31,222555,False,0.739,0.604,0,-9.796,1,0.062,0.000308,0.0717,0.358,0.593,124.982,4,deep-house,tr,0.9782235622406006
+23606,1ISb4TsSeaPX3MfvqOj9YX,Buray,1 Şişe Aşk,İstersen,52,224373,False,0.778,0.671,4,-6.495,0,0.0439,0.0499,0.0,0.124,0.687,121.942,4,deep-house,tr,0.8762623071670532
+23666,3GoTzDCX7Z3b3cMJeykv7N,Hadise,Tavsiye,Yaz Günü,57,217654,False,0.805,0.592,5,-8.806,1,0.0819,0.00393,0.0,0.0684,0.673,105.979,4,deep-house,tr,0.9944368004798888
+23851,3rTnSsUS6gD2BDnMlPB2u8,Buray,Deli Kız,Deli Kız,58,195582,False,0.639,0.837,9,-4.632,0,0.0517,0.263,1.82e-06,0.0756,0.717,98.017,4,deep-house,tr,0.8396190404891968
+23950,2W6XpjOKbmZ1NNVNtwBr5b,Emrah Karaduman;Aleyna Tilki,Cevapsız Çınlama,Cevapsız Çınlama,52,212535,False,0.677,0.963,7,-3.0,1,0.104,0.00469,1.17e-06,0.358,0.598,108.016,4,deep-house,tr,0.9616982936859132
+23952,0I8oQaAdhVgx19qXiVKDuI,Hadise,Şampiyon,Sıfır Tolerans,62,225794,False,0.755,0.834,6,-6.021,0,0.0662,0.00509,0.0,0.18,0.558,127.981,4,deep-house,tr,0.8783478736877441
+33475,14PlDNjNh3pXyHXzkhX8n5,6ix9ine;Fetty Wap;A Boogie Wit da Hoodie,Day69: Graduation Day,KEKE,60,151914,True,0.599,0.857,7,-5.7,1,0.299,0.0321,0.0,0.4,0.469,187.985,4,emo,tr,0.6026289463043213
+34598,6NNiVBkstx4zWrQVbEpZ8I,Nurettin Rençber,Eski Yara,Yürürüm,46,306013,False,0.344,0.42,5,-11.73,0,0.0454,0.605,2.11e-05,0.206,0.519,91.766,4,folk,tr,0.991616427898407
+34729,197CWknsQggubzqaiuTt9o,Zeki Müren,Ayrıldık İşte,Seni Sordum Yıldızlara,46,309173,False,0.457,0.542,2,-13.463,0,0.0411,0.76,0.0,0.43,0.691,81.408,4,folk,tr,0.8162702918052673
+34732,2ol1ST9LqK6gR7QOp03exs,Aşık Veysel,"Dostlar Beni Hatırlasın 1894-1973, Vol. 1 (Hiç Unutulmayacaklar)",Güzelliğin on para etmez,45,138386,False,0.472,0.221,8,-13.813,1,0.0317,0.948,0.0,0.0715,0.563,107.345,4,folk,tr,0.9953428506851196
+34986,27LtwN20Rvhi6LVmUaaucZ,Ezginin Günlügü,İlk Aşk,Zerdaliler,45,260480,False,0.407,0.292,2,-10.662,0,0.0497,0.94,0.00121,0.11,0.293,86.411,1,folk,tr,0.2741007506847381
+34995,5eI11836uL4Ek3jGS1p50y,Ferhat Tunç,Her Mevsim Bahardır,Sen Ateş Ol Ben Yanayım,42,297746,False,0.735,0.463,5,-9.386,1,0.0332,0.736,0.000148,0.136,0.502,110.085,4,folk,tr,0.9849941730499268
+36564,0BD9boQC7jUTWkAoib4Z0d,Soolking;Dadju,Vintage,Meleğim,65,220280,False,0.682,0.697,3,-4.276,0,0.0757,0.188,0.0,0.334,0.57,95.012,4,french,tr,0.999819815158844
+37596,61a7QY8DC9rwybJU33zaYj,MC Cabelinho;Dj Juninho da Espanha;Ariel Donato,Ainda,Agradecer,46,173120,False,0.864,0.556,3,-4.394,0,0.0634,0.866,1.2e-05,0.107,0.137,105.051,4,funk,tr,0.3014610111713409
+39171,5zQ3PIpMrPKumeI6E0qoKL,MERO;Murda,Best Viral Tunes,Konum Gizli,0,198581,False,0.862,0.506,10,-8.651,0,0.267,0.0542,2.96e-05,0.117,0.512,136.052,4,german,tr,0.2515295743942261
+39172,24SuNR4a3rtiDNP0wqVA1Z,MERO;Murda,Viral Şarkılar,Konum Gizli,0,198581,False,0.862,0.506,10,-8.651,0,0.267,0.0542,2.96e-05,0.117,0.512,136.052,4,german,tr,0.2515295743942261
+39813,3dfIiLxaO9yHHvq8hrQdQv,LUVRE47,FÜR ALLE,VLC,37,164320,True,0.881,0.485,1,-9.585,0,0.149,0.0113,0.00223,0.107,0.186,125.03,4,german,tr,0.5570286512374878
+41238,4CppIVG7jmPckDlMAbHI7C,She Past Away,Narin Yalnızlık,Gerçekten Özleyince,27,288050,False,0.641,0.885,1,-5.127,0,0.0383,0.0582,0.751,0.271,0.969,150.043,4,goth,tr,0.9991846084594728
+41277,72VjKDyslZURo7i29aAshr,She Past Away,Disko Anksiyete,Yukseliyor Deniz,27,275820,False,0.636,0.769,6,-7.999,0,0.0306,0.0294,0.919,0.0877,0.57,134.018,4,goth,tr,0.9824403524398804
+41582,4p3wDuF9AJjckCENj17zod,Håkan Hellström,Samlade singlar! 2000-2010,Ramlar,23,195720,False,0.139,0.967,0,-4.801,1,0.0782,0.00165,0.0,0.346,0.327,168.427,4,goth,tr,0.6085058450698853
+41977,58Vjrz6dVx8ZfLKH7NAIK1,She Past Away,Kasvetli Kutlama,Bozbulanık,20,293333,False,0.427,0.882,11,-8.906,0,0.0412,0.000392,0.736,0.0973,0.14,180.078,4,goth,tr,0.6292690634727478
+41987,29V3bcqiiUhqCjX1zdipAI,She Past Away,Narin Yalnızlık,Kuruyordu Nehir,20,204587,False,0.742,0.748,0,-6.434,1,0.0339,0.104,0.632,0.0956,0.919,119.988,4,goth,tr,0.978358268737793
+43706,6MNgLwZRqrySZETau0pm05,DJ Tarkan,Oldu Olanlar,Oldu Olanlar,25,232909,False,0.806,0.444,9,-11.264,0,0.0491,0.0883,0.871,0.102,0.391,110.017,4,groove,tr,0.8642181754112244
+43855,6d2ztWPZcsIX3UrxuCVROf,Hakan Akkus;Ilkan Gunuc,I Can't Be (Ilkan Gunuc Remix),I Can't Be - Ilkan Gunuc Remix,37,254237,False,0.722,0.536,10,-7.868,0,0.0287,0.0678,0.129,0.0935,0.337,117.997,4,groove,tr,0.2196474969387054
+48243,3SyCVJ4izJSa6kGefqB3xK,Seringai,Taring,Tragedi,37,235733,False,0.58,0.895,4,-4.805,0,0.0454,0.000188,0.00915,0.1,0.503,82.509,4,hardcore,tr,0.1369151920080185
+48779,7JZhk6TjIo3K9SUlhxUjGR,Total Jerks,Fear,Depresi,30,65664,False,0.346,0.998,11,-2.866,0,0.224,0.000194,0.884,0.189,0.309,171.865,4,hardcore,tr,0.6449506282806396
+51816,5m62bM6EN1ysBb3nnedLBR,Satinder Sartaaj,Titli,Titli,57,277500,False,0.723,0.831,6,-6.685,1,0.111,0.543,0.0,0.0755,0.839,143.885,4,hip-hop,tr,0.2911806404590606
+59586,1cOQgoRQ2ESo6gtZ31VgTU,Sabke Morde,PeeranSal,Hame Yeksoo,0,969250,False,0.337,0.658,7,-5.929,0,0.0447,0.202,4.08e-05,0.556,0.0847,112.504,3,iranian,tr,0.1463608145713806
+59888,3KmEutU45TA4JMK3hDXSsV,Martin Shamoonpour,8 Bit,Zirkeshe Salmak (Dastgahe Shur),0,95760,False,0.555,0.0863,0,-4.599,0,0.0604,0.657,0.982,0.13,0.651,128.021,3,iranian,tr,0.3686795234680176
+62345,27LtwN20Rvhi6LVmUaaucZ,Ezginin Günlügü,İlk Aşk,Zerdaliler,45,260480,False,0.407,0.292,2,-10.662,0,0.0497,0.94,0.00121,0.11,0.293,86.411,1,j-pop,tr,0.2741007506847381
+62346,006tmNZLXEXPqdb23wwSN1,İlhan İrem,Bezginin Gizli Mektupları,Yemyeşil Bir Deniz,44,358173,False,0.486,0.568,9,-9.199,0,0.0417,0.652,0.0,0.834,0.65,127.184,4,j-pop,tr,0.9097525477409364
+62349,2LxGrlboLTVvmegFyRtdP5,Sertab Erener;Can Bonomo,İyiliğe Ninniler,Fış Fış Kayıkçı,45,424029,False,0.657,0.134,0,-13.431,1,0.0357,0.986,0.0,0.114,0.119,117.838,4,j-pop,tr,0.9130123257637024
+62395,4PdRmauZ4AF8HJiwpMVaXT,Ayten Alpman,Ben Böyleyim (45'lik),Ben Böyleyim,42,206725,False,0.399,0.496,5,-7.763,0,0.0509,0.905,0.00786,0.26,0.62,113.625,3,j-pop,tr,0.9965423345565796
+62448,3IeXqCUNquwfnUQrEXSDnu,Leman Sam,İlla,Ayrılığa Dayanamam,43,195626,False,0.645,0.37,7,-8.955,1,0.0367,0.82,0.0,0.177,0.53,126.029,4,j-pop,tr,0.9248127937316896
+62487,6evqur3UoNFDzJp3eY86dq,Sertab Erener,Tesadüf Aşk,Tesadüf Aşk,41,233042,False,0.437,0.479,6,-5.698,0,0.0326,0.841,0.0,0.185,0.308,141.49,4,j-pop,tr,0.9603169560432434
+62490,5E0Rk6dIfej6CzPN8yuH7f,Levent Yüksel,Med Cezir,Kadınım,40,271699,False,0.625,0.32,0,-15.046,0,0.0308,0.433,1.81e-05,0.117,0.305,101.865,4,j-pop,tr,0.8884493708610535

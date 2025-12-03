@@ -20,6 +20,7 @@ export async function GET(request) {
     try {
         for (let i = 0; i < arr.length; i++) {
             const [artist, song] = arr[i];
+            console.log(`\nProcessing ${i + 1}/${arr.length}: ${artist} - ${song}`);
             const res = await fetchLyrics(song, artist)
             if (res.error) {
                 console.log(`Error fetching lyrics for ${artist} - ${song}: ${res.error}`);
