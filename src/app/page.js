@@ -6,7 +6,9 @@ export default function Home() {
   const [song, setSong] = useState('');
   const [artist, setArtist] = useState('');
   const [result, setResult] = useState(null);
+  const [fileResult, setFileResult] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [fileName, setFileName] = useState('');
 
   const handleSearch = async (e) => {
     e.preventDefault();
@@ -18,11 +20,26 @@ export default function Home() {
     setLoading(false);
   };
 
+  const handleProcess = async (e) => {
+    setFileResult(null);
+    e.preventDefault();
+    setLoading(true);
+    console.log("Processing file: ", fileName);
+    const res = await fetch(`/api/lyricsToSaveFile?fileName=${encodeURIComponent(fileName)}`);
+    const data = await res.json();
+    if (data.error) {
+      setFileResult(`Error: ${data.error}`);
+      setLoading(false);
+      return;
+    }
+    setFileResult("Songs saved successfully!");
+    setLoading(false);
+  };
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex w-full max-w-4xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <h1 className='mb-4'>Lyric Hunter 🎤</h1>
-        <form onSubmit={handleSearch} className='flex flex-col gap-4 w-fit'>
+        <form onSubmit={handleSearch} className='flex flex-col gap-4 w-full'>
           <div className='flex gap-4 w-fit'>
             <input
             value={song}
@@ -51,9 +68,30 @@ export default function Home() {
           </div>
           
         </form>
+        <form onSubmit={handleProcess} className='flex flex-col gap-4 w-full'>
+          <div className='flex gap-4 w-fit'>
+            <input
+            value={fileName}
+            onChange={e => setFileName(e.target.value)}
+            placeholder="File path with extension (e.g. ./files/song.csv)"
+            className="border-1 w-xl rounded-md border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <button
+            type="submit"
+            disabled={loading}
+            className='border-1 min-w-32 rounded-md border-gray-300 px-4 py-2 flex items-center justify-center disabled:opacity-50'
+            style={{textAlign: "center"}}
+          >
+            {loading ? 'Processing...' : 'Process'}
+          </button>
+          </div>
+          <div className="h-[100px] w-full flex items-center justify-center mt-4 text-center">
+            {fileResult && "Lyrics have been saved to lyrics_files folder!"}
+          </div>
+          
+        </form>
         
-        
-
+    
       </main>
     </div>
   );
