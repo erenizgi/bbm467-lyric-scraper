@@ -6,11 +6,11 @@ from tqdm import tqdm
 # --- AYARLAR ---
 FOLDERS_TO_TRANSLATE = {
     "Turkish": {
-        "input": "../lyrics_files_turkish",           # Kaynak (Orijinal)
+        "input": "./lyrics_files_turkish",           # Kaynak (Orijinal)
         "output": "../lyrics_files_turkish_translated" # Hedef (İngilizce)
     },
     "Balkan": {
-        "input": "../lyrics_files_balkan",
+        "input": "./lyrics_files_balkan",
         "output": "../lyrics_files_balkan_translated"
     }
 }

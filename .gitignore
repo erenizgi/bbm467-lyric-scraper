@@ -37,6 +37,8 @@ yarn-error.log*
 # vercel
 .vercel
 lyrics_files/
+lyrics_files_balkan
+lyrics_files_turkish
 
 # typescript
 *.tsbuildinfo

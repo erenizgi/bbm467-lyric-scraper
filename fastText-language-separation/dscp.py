@@ -128,14 +128,43 @@ def create_final_dataset():
     scaler = MinMaxScaler()
     merged_df[features_to_scale] = scaler.fit_transform(merged_df[features_to_scale])
 
-    merged_df["emotionality"] = (
-        (1 - merged_df["valence"]) * 0.40 +
-        merged_df["acousticness"] * 0.20 +
-        (1 - merged_df["energy"]) * 0.10 +
-        merged_df["instrumentalness"] * 0.10 +
-        (1 - merged_df["tempo"]) * 0.10 +
-        (1 - merged_df["loudness"]) * 0.10
-    )
+    def compute_emotionality(row):
+    
+        # Thresholded PCA weights
+        balkan_weights = {
+            "danceability": 0.212,
+            "energy": 0.480,
+            "loudness": 0.487,
+            "speechiness": 0.0,     # removed
+            "acousticness": -0.440,
+            "instrumentalness": -0.399,
+            "liveness": 0.104,
+            "valence": 0.311,
+            "tempo": 0.162
+        }
+        
+        turkish_weights = {
+            "danceability": 0.321,
+            "energy": 0.565,
+            "loudness": 0.419,
+            "speechiness": 0.268,
+            "acousticness": -0.465,
+            "instrumentalness": 0.0,  # removed
+            "liveness": 0.0,          # removed
+            "valence": 0.314,
+            "tempo": 0.0              # removed
+        }
+
+        # Select weight set
+        weights = balkan_weights if row["culture"] == "Balkan" else turkish_weights
+
+        # Weighted sum (dot product)
+        return sum(row[feat] * w for feat, w in weights.items())
+
+
+    # Apply emotionality formula
+    merged_df["emotionality"] = merged_df.apply(compute_emotionality, axis=1)
+
 
     # --- Final Format ---
     merged_df = merged_df.reset_index(drop=True)
