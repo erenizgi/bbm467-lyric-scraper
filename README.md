@@ -27,7 +27,7 @@ npm install
 ```
 
 ### 3. Genius API Configuration
-Create a `.env.local` file in the project root directory and add your Genius API key:
+Create a `.env` file in the project root directory and add your Genius API key:
 
 ```bash
 CLIENT_TOKEN=YOUR_GENIUS_ACCESS_TOKEN_HERE
