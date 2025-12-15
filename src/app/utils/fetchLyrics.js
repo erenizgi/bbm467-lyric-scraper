@@ -3,13 +3,17 @@ import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 
+// Basit bir dosya ismi temizleyici
+function sanitizeFilename(str) {
+    return str.replace(/[<>:"/\\|?*]+/g, '').trim();
+}
 
-export async function fetchLyrics(song, artist) {
+// Parametreye 'id' eklendi
+export async function fetchLyrics(song, artist, id = '0') {
 
     if (!song || !artist) {
         return { error: 'Song or artist missing', status: 400 };
     }
-
 
     const token = process.env.CLIENT_TOKEN;
 
@@ -18,19 +22,15 @@ export async function fetchLyrics(song, artist) {
     }
 
     try {
-
         const response = await axios.get('https://api.genius.com/search', {
             params: { q: `${song} ${artist}` },
-            headers: {
-                Authorization: `Bearer ${token}`
-            }
+            headers: { Authorization: `Bearer ${token}` }
         });
 
         const hit = response.data.response.hits[0];
         if (!hit) {
             return { error: "No songs found on LyricsGenius", status: 404 };
         }
-
 
         const pageResponse = await axios.get(hit.result.url);
         const $ = cheerio.load(pageResponse.data);
@@ -39,10 +39,8 @@ export async function fetchLyrics(song, artist) {
             let currLine = "";
             $(el).contents().each((_, node) => {
                 if (node.type === "text") {
-
                     currLine += node.data;
                 } else if (node.name === "br") {
-
                     if (currLine.trim() !== "") {
                         lines.push(currLine.trim());
                         currLine = "";
@@ -59,13 +57,16 @@ export async function fetchLyrics(song, artist) {
         }
         const lyrics = lines.join('\n');
 
-
-
-        const safeArtist = hit.result.primary_artist.name;
-        const safeSong = hit.result.title;
-        const fileName = `${safeSong}-${safeArtist}.txt`;
+        // --- DOSYA İSMİ AYARLAMA KISMI ---
+        const safeArtist = sanitizeFilename(hit.result.primary_artist.name);
+        const safeSong = sanitizeFilename(hit.result.title);
+        
+        // FORMAT: original_id_SarkiAdi-Sanatci.txt
+        const fileName = `${id}_${safeSong}-${safeArtist}.txt`;
+        
         const saveDir = path.join(process.cwd(), 'lyrics_files');
         const savePath = path.join(saveDir, fileName);
+        
         if (!fs.existsSync(saveDir)) {
             fs.mkdirSync(saveDir, { recursive: true });
         }

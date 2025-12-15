@@ -1,21 +1,19 @@
 import pandas as pd
 
-# DİKKAT: Yeni oluşturduğumuz 'robust' dosyayı okuyoruz
 INPUT_FILE = "songs_with_language.csv" 
 
 try:
     df = pd.read_csv(INPUT_FILE)
 except FileNotFoundError:
-    print(f"Hata: {INPUT_FILE} bulunamadı. Önce fastText kodunu çalıştırdın mı?")
+    print(f"Hata: {INPUT_FILE} bulunamadı.")
     exit()
 
-
-# FİLTRELEME: Hem 'tr' olsun HEM DE güven oranı 0.5'ten yüksek olsun
-# (Zerdaliler gibi şarkıları zaten boost etmiştik, o yüzden yüksek confidence ile gelirler)
+# Filtreleme: Türkçe (tr) VE Güven > 0.5
 filtered = df[
     (df["lang_fasttext"] == "tr") & 
     (df["lang_confidence"] > 0.5)
 ]
 
+# original_id sütunu zaten var, direkt kaydediyoruz.
 filtered.to_csv("songs_turkish_only.csv", index=False)
-print(f"Ayıklandı! {len(filtered)} Temiz Türkçe kayıt bulundu -> songs_turkish_final.csv")
+print(f"✅ Türkçe şarkılar ayrıldı: {len(filtered)} adet -> songs_turkish_only.csv")

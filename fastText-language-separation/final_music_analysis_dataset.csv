@@ -1,795 +1,1071 @@
-id,artists,track name,emotionality,emotion_type,emotion_score,culture
-1,Birileri,...aynı yer,,JOY,0.9518190622329712,Turkish
-2,Cem Karaca,1 Mayıs,,JOY,0.986728847026825,Turkish
-3,Lvbel C5,10 NUMARA,,ANGER,0.9871715903282166,Turkish
-4,Gece,22,,JOY,0.4654901921749115,Turkish
-5,Ravend,24'e 5 kala,,JOY,0.4839882254600525,Turkish
-6,Sagopa Kajmer,40,,LOVE,0.9006698727607727,Turkish
-7,Cash Flow,600 Watt,,ANGER,0.9272404313087463,Turkish
-8,Gaye Su Akyol,Abbas,,LOVE,0.5526289343833923,Turkish
-9,Selda Bağcan,Adaletin Bu mu Dünya,,JOY,0.7579239010810852,Turkish
-10,Kum,Adam,,SADNESS,0.996760904788971,Turkish
-11,​rody dünyada,Add,,JOY,0.5019484162330627,Turkish
-12,Ferhat Göçer,Adını Tek Geçerim,,ANGER,0.4153174161911011,Turkish
-13,Müzeyyen Senar,Agora Meyhanesi,,LOVE,0.5251210927963257,Turkish
-14,Candan Erçetin,Ah Bu Şarkıların Gözü Kör Olsun,,LOVE,0.933077871799469,Turkish
-15,Şam,Ailem İçin,,ANGER,0.5567528605461121,Turkish
-16,Ahiyan,Akıllanamadım,,ANGER,0.7815793752670288,Turkish
-17,Müzeyyen Senar,Akşam oldu hüzünlendim ben yine,,LOVE,0.9906399250030518,Turkish
-18,Tarkan,Akşam Oldu Hüzünlendim Ben Yine,,LOVE,0.9879277348518372,Turkish
-19,Zeki Müren,Akşam Olunca Yarelerim Sızlar,,LOVE,0.9881139397621155,Turkish
-20,Saian,Al Sevgilim Anne Ol Bununla,,SURPRISE,0.9366832971572876,Turkish
-21,Saian,Al Sevgilim Kanser Ol Bununla,,SADNESS,0.9778838157653809,Turkish
-22,Dolu Kadehi Ters Tut,Aldattın Mı,,ANGER,0.9610273838043213,Turkish
-23,Erol Evgin,Aldım Başımı Gidiyorum,,SADNESS,0.9520999789237976,Turkish
-24,Bağzıları,Allı Turnam,,SADNESS,0.9955546259880066,Turkish
-25,Ayla Dikmen,Alyanaklım,,JOY,0.9977760910987854,Turkish
-26,Sezen Aksu,Alâturka,,ANGER,0.9757029414176941,Turkish
-27,Ümit Besen,Alışmak Sevmekten Zor,,LOVE,0.728119969367981,Turkish
-28,Mavi (TUR),ama hala,,JOY,0.6108289361000061,Turkish
-29,Barış Manço,Anahtar,,LOVE,0.6024563312530518,Turkish
-30,Orkundk,Ananın Amına Kadar Yolun Var,,ANGER,0.9962548017501831,Turkish
-31,Bulutsuzluk Özlemi,Ankara Sokakları,,SADNESS,0.9962683320045471,Turkish
-32,Haluk Levent,Ankara,,SADNESS,0.9970364570617676,Turkish
-33,Şanışer,Anlamı Yok,,ANGER,0.9969208240509033,Turkish
-34,Şanışer,Anlat Bana,,JOY,0.7062686085700989,Turkish
-35,Sera Savaş,Anlatsam Anlatamam,,SADNESS,0.9788095355033875,Turkish
-36,Pilli Bebek,Anlıyorum,,SADNESS,0.9080296754837036,Turkish
-37,seco (TUR),ANNE YAŞLANDIĞIMI HİSSEDİYORUM,,ANGER,0.9556363224983215,Turkish
-38,Ceg,Anormal,,ANGER,0.9977825284004211,Turkish
-39,Nilüfer,Ara Sıra Bazı Bazı,,JOY,0.9900528788566589,Turkish
-40,Zeynep Bastık,Ara,,LOVE,0.9901530146598816,Turkish
-41,Louis Aragon,"Arma virumque cano, préface",,FEAR,0.7824648022651672,Turkish
-42,Şanışer,Artık Anlamıyorum,,ANGER,0.9978917241096497,Turkish
-43,Şam,Artık,,ANGER,0.6995183229446411,Turkish
-44,Nesrin Sipahi,Arım Balım Peteğim,,SADNESS,0.9538842439651489,Turkish
-45,EDIS,Arıyorum,,SADNESS,0.9898430705070496,Turkish
-46,Emel Sayın,At Kadehi Elinden,,SADNESS,0.9468714594841003,Turkish
-47,No.1,Ateş ve Barut,,JOY,0.7593374848365784,Turkish
-48,Keişan,"Ateş, Elbet",,ANGER,0.9260194301605225,Turkish
-49,Lil Zey,Avaz Avaz,,JOY,0.5269239544868469,Turkish
-50,Cem Karaca,Ay Karanlık,,ANGER,0.996868908405304,Turkish
-51,Ufuk Beydemir,Ay Tenli Kadın,,LOVE,0.473823219537735,Turkish
-52,Saian,Ay Şarkısı,,FEAR,0.9713342785835266,Turkish
-53,Stabil,Aynalarımda,,SADNESS,0.664592981338501,Turkish
-54,Ferdi Tayfur,Ayrılacağım,,SADNESS,0.6440392732620239,Turkish
-55,Barış Manço,Ayrılık,,SADNESS,0.6796114444732666,Turkish
-56,Düş sokağı sakinleri,Ayrılık,,SURPRISE,0.9264066815376282,Turkish
-57,Leman Sam,Ayrılığa Dayanamam,,SADNESS,0.9838638305664062,Turkish
-58,Pratsofficial,Aziyat,,JOY,0.9878232479095459,Turkish
-59,Sertab Erener,Aç Sesini,,ANGER,0.6984080672264099,Turkish
-60,Tan Taşçı,Ağla Ağla (Live),,SADNESS,0.997703492641449,Turkish
-61,3 Hürel,Ağlarsa Anam Ağlar,,SADNESS,0.896496057510376,Turkish
-62,Melike Şahin,Aşk Bitti,,SADNESS,0.9406164288520813,Turkish
-63,Kıvılcım Ural,Aşk Laftan Anlamaz,,JOY,0.45039916038513184,Turkish
-64,Malt,Aşkın Gözü,,ANGER,0.4818843901157379,Turkish
-65,Şanışer,Aşılmaz Yollar,,SADNESS,0.9503756761550903,Turkish
-66,Şebnem Ferah,Babam Oğlum,,SADNESS,0.9945980310440063,Turkish
-67,D12,Backstage in London 2001 (Full Version) - Tim Westwood,,SADNESS,0.978642463684082,Turkish
-68,Barış Manço,Bahçede Hanımeli,,JOY,0.45564818382263184,Turkish
-69,Emel Sayın,Bak Yeşil Yeşil,,LOVE,0.9204058051109314,Turkish
-70,Spade427,Bakınca Gökyüzüne,,JOY,0.8874655365943909,Turkish
-71,Asil Slang,BANA Bİ’ŞEY OLMAZ,,SADNESS,0.91217041015625,Turkish
-72,Anıl Piyancı,BANA DİK DİK BAKMA,,JOY,0.8808677196502686,Turkish
-73,Stabil,Bana Söyle,,JOY,0.9877840876579285,Turkish
-74,Ozbi,Bana Yol Söyle,,JOY,0.8828988075256348,Turkish
-75,Can Bonomo,Bardak Taşıyor,,SADNESS,0.9959806203842163,Turkish
-76,DEHA INC.,Baskın,,JOY,0.5778180956840515,Turkish
-77,​mor ve ötesi,Bazen,,JOY,0.986556351184845,Turkish
-78,Hidra,Bağırın,,SADNESS,0.9442181587219238,Turkish
-79,Şebnem Ferah,Başka Bir Yol Var,,FEAR,0.966366171836853,Turkish
-80,Batuflex,Başka Yolu Yok,,SADNESS,0.8280373811721802,Turkish
-81,Ayben,Başkan,,SADNESS,0.9909859895706177,Turkish
-82,Cem Karaca,Bedava Yaşıyoruz,,JOY,0.9536275863647461,Turkish
-83,Zeki Müren,Beklenen Şarkı,,ANGER,0.9886475205421448,Turkish
-84,No.1,Beklerken Durakta,,SADNESS,0.5749855041503906,Turkish
-85,Sayedar,Bela Gelir Bulur Bizi,,ANGER,0.996032178401947,Turkish
-86,Şanışer,Belki - Live,,JOY,0.8841090798377991,Turkish
-87,Şanışer,Belki Bir Gün Barışırız,,JOY,0.8662265539169312,Turkish
-88,Sertab Erener,Belki de Aşk Lazım Değildir,,JOY,0.6150431632995605,Turkish
-89,Ayten Alpman,Ben Böyleyim,,ANGER,0.9974331259727478,Turkish
-90,Hayko Cepkin,Ben Gideyim,,JOY,0.9574754238128662,Turkish
-91,Tan Taşçı,Ben Her Bahar Mutsuzum (Live),,SADNESS,0.9963055849075317,Turkish
-92,Kamuran Akkor,Ben Sarhoş Oldum,,LOVE,0.9933691620826721,Turkish
-93,Zeki Müren,Ben Zeki Müren,,JOY,0.5904093384742737,Turkish
-94,Nazan Öncel,Beni Bu Koca Şehirde Yalnız Bırakma,,SADNESS,0.8688947558403015,Turkish
-95,Nazan Öncel,Beni Hatırla,,ANGER,0.7292190194129944,Turkish
-96,Kamuran Akkor,Beni Kaybettin Artık,,SADNESS,0.9564118385314941,Turkish
-97,Şanışer,Beni Kır,,JOY,0.9927114248275757,Turkish
-98,Ahmet Kaya,Beni Tarihle Yargıla,,LOVE,0.993547260761261,Turkish
-99,Emir Can İğrek,Beni Uğurla,,SADNESS,0.9849143624305725,Turkish
-100,Şanışer,Benim Aklımdan Zorum Var - Live,,FEAR,0.7682963013648987,Turkish
-101,Sertab Erener,Benim Annem Güzel Annem,,LOVE,0.8601495027542114,Turkish
-102,Tan Taşçı,Benim Gibi Olmayacak (Live),,SADNESS,0.9906580448150635,Turkish
-103,Evrencan Gündüz,Benimle Evlensen,,LOVE,0.6942248940467834,Turkish
-104,Aspova,Benmişim,,SADNESS,0.5260559916496277,Turkish
-105,Nev,Benmişim,,FEAR,0.6093717813491821,Turkish
-106,Müzeyyen Senar,Benzemez Kimse Sana,,SADNESS,0.9967716336250305,Turkish
-107,Büyük Ev Ablukada,BENİM KAFAM SİKTİRMİŞ GİTMİŞ,,ANGER,0.9893869161605835,Turkish
-108,Anıl Piyancı,Beraber Büyüdük,,JOY,0.9974258542060852,Turkish
-109,Erkut Taçkın,Beyaz Ev,,JOY,0.6834718585014343,Turkish
-110,Cemiyette Pişiyorum,Beynim Yok,,SADNESS,0.9976856708526611,Turkish
-111,Nazan Öncel,Beyoğlu,,JOY,0.5654069781303406,Turkish
-112,Tan Taşçı,Beş Dakika (Live),,SADNESS,0.9900290369987488,Turkish
-113,Motive,Bi Sıkıntı Yok,,JOY,0.6870607137680054,Turkish
-114,Scoochie Boochie,Big Space Battle,,JOY,0.9461892247200012,Turkish
-115,Tan Taşçı,Bilir Mi (Live),,ANGER,0.996728777885437,Turkish
-116,Manuş Baba,Bir Acı Türkü,,ANGER,0.9848198890686035,Turkish
-117,Badem,Bir Ben Gibi Sev,,SADNESS,0.9357660412788391,Turkish
-118,Orkundk,Bir Boş Evim Yok,,FEAR,0.819033145904541,Turkish
-119,Sagopa Kajmer,Bir Dizi İz (2021 Tek Edit),,FEAR,0.9947262406349182,Turkish
-120,Kramp (TUR),Bir Dünya Arıyorum,,JOY,0.9987228512763977,Turkish
-121,Zeki Müren,Bir Gülü Sevdim,,FEAR,0.9621384739875793,Turkish
-122,Kaan Tangöze,Bir Kız Bana Emmi Dedi,,ANGER,0.858191728591919,Turkish
-123,Batu Akdeniz,Bir Sebebi Var,,FEAR,0.9077752828598022,Turkish
-124,Flört,Bir Tek Sen Gelmedin,,JOY,0.9552339911460876,Turkish
-125,Rota,Bir Yalan Söyle Bana,,ANGER,0.9980442523956299,Turkish
-126,Zeki Müren,Bir Yangının Külünü Yeniden Yakıp Geçtin,,SADNESS,0.9958213567733765,Turkish
-127,Sagopa Kajmer,Bir Çok Kez Öldüm,,SADNESS,0.9985363483428955,Turkish
-128,Kenan Doğulu,Bir İleri İki Geri,,LOVE,0.937383234500885,Turkish
-129,Gökhan Türkmen,Biraz Ayrılık,,SADNESS,0.7194626331329346,Turkish
-130,Saian,Birkaç Güzel Gün İçin,,SADNESS,0.7127529978752136,Turkish
-131,Şüphe (TUR),Bitsin,,SADNESS,0.8028571605682373,Turkish
-132,Zeki Müren,Biz Ayrılamayız,,JOY,0.33174461126327515,Turkish
-133,​maNga,Bize Müsaade Ettim,,ANGER,0.5427403450012207,Turkish
-134,Adamlar,Bizim Zamanımız,,ANGER,0.8671016097068787,Turkish
-135,Levent Yüksel,Bi’ Daha (Kıvanç Kutlumuş Vers. 2 Remix),,SADNESS,0.32827532291412354,Turkish
-136,Kenan Doğulu,Boğazımdan Geçmiyor,,SADNESS,0.6090125441551208,Turkish
-137,Duman,Bu Aşk Beni Yorar,,SADNESS,0.9254946112632751,Turkish
-138,Levent Yüksel,Bu Aşkın Katili Sensin,,SADNESS,0.9362940788269043,Turkish
-139,Sagopa Kajmer,Bu Böyledir (2021 Tek Edit),,JOY,0.9167655110359192,Turkish
-140,Onur Can Özcan,Bu Değildi,,JOY,0.5368109345436096,Turkish
-141,Grogi,Bu Gece Bizim,,SADNESS,0.9958653450012207,Turkish
-142,Nazan Öncel,Bu Havada Gidilmez,,SADNESS,0.6324240565299988,Turkish
-143,Flört,Bu Havalarda Dönme Bana,,SADNESS,0.4001063108444214,Turkish
-144,Özgün,Bu kadar mi zor,,LOVE,0.9127486348152161,Turkish
-145,Hayki,Bu Kendime Son Gelişim,,JOY,0.911566436290741,Turkish
-146,Onur Can Özcan,Bu Mevsimde,,ANGER,0.9919712543487549,Turkish
-147,Ogün Sanlısoy,Bu Ne Biçim Aşk,,ANGER,0.5555227398872375,Turkish
-148,MFÖ (TUR),Bu Sabah Yağmur Var İstanbul’da,,JOY,0.9173068404197693,Turkish
-149,Şanışer,Bu Sabah,,LOVE,0.9887186288833618,Turkish
-150,Vega (TUR),Bu Sabahların Bir Anlamı Olmalı,,ANGER,0.6674341559410095,Turkish
-151,Cem Karaca,Bu Son Olsun,,SADNESS,0.5886154174804688,Turkish
-152,Redd,Bugün Herkes Ölsün İstedim,,SADNESS,0.6176270246505737,Turkish
-153,Ceylan Ertem,Bugünüm Sensiz Geçti,,SADNESS,0.9592783451080322,Turkish
-154,Yavuz Çetin,Bul Beni,,FEAR,0.7123469710350037,Turkish
-155,Sagopa Kajmer,Bulun,,SADNESS,0.46374577283859253,Turkish
-156,Sokrat St,Bunu Sen Seçtin,,SADNESS,0.973684549331665,Turkish
-157,Hidra,Burası Dünya Değil,,SADNESS,0.9963476061820984,Turkish
-158,Hidra,Burası Dünya,,SADNESS,0.9789085388183594,Turkish
-159,Zülfü Livaneli,Böyledir Bizim Sevdamız,,ANGER,0.9936578869819641,Turkish
-160,Pinhani,Bülbülüm Altın Kafeste,,LOVE,0.976747453212738,Turkish
-161,Grup Yorum,Büyü,,ANGER,0.6259486079216003,Turkish
-162,Şanışer,Bıktım Dünyadan,,ANGER,0.6909651756286621,Turkish
-163,Emir Can İğrek,Bıraktım Şaşırmayı,,SURPRISE,0.9709441661834717,Turkish
-164,Barış Manço,Cacık,,ANGER,0.6819527745246887,Turkish
-165,Cem Karaca,Canım Benim,,JOY,0.651727557182312,Turkish
-166,Umut Kaya,Canım Çok Yanıyor,,SADNESS,0.9457369446754456,Turkish
-167,Grogi,Cayır Cayır,,SADNESS,0.574155867099762,Turkish
-168,Flört,Cemiyette Pişiyoruz,,JOY,0.6803867220878601,Turkish
-169,Emrah Karaduman,Cevapsız Çınlama,,SADNESS,0.9922292828559875,Turkish
-170,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),,ANGER,0.9964800477027893,Turkish
-171,Şanışer,Cinayet,,ANGER,0.6456350684165955,Turkish
-172,RM,Closer,,LOVE,0.8304330706596375,Turkish
-173,Çağrı Sinci,Daha Neler,,FEAR,0.9945300221443176,Turkish
-174,Sagopa Kajmer,Dalgın,,SADNESS,0.8996333479881287,Turkish
-175,Sertab Erener,Dandini Dandini Dastana,,ANGER,0.38286474347114563,Turkish
-176,No.1,Das Ist No.1,,SADNESS,0.6781838536262512,Turkish
-177,Şebnem Ferah,Delgeç,,ANGER,0.5159416794776917,Turkish
-178,Ahiyan,Deli Diyorlar,,ANGER,0.9969483017921448,Turkish
-179,Buray,Deli Kız,,SADNESS,0.6507658958435059,Turkish
-180,Allame,Deli Masalı,,JOY,0.9702045917510986,Turkish
-181,Yeni Türkü,Deliler,,FEAR,0.8768191933631897,Turkish
-182,Gece,Derbeder,,SADNESS,0.9950942993164062,Turkish
-183,Hayko Cepkin,Destina (Yeni Türkü Zamansız),,ANGER,0.5558946132659912,Turkish
-184,Yeni Türkü,Destina,,SADNESS,0.594689130783081,Turkish
-185,Bülent Ortaçgil,Değirmenler,,SADNESS,0.9968528151512146,Turkish
-186,Zakkum,Dile Kolay Kalbe Değil,,JOY,0.9141901731491089,Turkish
-187,Şehinşah,Dilemma x Kuytu,,SADNESS,0.9934437274932861,Turkish
-188,Moğollar,Dinleyiverin Gari,,ANGER,0.9098263382911682,Turkish
-189,Yaşar Kurt,Dokuz Altı Yolları,,LOVE,0.3642902076244354,Turkish
-190,Yedinci Ev,Dolunay,,SADNESS,0.9094185829162598,Turkish
-191,Barış Manço,Domates Biber Patlıcan,,SADNESS,0.7735043168067932,Turkish
-192,Ati242,Dondu Puşt,,ANGER,0.9727133512496948,Turkish
-193,Tanju Okan,Dostlarım,,SADNESS,0.9104422330856323,Turkish
-194,Kezzo,Doğar Ya Güneş 2,,SADNESS,0.9723482728004456,Turkish
-195,Pentagram (TUR),Doğmadan Önce,,ANGER,0.8788163661956787,Turkish
-196,Genius Türkçe Çeviriler,Drake - Pain 1993 ft. Playboi Carti (Türkçe Çeviri),,ANGER,0.547461748123169,Turkish
-197,Can Gox,Drama Köprüsü,,ANGER,0.9933671355247498,Turkish
-198,Pinhani,Dur Söyleme,,SADNESS,0.7562075853347778,Turkish
-199,Sagopa Kajmer,Durdur Beni,,SADNESS,0.9966416358947754,Turkish
-200,Fettah Can,Duvar,,SADNESS,0.8142775297164917,Turkish
-201,Cem Adrian,Duymak İstiyorum,,SADNESS,0.7546109557151794,Turkish
-202,Kolera,Dön Dünya,,JOY,0.6957070827484131,Turkish
-203,Oğuz Atay,Dün Bugün Yarın (Tutunamayanlar),,JOY,0.48177093267440796,Turkish
-204,Ceg,Dün Gece,,SADNESS,0.7779117822647095,Turkish
-205,Flört,Dün TRT’de İzledim,,JOY,0.611888587474823,Turkish
-206,Şanışer,Dünyadan Alacaklarım Var,,ANGER,0.9881247282028198,Turkish
-207,Ati242,Düşledim,,JOY,0.5013256669044495,Turkish
-208,Ezginin Günlüğü,Düşler Sokağı,,ANGER,0.5203662514686584,Turkish
-209,Pera,Düşüyorum Sana,,LOVE,0.9847186207771301,Turkish
-210,Birkan Nasuhoğlu,DİKEN,,JOY,0.8152405023574829,Turkish
-211,Ajda Pekkan,Eline Gözüne Dizine Dursun,,ANGER,0.9976794123649597,Turkish
-212,Hayko Cepkin,Eller Aldı,,SADNESS,0.49043717980384827,Turkish
-213,Yedinci Ev,Eninde Sonunda,,JOY,0.9972652196884155,Turkish
-214,Nazan Öncel,Erkekler de yanar,,ANGER,0.9877228736877441,Turkish
-215,Yaşar,Esirinim,,ANGER,0.9909584522247314,Turkish
-216,Barış Manço,Eski Bir Fincan,,SADNESS,0.9392822980880737,Turkish
-217,Tan Taşçı,Eski Sevgilim (Live),,JOY,0.9234563112258911,Turkish
-218,Lil Zey,Eskisi Gibi,,SADNESS,0.9987748265266418,Turkish
-219,Yaşlı Amca,Evleniyor,,LOVE,0.4720976650714874,Turkish
-220,Yedinci Ev,Eylül,,JOY,0.4552016854286194,Turkish
-221,Allame,Fare Kapanı,,ANGER,0.7338560819625854,Turkish
-222,Selda Bağcan,Felek Çakmağını Üstüme Çaktı,,SADNESS,0.7587900757789612,Turkish
-223,Saian,Feleğin Çemberine 40 Kurşun,,ANGER,0.9689175486564636,Turkish
-224,Volkan Konak,Feriğim,,SADNESS,0.9884008169174194,Turkish
-225,Bossy,Fiyakalı Yok Oluşlar,,ANGER,0.9602982997894287,Turkish
-226,Anıl Piyancı,Fiyasko,,JOY,0.8514441251754761,Turkish
-227,Contra,Flowlarım Çok Zengin,,JOY,0.9946961402893066,Turkish
-228,Emir Can İğrek,Franco,,ANGER,0.9373037219047546,Turkish
-229,Şebnem Ferah,Fırtına,,JOY,0.9468063712120056,Turkish
-230,Sertab Erener,Fış Fış Kayıkçı,,JOY,0.9973301887512207,Turkish
-231,Bali Baby,Game Over,,ANGER,0.8882433176040649,Turkish
-232,Gece,Gamsiz,,ANGER,0.8151419758796692,Turkish
-233,Athena,Geberiyorum (Nâzım Hikmet Ran Günler Şiiri),,SADNESS,0.9467319846153259,Turkish
-234,Teoman,Gecenin Sonuna Yolculuk,,SADNESS,0.7520095705986023,Turkish
-235,Teoman,Gemiler,,JOY,0.8043980598449707,Turkish
-236,TUGO,Geriye Dönemem,,SADNESS,0.8805186748504639,Turkish
-237,Defa,Gerçek Rüya,,JOY,0.40289443731307983,Turkish
-238,Ezhel,Gerçek Sandım,,SADNESS,0.9818425178527832,Turkish
-239,She Past Away,Gerçekten Özleyince,,JOY,0.9725440740585327,Turkish
-240,Selda Bağcan,Gesi Bağları,,SADNESS,0.7263615131378174,Turkish
-241,Serhat Durmus,Gesi Bağları,,SADNESS,0.8858761787414551,Turkish
-242,Hayko Cepkin,Geç Kaldım (Akustik),,SADNESS,0.9954102635383606,Turkish
-243,Barış Manço,Geçti Dost Kervanı,,JOY,0.9361696243286133,Turkish
-244,Barış Manço,Gibi Gibi,,SADNESS,0.8023789525032043,Turkish
-245,Peyk,Gidin,,SADNESS,0.9984851479530334,Turkish
-246,Yedinci Ev,Gitmeden Önce,,SADNESS,0.9905847907066345,Turkish
-247,Feride Hilal Akın,Gizli Aşk,,FEAR,0.9429863095283508,Turkish
-248,Malt,Gol,,ANGER,0.9658022522926331,Turkish
-249,Sokrat St,Gregoryen,,ANGER,0.7905717492103577,Turkish
-250,Cemiyette Pişiyorum,Gripin,,JOY,0.8147127032279968,Turkish
-251,GIMS,GROSSE BLETA,,ANGER,0.6604812741279602,Turkish
-252,Grünt,Grünt #1,,JOY,0.9925916194915771,Turkish
-253,Ne Jupiter,Gökyüzüm Siyah Olsa Da,,FEAR,0.9936422109603882,Turkish
-254,Zeki Müren,Gökyüzünde Yalnız Gezen Yıldızlar,,SADNESS,0.9645897746086121,Turkish
-255,Patron,Gör (Kovala Orijinal Film Müziği),,ANGER,0.908401370048523,Turkish
-256,Grup Gündoğarken,Gördüğüme Sevindim,,JOY,0.7825319766998291,Turkish
-257,Hayko Cepkin,Görmüyorsun,,SADNESS,0.9709965586662292,Turkish
-258,Zeki Müren,Gözlerin Doğuyor Gecelerime,,SADNESS,0.6461777687072754,Turkish
-259,Yeni Türkü,Gözlerin,,FEAR,0.6552377939224243,Turkish
-260,Gülşen,Gözü Karalım,,JOY,0.44805338978767395,Turkish
-261,Barış Manço,Gül Bebeğim,,ANGER,0.8255521655082703,Turkish
-262,Şehinşah,Güller Ve Rhyme,,ANGER,0.6289619207382202,Turkish
-263,Kibariye,Gülü Soldurmam,,LOVE,0.8538485765457153,Turkish
-264,No.1,Gün Size Günaydı,,SADNESS,0.6420692801475525,Turkish
-265,Emir Can İğrek,Güya,,SADNESS,0.981767475605011,Turkish
-266,Şanışer,Güya,,JOY,0.9357824325561523,Turkish
-267,Vera (TUR),Güzel Bir Kadın,,SADNESS,0.973637580871582,Turkish
-268,Kaan Boşnak,Güzel Değil,,JOY,0.8974665999412537,Turkish
-269,Duman,Haberin Yok Ölüyorum,,LOVE,0.987413763999939,Turkish
-270,Boikot,Hablarán Las Calles,,SADNESS,0.9646309018135071,Turkish
-271,Şehinşah,Hadi Yaparsın,,SADNESS,0.5256037712097168,Turkish
-272,Selda Bağcan,Hak Can İçinde,,ANGER,0.4953444004058838,Turkish
-273,Barış Manço,Ham Meyvayı Kopardılar Dalından,,ANGER,0.726953387260437,Turkish
-274,Hayki,Hangisi Doğru,,ANGER,0.9869303703308105,Turkish
-275,No.1,Harikalar Diyarında,,JOY,0.9932460784912109,Turkish
-276,No.1,Hasta Olmak İçin,,JOY,0.9958032965660095,Turkish
-277,Gülden Karaböcek,Hatıran Yeter,,JOY,0.7630578875541687,Turkish
-278,Drunk High Jinks,Hayal Gücümde Ölücem,,JOY,0.7713239789009094,Turkish
-279,Patron,Hayat Bilgisi,,ANGER,0.648507297039032,Turkish
-280,Candan Erçetin,Hayranım Sana,,ANGER,0.9841638207435608,Turkish
-281,Contra,Hayırlara Ola,,ANGER,0.46917247772216797,Turkish
-282,Kayra,Hayırsız Evlat,,SADNESS,0.9837371706962585,Turkish
-283,Cem Karaca,Hep Kahır,,ANGER,0.9024453163146973,Turkish
-284,Deniz Tekin,Hep Oturup Bekledim,,FEAR,0.9776809215545654,Turkish
-285,Khontkar,Hepsi Geçecek,,ANGER,0.5646394491195679,Turkish
-286,Beta Berk Bayındır,Her Şey Aynı,,SADNESS,0.488865464925766,Turkish
-287,Rana Alagöz,Her Şey Bitmedi Bitemez,,SADNESS,0.9932947754859924,Turkish
-288,Yaşlı Amca,Her Şey Sen,,ANGER,0.9521293640136719,Turkish
-289,Duman,Her Şeyi Yak,,SADNESS,0.8356019258499146,Turkish
-290,Cash Flow,Hergün Bela Devam,,JOY,0.6195915341377258,Turkish
-291,Cem Karaca,Herkes Gibisin,,SADNESS,0.9960759282112122,Turkish
-292,Cem Adrian,Herkes Gider Mi (Live),,SADNESS,0.8474530577659607,Turkish
-293,Ceg,Herşeyin Bir Bedeli Var,,SADNESS,0.784896194934845,Turkish
-294,Şehinşah,Hiphop Okulu,,ANGER,0.9694929718971252,Turkish
-295,Hayki,Hiç Sevmedim Seni,,SADNESS,0.6123823523521423,Turkish
-296,Khontkar,Hiç Uğraşma,,SADNESS,0.9337567090988159,Turkish
-297,Khontkar,Hiçbir Şeyim Yok,,SADNESS,0.5245291590690613,Turkish
-298,Cem Adrian,Hüzün Kovan Kuşu,,JOY,0.679785430431366,Turkish
-299,Noneuclid,"Into the Light, Pt. III",,FEAR,0.7701923251152039,Turkish
-300,AchtVier,Intro (Der alte Achti Vol. 3),,ANGER,0.6582826972007751,Turkish
-301,Şehinşah,Intro (of 666),,FEAR,0.5548039078712463,Turkish
-302,yunusemre (TUR),Istanbulla Değil Sorunum,,ANGER,0.9908022284507751,Turkish
-303,Allame,Işıklar,,FEAR,0.7492190003395081,Turkish
-304,Sâhir a.k.a. Order,Kadavra Kadar,,ANGER,0.8844914436340332,Turkish
-305,Birsen Tezer,Kadın,,FEAR,0.8409386873245239,Turkish
-306,Hidra,Kadınlar,,ANGER,0.6553476452827454,Turkish
-307,Ceg,Kafamın İçi Dolu,,JOY,0.9975069165229797,Turkish
-308,Onur Uğur,Kafamın İçini Görsen Ne Güzel Olurdu,,SADNESS,0.7525760531425476,Turkish
-309,Sezen Aksu,Kalbim Ege’de Kaldı,,LOVE,0.9882062077522278,Turkish
-310,Şebnem Ferah,Kalbim Mezar,,JOY,0.7278371453285217,Turkish
-311,Tan Taşçı,Kalbime Gömüyorum (Live),,SADNESS,0.9900715351104736,Turkish
-312,No.1,Kalmadım,,ANGER,0.9720962047576904,Turkish
-313,Barış Kocatürk,Kalmalısın,,JOY,0.9962221384048462,Turkish
-314,Düş sokağı sakinleri,Kan Revan İçindeyim,,LOVE,0.3995455503463745,Turkish
-315,Zülfü Livaneli,Kan Çiçekleri,,SADNESS,0.9648160934448242,Turkish
-316,Animus,Kanaken Freestyle,,JOY,0.7800554633140564,Turkish
-317,Güncel Gürsel Artıktay,Kanar,,SADNESS,0.40681368112564087,Turkish
-318,Dramelodi Project,Kandan Adam,,FEAR,0.8953685164451599,Turkish
-319,Saian,Kanunsuzlar,,JOY,0.615585207939148,Turkish
-320,Ati242,KAPA GÖZLERİNİ,,ANGER,0.8498250842094421,Turkish
-321,Emir Can İğrek,Kaptan,,ANGER,0.9923266768455505,Turkish
-322,5 Adım,Kara Dilber,,ANGER,0.9950249791145325,Turkish
-323,Kibariye,Kara Gözlü Çingenem (Roman),,LOVE,0.6052102446556091,Turkish
-324,Cem Karaca,Kara Sevda,,ANGER,0.6513338685035706,Turkish
-325,Aşkın Nur Yengi,Karanfil,,ANGER,0.9930799603462219,Turkish
-326,No.1,Karanlıkta Güneşlenenler,,SURPRISE,0.9166616201400757,Turkish
-327,Göksel,Karar Verdim,,ANGER,0.9818516969680786,Turkish
-328,Hidra,Karıncalar,,SADNESS,0.9953072667121887,Turkish
-329,Sezen Aksu,Karşıyım,,ANGER,0.9579069018363953,Turkish
-330,Nilüfer,Kavak Yelleri,,FEAR,0.5175421833992004,Turkish
-331,Kalben,Kaybolmuş,,ANGER,0.9646022915840149,Turkish
-332,Barış Manço,Kazma,,JOY,0.9972188472747803,Turkish
-333,Çağrı Sinci,Kaçamadım,,SADNESS,0.8712884783744812,Turkish
-334,Barış Manço,Kağızman,,ANGER,0.9258548617362976,Turkish
-335,163,Kedimle Aram,,SADNESS,0.9407035112380981,Turkish
-336,Kargo,Kehribar,,ANGER,0.7422341108322144,Turkish
-337,Yüzyüzeyken Konuşuruz,Kendi Evimde Deplasmandayım,,SADNESS,0.9608378410339355,Turkish
-338,Sagopa Kajmer,Kendim İçin (2021 Tek Edit),,ANGER,0.9839749932289124,Turkish
-339,Şanışer,Kendim İçin,,SADNESS,0.9958809614181519,Turkish
-340,Adamlar,Kendime Çaylar,,JOY,0.7762949466705322,Turkish
-341,Ufo361,Kendini Kaybet,,SURPRISE,0.9907698035240173,Turkish
-342,Anıl Piyancı,Keyif Pezevengi,,JOY,0.9924856424331665,Turkish
-343,​rody dünyada,Keşif,,SADNESS,0.9977743029594421,Turkish
-344,Kamuran Akkor,Kimbilir,,SADNESS,0.9981794357299805,Turkish
-345,Kenan Doğulu,Kime Ne,,JOY,0.5966680645942688,Turkish
-346,Veys Çolak,Kimsenin Kimsesi,,ANGER,0.6955440044403076,Turkish
-347,Yaşlı Amca,Kimsesiz,,ANGER,0.537129819393158,Turkish
-348,Barış Manço,Kol Düğmeleri,,SADNESS,0.9729856848716736,Turkish
-349,Flört,Kolay Mı Sanki,,SADNESS,0.9946632385253906,Turkish
-350,Teoman,Koma Hali,,FEAR,0.9047586917877197,Turkish
-351,MERO,Konum Gizli,,JOY,0.9812120795249939,Turkish
-352,İlhan İrem,Konuşamıyorum (Sazlıklardan Havalanan),,FEAR,0.996815025806427,Turkish
-353,Yasemin Mori,Konuşmak,,SADNESS,0.9510798454284668,Turkish
-354,Sansar Salvo,Koptu Kayış,,ANGER,0.9957935810089111,Turkish
-355,Eskitilmiş Yaz,Korkuyu Al İçimden,,SADNESS,0.7497220635414124,Turkish
-356,Şehinşah,Koyu,,ANGER,0.8884848952293396,Turkish
-357,Hidra,Kudurtan Şehir,,SADNESS,0.8007310032844543,Turkish
-358,Şehinşah,Kunteper,,ANGER,0.8148373365402222,Turkish
-359,İstanbul Trip,Kural Ne Bilmiyorum,,ANGER,0.5202341079711914,Turkish
-360,Ahiyan,Kurtulamadım,,ANGER,0.9967305660247803,Turkish
-361,She Past Away,Kuruyordu Nehir,,SADNESS,0.850496768951416,Turkish
-362,Tan Taşçı,Kusura Bakma (Live),,SADNESS,0.9263479709625244,Turkish
-363,Çağrı Sinci,Kusursuz Gün,,SADNESS,0.9982197880744934,Turkish
-364,Athena,Köpek,,JOY,0.6974416375160217,Turkish
-365,Şam,Kör Kurşun,,ANGER,0.9920755624771118,Turkish
-366,Hadise,Küçük Bir Yol,,JOY,0.34643080830574036,Turkish
-367,Emir Can İğrek,Kır Düğünü,,JOY,0.530292809009552,Turkish
-368,No.1,Kırmızı Bandana,,FEAR,0.5056229829788208,Turkish
-369,İzel,Kıyamadım,,SADNESS,0.9973781108856201,Turkish
-370,Kaan Tangöze,Kıyamet,,ANGER,0.5938100814819336,Turkish
-371,Melek Mosso,Kızgınım,,SADNESS,0.7926786541938782,Turkish
-372,Barış Manço,Kızılcıklar Oldu Mu,,ANGER,0.9089601635932922,Turkish
-373,Şanışer,Kış Yağmuru,,SADNESS,0.9967638254165649,Turkish
-374,İmpala & Rebossa,LANETİM OL,,JOY,0.9032091498374939,Turkish
-375,Yaku,LEGO,,FEAR,0.5051640868186951,Turkish
-376,Bağzıları,Leyla,,JOY,0.9978669285774231,Turkish
-377,Genius Türkçe Çeviriler,Lil Baby - The Bigger Picture (Türkçe Çeviri),,SADNESS,0.8796923160552979,Turkish
-378,Hidra,Lirikal Ağ,,JOY,0.950206458568573,Turkish
-379,Cem Karaca,Lümüne,,SADNESS,0.3547096848487854,Turkish
-380,İntizam,Lütfen,,SADNESS,0.9860633015632629,Turkish
-381,Türker,Madde,,JOY,0.7805898189544678,Turkish
-382,Ahiyan,Mahkeme Şarkısı,,ANGER,0.893851637840271,Turkish
-383,Athena,Mamak Türküsü (Yeni Türkü Zamansız),,JOY,0.9219426512718201,Turkish
-384,Ceg,Mangır,,JOY,0.9725239276885986,Turkish
-385,Orkundk,Marsa Gönder Beni Elon Musk,,SADNESS,0.7803415060043335,Turkish
-386,Genius Türkiye,Mart 2021 Tekli Yayınlama Takvimi,,JOY,0.8206664323806763,Turkish
-387,EDIS,Martılar,,JOY,0.8803803324699402,Turkish
-388,Pinhani,Masal,,LOVE,0.863857090473175,Turkish
-389,Yeni Türkü,Maskeli Balo,,SADNESS,0.889432430267334,Turkish
-390,Barış Akarsu,Mavi,,LOVE,0.9645843505859375,Turkish
-391,Genius,May 2020 Album Release Calendar,,JOY,0.8763564825057983,Turkish
-392,Kargo,Mazi Kalbimde Bir Yaradır,,SADNESS,0.9964060187339783,Turkish
-393,101Barz,Megasessie - Beats by Esko,,LOVE,0.8136236071586609,Turkish
-394,Hadise,Melek,,JOY,0.8924367427825928,Turkish
-395,Soolking,Meleğim,,JOY,0.6518805623054504,Turkish
-396,Perdenin Ardındakiler,Meseleler,,ANGER,0.9376097917556763,Turkish
-397,Zeki Müren,Mihrabım Diyerek,,LOVE,0.8147401809692383,Turkish
-398,Son Feci Bisiklet,Modern Zamanlar,,LOVE,0.9233127236366272,Turkish
-399,Malt,Motor,,FEAR,0.6037750840187073,Turkish
-400,Teoman,Motosikletli Kız,,SADNESS,0.7539151906967163,Turkish
-401,Rashness,Mum,,ANGER,0.9917565584182739,Turkish
-402,Nev,Mühürlü Kaderim,,JOY,0.3808419108390808,Turkish
-403,Son Feci Bisiklet,Müptezel,,SADNESS,0.9954836368560791,Turkish
-404,Zakkum,Mürekkep,,SADNESS,0.4340033233165741,Turkish
-405,Şanışer,N.A.P.İ.M,,ANGER,0.8282106518745422,Turkish
-406,Stap,Nasıl Bilirdiniz,,ANGER,0.6629705429077148,Turkish
-407,Güney Marlen,Nasıl Düştüm Bu Derde,,SADNESS,0.9430474638938904,Turkish
-408,Tan Taşçı,Nasıl Seveceğim (Live),,JOY,0.5022664666175842,Turkish
-409,Melike Şahin,Nasır (Live at Zorlu PSM),,FEAR,0.5114155411720276,Turkish
-410,Gülşen,Nazar Değmesin,,JOY,0.6076028347015381,Turkish
-411,Pickpocket,Ne Farkeder,,SADNESS,0.5283772349357605,Turkish
-412,Zeki Müren,Ne Olursun,,JOY,0.9682598114013672,Turkish
-413,Kolpa,Ne Sevmeyi Bildik Biz Ne Sevilmeyi,,SADNESS,0.6315205097198486,Turkish
-414,Hidra,Neden Mi İllegal 3,,ANGER,0.8839176893234253,Turkish
-415,Ceg,Neden,,SADNESS,0.9549639821052551,Turkish
-416,Birsen Tezer,Nefes,,SADNESS,0.998219907283783,Turkish
-417,Arda Gezer,Nefret,,JOY,0.9867499470710754,Turkish
-418,Ati242,NERDESİN,,ANGER,0.6657437682151794,Turkish
-419,Revart,nereye giderdim,,JOY,0.9958174824714661,Turkish
-420,Selda Bağcan,Niye Çattın Kaşlarını,,ANGER,0.48602890968322754,Turkish
-421,Ersay Üner,Nokta,,FEAR,0.993579626083374,Turkish
-422,Cem Karaca,Nöbetçinin Türküsü,,JOY,0.5162131786346436,Turkish
-423,Yedinci Ev,O Olmasa,,SADNESS,0.9985383749008179,Turkish
-424,Kilink,Oc (Aslında Alkol Hala Damarımda),,JOY,0.8416205644607544,Turkish
-425,Nilüfer,Of Aman Aman,,ANGER,0.9454866647720337,Turkish
-426,Şebnem Ferah,Okyanus,,JOY,0.9957577586174011,Turkish
-427,İlhan İrem,Olanlar Olmuş,,JOY,0.6331049203872681,Turkish
-428,DJ Tarkan,Oldu Olanlar,,SADNESS,0.8992325663566589,Turkish
-429,Kayra,Olmadım Say,,SADNESS,0.9880868196487427,Turkish
-430,Yeni Türkü,Olmasa Mektubun,,SADNESS,0.9980514049530029,Turkish
-431,Hepsi,Olmaz Böyle Şey,,SADNESS,0.8616420030593872,Turkish
-432,Kıraç,Olur Ya,,JOY,0.9915015697479248,Turkish
-433,Batu Akdeniz,Ona Gitme,,SADNESS,0.8965407609939575,Turkish
-434,Tan Taşçı,Ona Söyle (Live),,LOVE,0.9353078603744507,Turkish
-435,Khontkar,Ondan Böyleyim,,SADNESS,0.5941993594169617,Turkish
-436,Ceg,Onlar Acımı Bilemez Hacım,,JOY,0.9959561228752136,Turkish
-437,Yüksek Sadakat,Onlar Bizi Dinlerler,,JOY,0.6496411561965942,Turkish
-438,Flört,Onun Adı Hasan,,SADNESS,0.7284821271896362,Turkish
-439,FFG,OPERASYON,,JOY,0.9886775612831116,Turkish
-440,Stabil,Ortaya Karışık,,SADNESS,0.7859840393066406,Turkish
-441,​mor ve ötesi,Oyunbozan (Canlı),,JOY,0.8052948713302612,Turkish
-442,Cem Karaca,Oğluma,,LOVE,0.7487853169441223,Turkish
-443,Yaşar,O’nun Vedası,,SADNESS,0.7659265398979187,Turkish
-444,Teoman,Paramparça,,SADNESS,0.99797123670578,Turkish
-445,Şam,PARASIZ İNSAN ÇÖPLÜĞÜ,,SADNESS,0.9322003126144409,Turkish
-446,Beta Berk Bayındır,Pardon Aşkım,,ANGER,0.9903544187545776,Turkish
-447,Gazi,Pembe Şeyler,,SADNESS,0.9908616542816162,Turkish
-448,Peyk,Piç,,SADNESS,0.996020495891571,Turkish
-449,Asya (TUR),Pişmanım,,SADNESS,0.951164186000824,Turkish
-450,Şam,Psikoz,,SADNESS,0.976769745349884,Turkish
-451,Rüzgar,Qisasımı Aldım,,JOY,0.594482958316803,Turkish
-452,Ravend,Rahatımı Bozamam,,SADNESS,0.9986843466758728,Turkish
-453,Sagopa Kajmer,Rap Candarbazı (Clean),,ANGER,0.5428139567375183,Turkish
-454,Sansar Salvo,RAPertuar,,JOY,0.7608807682991028,Turkish
-455,Teoman,Rapsodi İstanbul,,SADNESS,0.7134569883346558,Turkish
-456,Sefir,Rehber,,SADNESS,0.6119730472564697,Turkish
-457,Teoman,Renkli Rüyalar Oteli,,JOY,0.9697574973106384,Turkish
-458,MFÖ (TUR),Ruh Halim Yerlerde,,FEAR,0.5585857033729553,Turkish
-459,TNK,Ruhum Boğaziçi,,LOVE,0.3607746660709381,Turkish
-460,Teoman,Ruhun Sarışın,,SADNESS,0.9975029826164246,Turkish
-461,Stabil,Rüya & Gerçek,,SADNESS,0.982632040977478,Turkish
-462,Emel Sayın,Rüyalar Gerçek Olsa,,LOVE,0.8950154781341553,Turkish
-463,Deewakar,Saath Sin,,ANGER,0.904848575592041,Turkish
-464,Ceza,Sabah Bastı Geceyi (Savaş Çocukları Part 2),,ANGER,0.988250732421875,Turkish
-465,Ayşe özyılmazel,Sabıkalı,,ANGER,0.9945003986358643,Turkish
-466,Sagopa Kajmer,Sahibinin Sesi,,LOVE,0.8128101825714111,Turkish
-467,Barış Manço,Sahilde,,JOY,0.725100576877594,Turkish
-468,Cem Karaca,Sakın Reddetme,,ANGER,0.5383732914924622,Turkish
-469,Duman,Saldır,,ANGER,0.7123981714248657,Turkish
-470,Şebnem Ferah,Sana Bilmediğin Bir Şey Söyleyemem,,JOY,0.9237073063850403,Turkish
-471,3 Hürel,Sana Değmez,,SADNESS,0.981054425239563,Turkish
-472,Ajda Pekkan,Sana Neler Edeceğim,,SADNESS,0.4539375603199005,Turkish
-473,Yaşlı Amca,Sanki Yapamadım,,SADNESS,0.8234977126121521,Turkish
-474,Teoman,Sardunyalar Arasında,,SADNESS,0.45331594347953796,Turkish
-475,No.1,Sarhoş,,SADNESS,0.9483110904693604,Turkish
-476,RamoBeroo,sarkı,,ANGER,0.5792543292045593,Turkish
-477,Sayha Mira,"Sazım, Sözüm",,JOY,0.994785726070404,Turkish
-478,Kid X,Se7en,,JOY,0.9154782891273499,Turkish
-479,Barış Manço,Seher Vakti,,LOVE,0.7207736968994141,Turkish
-480,Ezhel,Sekiz 2,,ANGER,0.45335784554481506,Turkish
-481,Maestro,Semt İşi,,ANGER,0.9868865609169006,Turkish
-482,Duman,Sen Ben,,SADNESS,0.9293372631072998,Turkish
-483,İlhan İrem,Sen Bilirsin,,LOVE,0.8081375360488892,Turkish
-484,Cem Karaca,Sen Duymadın,,FEAR,0.7033126950263977,Turkish
-485,Emre Nalbantoğlu,Sen Nerden Çıktın,,FEAR,0.9184938669204712,Turkish
-486,Anıl Piyancı,Sen Olmazsan,,SADNESS,0.9196128249168396,Turkish
-487,Şehinşah,Sendeliyorum,,SADNESS,0.8928543925285339,Turkish
-488,Flört,Senden Kalan,,ANGER,0.6720094680786133,Turkish
-489,Zeki Müren,Seni Sordum Yıldızlara,,ANGER,0.536843478679657,Turkish
-490,Can Bonomo,Senin Olmadan Ölemem,,ANGER,0.9787777662277222,Turkish
-491,Buray,Senin Yüzünden,,SADNESS,0.4653685986995697,Turkish
-492,Teoman,Seninim Son Kez,,ANGER,0.9147048592567444,Turkish
-493,Nükhet Duru,Seninle,,SADNESS,0.9979128241539001,Turkish
-494,Sufle,Seninle,,SADNESS,0.9942458271980286,Turkish
-495,KÖFN,Sensiz N’aparım Ben,,ANGER,0.4794410169124603,Turkish
-496,Melike Şahin,Serim & Hepsi Geçti (Live at Bostancı Gösteri Merkezi),,SADNESS,0.9977444410324097,Turkish
-497,Hümeyra,Sessiz Gemi,,SADNESS,0.4949505031108856,Turkish
-498,Sertab Erener,Sessiz Gemi,,SADNESS,0.4949505031108856,Turkish
-499,Grup Yorum,Sevda Türküsü,,LOVE,0.9939627051353455,Turkish
-500,Birkan Nasuhoğlu,Sevda,,LOVE,0.9600228667259216,Turkish
-501,Ajda Pekkan,Sevdalı Başım,,SADNESS,0.6886601448059082,Turkish
-502,Teoman,Sevdim Seni Bir Kere,,LOVE,0.955782949924469,Turkish
-503,Ayna,Severek Ayrılanlar,,LOVE,0.9835783243179321,Turkish
-504,Emre Fel,Sevgilim Biz Ayrıldık,,SADNESS,0.9873722791671753,Turkish
-505,Mavi Işıklar,Sevgilim,,LOVE,0.993822455406189,Turkish
-506,Zeki Müren,Seviyorum İşte Var Mı Diyeceğin,,JOY,0.7149300575256348,Turkish
-507,Flört,Sevmez Olaydım,,LOVE,0.7093024849891663,Turkish
-508,Gülşen,Seyre Dursun Aşk (Akustik),,SADNESS,0.9590600728988647,Turkish
-509,Jor’dan Armstrong,SHE,,ANGER,0.4558914005756378,Turkish
-510,Sansar Salvo,Sigara Yanınca,,SADNESS,0.985281765460968,Turkish
-511,Müzeyyen Senar,Sigaramın Dumanı,,SADNESS,0.7089173197746277,Turkish
-512,No.1,Sinekler Soğukta Salak,,SADNESS,0.9790177941322327,Turkish
-513,Sehabe,Siyah,,ANGER,0.7580476999282837,Turkish
-514,Çilekeş,Siyah,,SADNESS,0.9985834360122681,Turkish
-515,Bağzıları,Sizin Olsun Dünyalar,,SADNESS,0.9807658195495605,Turkish
-516,Artz,Sizle Muhattabım,,FEAR,0.704677402973175,Turkish
-517,Ceg,Skimde Değil,,SADNESS,0.9061852693557739,Turkish
-518,Joker,Son Kale,,FEAR,0.9558586478233337,Turkish
-519,Ajda Pekkan,Son Yolcu (Senza Fiato),,SADNESS,0.9208918213844299,Turkish
-520,İndigo (TUR),Son,,FEAR,0.5751053690910339,Turkish
-521,Düşüngeç,Sor Sakalım,,ANGER,0.9918442368507385,Turkish
-522,Can Gox,Sorma,,SADNESS,0.7986593246459961,Turkish
-523,Genius Türkçe Çeviriler,Stray Kids - Silent Cry (Türkçe Çeviri),,SADNESS,0.8112082481384277,Turkish
-524,Pantera,Suicide Note Pt. I,,JOY,0.9603738188743591,Turkish
-525,Khiladi,Sukoon,,JOY,0.9676746726036072,Turkish
-526,Cemiyette Pişiyorum,Supradin,,SADNESS,0.9882959723472595,Turkish
-527,Teoman,Sus Konuşma,,SADNESS,0.9986159801483154,Turkish
-528,Nev,Susma,,SADNESS,0.9955691695213318,Turkish
-529,Barış Manço,Söyle Zalim Sultan,,ANGER,0.9740239381790161,Turkish
-530,Tan Taşçı,Söyleme (Live),,SADNESS,0.9285461902618408,Turkish
-531,Barış Manço,Süper Babaanne,,JOY,0.5623316764831543,Turkish
-532,Hadise,Sıfır Tolerans,,ANGER,0.9933848977088928,Turkish
-533,Kenan Doğulu,Sımsıkı Sıkı Sıkı,,SADNESS,0.7304685711860657,Turkish
-534,Duman,Sınana Sınana,,SURPRISE,0.8612271547317505,Turkish
-535,Sibel Can,Takiptesin,,FEAR,0.9950574636459351,Turkish
-536,Göksel,Tam da Şu An,,LOVE,0.7493104934692383,Turkish
-537,Ceg,Tanrı,,ANGER,0.6688636541366577,Turkish
-538,Allame,Tanınmayanlar,,JOY,0.3598597049713135,Turkish
-539,Cem Karaca,Tatlı Dillim (Neredesin),,JOY,0.7456515431404114,Turkish
-540,Büyük Ev Ablukada,Tayyar Ahmet’in Sonsuz Sayılı Günleri,,FEAR,0.7599390149116516,Turkish
-541,Genius Türkiye,Temmuz 2021 Tekli Yayınlama Takvimi,,SADNESS,0.48432764410972595,Turkish
-542,Kibariye,Tepecikli,,JOY,0.6968650221824646,Turkish
-543,Teoman,Terlemeden Sevişenler,,JOY,0.5770045518875122,Turkish
-544,Nasıl Derler Bilirsin,Tertemiz Delirdim,,JOY,0.9980373978614807,Turkish
-545,Angela Carter,The Lady of the House of Love,,ANGER,0.7703831791877747,Turkish
-546,Brandy,"Top of the World, Pt. II (No Rap Version)",,JOY,0.8131011724472046,Turkish
-547,Sagopa Kajmer,Toplamam Yerde Kalır Kırıntın,,SADNESS,0.9763210415840149,Turkish
-548,Mode XL,Toz Konduramazsın,,FEAR,0.9857529997825623,Turkish
-549,Redd,Tutmuyor Frenler,,ANGER,0.4923126697540283,Turkish
-550,Hidra,Türkçe Rap,,SADNESS,0.9938780665397644,Turkish
-551,Şehinşah,Türlü Bela,,SADNESS,0.5093412399291992,Turkish
-552,James Joyce,Ulysses (Chap. 16 - Eumaeus),,ANGER,0.907680332660675,Turkish
-553,Candan Erçetin,Unut Sevme,,SADNESS,0.996992826461792,Turkish
-554,Barış Manço,Unutamıyorum,,JOY,0.9890148043632507,Turkish
-555,Pinhani,Unutuldular,,SURPRISE,0.7499622106552124,Turkish
-556,Melike Şahin,Uykumun Boynunu Bükme (Live at Bostancı Gösteri Merkezi),,ANGER,0.9968515038490295,Turkish
-557,Sertab Erener,Uyu Yavrum Yine Sabah Oluyor,,JOY,0.9690914750099182,Turkish
-558,Sertab Erener,Uyusun Da Büyüsün,,LOVE,0.9153033494949341,Turkish
-559,Ceg,Uyuşana Dek,,SADNESS,0.9979471564292908,Turkish
-560,Ati242,Uçuyoz Gökyüzüne,,ANGER,0.6242355704307556,Turkish
-561,Allame,Varsayım,,FEAR,0.5442378520965576,Turkish
-562,Miss Peria,Veronia (2024 Remaster),,FEAR,0.7697837352752686,Turkish
-563,OG Keemo,Vertigo,,FEAR,0.5457429885864258,Turkish
-564,Teoman,Viski Ve Lazanya,,SADNESS,0.4088227450847626,Turkish
-565,Barış Kocatürk,Vurdum Kendimi Yola,,SADNESS,0.9948741793632507,Turkish
-566,Ceno,Yakaza Cypher Vol.3,,JOY,0.9930428266525269,Turkish
-567,Old G,Yaktım,,JOY,0.9345486760139465,Turkish
-568,Perdenin Ardındakiler,Yalnız Kalmışım,,ANGER,0.9660928249359131,Turkish
-569,Yıldız Tilbe,Yalnız Çiçek,,ANGER,0.46558964252471924,Turkish
-570,Tan Taşçı,Yalvarırım (Live),,LOVE,0.39839860796928406,Turkish
-571,Kezzo,Yangın,,SADNESS,0.9974243640899658,Turkish
-572,Şanışer,Yanlışlara Gidiyorum,,JOY,0.8863664269447327,Turkish
-573,Sezen Aksu,Yanmışım Sönmüşüm Ben,,JOY,0.7735015153884888,Turkish
-574,Burcu Güneş,Yansın Geceler,,SADNESS,0.6678831577301025,Turkish
-575,Şanışer,Yanıma Gelmesinler,,ANGER,0.8033222556114197,Turkish
-576,Hayko Cepkin,Yarası Saklı,,FEAR,0.9731202721595764,Turkish
-577,Hidra,Yarılamışım,,SADNESS,0.9893803596496582,Turkish
-578,Cem Karaca,Yarım Porsiyon Aydınlık,,ANGER,0.5180060863494873,Turkish
-579,Gece,Yarım,,JOY,0.8103842735290527,Turkish
-580,Ceg,Yatmadan Önce,,ANGER,0.901366114616394,Turkish
-581,Barış Akarsu,Yaz Demedim,,SADNESS,0.5645972490310669,Turkish
-582,Hadise,Yaz Günü,,ANGER,0.4324394464492798,Turkish
-583,Şanışer,Yazamam Ecele,,SADNESS,0.9620157480239868,Turkish
-584,İlhan İrem,Yazık Oldu Yarınlara,,SADNESS,0.993062436580658,Turkish
-585,Joker,Yaşamak Öldürür P2,,SADNESS,0.9867969751358032,Turkish
-586,Candan Erçetin,Yaşıyorum,,JOY,0.9341415762901306,Turkish
-587,İlhan İrem,Yemyeşil Bir Deniz,,JOY,0.47608423233032227,Turkish
-588,Saian,Yeni Beyaz,,SADNESS,0.5218914151191711,Turkish
-589,Evrencan Gündüz,Yeni Bir Şarkı,,LOVE,0.9776173830032349,Turkish
-590,Contra,YERDEN YÜKSEK 2,,ANGER,0.9569356441497803,Turkish
-591,Contra,YERDEN YÜKSEK,,ANGER,0.9723567366600037,Turkish
-592,Çilekeş,Yetmiyor,,LOVE,0.9630047082901001,Turkish
-593,Anıl Piyancı,Yeşillendir,,FEAR,0.9556403160095215,Turkish
-594,Barış Manço,Yine Yol Göründü Gurbete...,,FEAR,0.8074209094047546,Turkish
-595,Fazıl Say,Yiğidim Aslanım Burda Yatıyor,,SADNESS,0.5520475506782532,Turkish
-596,Tan Taşçı,Yok Başka Hayalim,,SADNESS,0.6454710960388184,Turkish
-597,Ferdi Özbeğen,Yok Yok Yalan Deme,,LOVE,0.8802583813667297,Turkish
-598,No.1,Yokluğuma Alışma,,SADNESS,0.8522907495498657,Turkish
-599,Ayben,Yol Ver,,JOY,0.66849285364151,Turkish
-600,Flört,Yola Devam,,FEAR,0.5195382237434387,Turkish
-601,Barış Manço,Yolla Yarim Tez Yolla,,LOVE,0.9897059202194214,Turkish
-602,Birkan Nasuhoğlu,Yollar Bitmez,,SADNESS,0.7971974015235901,Turkish
-603,Cem Karaca,Yolumuz Gurbete Düştü,,LOVE,0.8973017930984497,Turkish
-604,Barış Manço,Yolverin Ağalar Beyler!..,,LOVE,0.8729308843612671,Turkish
-605,Athena,Yorulmak Olmaz,,SADNESS,0.7601178884506226,Turkish
-606,Ravend,Yudumlarım,,SADNESS,0.99859219789505,Turkish
-607,Selda Bağcan,Yuh Yuh,,ANGER,0.7844094038009644,Turkish
-608,She Past Away,Yükseliyor Deniz,,SADNESS,0.95915287733078,Turkish
-609,Nova Norda,Yüreğim Ellerinde,,SADNESS,0.9825200438499451,Turkish
-610,Keişan,Yüzüm Yok,,SADNESS,0.9973962306976318,Turkish
-611,Teoman,Yıldızları Yakalamak,,ANGER,0.7504163384437561,Turkish
-612,Gaye Su Akyol,Yıllar Yılan,,SADNESS,0.9848640561103821,Turkish
-613,Teoman,Zamparanın Ölümü (İkinci Ve Son Bölüm),,SADNESS,0.47756779193878174,Turkish
-614,Ezginin Günlüğü,Zerdaliler,,ANGER,0.7190846800804138,Turkish
-615,Sokrat St,Zor Bir Gün,,SADNESS,0.9389098882675171,Turkish
-616,Haluk Levent,Zülüf,,SADNESS,0.48846933245658875,Turkish
-617,Sertab Erener,Çamlıbel’den Çıktım Yayan,,ANGER,0.6051973104476929,Turkish
-618,Moğollar,Çaya Kaç Şeker,,JOY,0.9758284687995911,Turkish
-619,Ayna,Çayımın Şekeri,,JOY,0.9697614312171936,Turkish
-620,Tankurt Manas,Çene Kemiklerimi Kırdım,,SADNESS,0.6726236939430237,Turkish
-621,Emre Altuğ,Çifte Kavrulmuş,,LOVE,0.9825412631034851,Turkish
-622,Son Feci Bisiklet,Çikolata,,SURPRISE,0.9546854496002197,Turkish
-623,Barış Kocatürk,Çirkin Olunca,,SADNESS,0.944132924079895,Turkish
-624,Pinhani,Çok Alıştım Sana,,SADNESS,0.49942001700401306,Turkish
-625,Şam,Çok Derin,,SADNESS,0.9953435063362122,Turkish
-626,Hepsi,Çok Güzelsin,,JOY,0.9976874589920044,Turkish
-627,Kayra,Çok Yaşlıyım,,ANGER,0.6857060790061951,Turkish
-628,Bülent Ortaçgil,Çoktular Ama Hiç Yoktular,,SADNESS,0.967309296131134,Turkish
-629,Cem Karaca,Çökertme,,SADNESS,0.9298496842384338,Turkish
-630,Asil Slang,Çıkmadın Aklımdan,,ANGER,0.9306824803352356,Turkish
-631,Anıl Durmuş,Çıkmaz Sokak,,ANGER,0.8404176831245422,Turkish
-632,Barış Manço,Çıt Çıt Çedene,,LOVE,0.9138972759246826,Turkish
-633,Ebru Yaşar,Öldüm Sahiden,,SADNESS,0.9848865866661072,Turkish
-634,Şanışer,Ölüm Aklımı Çelmek Üzere,,ANGER,0.9821826815605164,Turkish
-635,Gece Yolcuları,Ölüm de Var,,SADNESS,0.7275668382644653,Turkish
-636,Hidra,Ölüm Kalım Günü,,JOY,0.47720596194267273,Turkish
-637,Cem Karaca,Ölüm,,ANGER,0.4965907633304596,Turkish
-638,Hidra,Ölüme İnat 2,,FEAR,0.7226048111915588,Turkish
-639,Kaçak (TUR),Ölünür De,,SADNESS,0.9702659845352173,Turkish
-640,Barış Manço,Ömrümün Sonbaharında,,SADNESS,0.9969958066940308,Turkish
-641,Aspova,Öpünce geçer mi,,SADNESS,0.9965730905532837,Turkish
-642,Umut Kaya,Öpüyorum,,SADNESS,0.9730436205863953,Turkish
-643,MAW,Ötesi Yok,,LOVE,0.9445074796676636,Turkish
-644,Contra,Ötesi,,ANGER,0.9895195960998535,Turkish
-645,Hüsnü Arkan,Öyle Bir Rüya,,SADNESS,0.9613723158836365,Turkish
-646,Kutay Uçar,Özlemiş Gibisin Sen De,,SADNESS,0.9972190856933594,Turkish
-647,Cem Karaca,Üryan Geldim,,LOVE,0.49204352498054504,Turkish
-648,Kamuran Akkor,Üstüme Düşme Benim,,SADNESS,0.49615079164505005,Turkish
-649,Ceylan Ertem,Ütopyalar Güzeldir,,JOY,0.3709380030632019,Turkish
-650,Tepki,Üzgünüm Anne,,ANGER,0.8748778700828552,Turkish
-651,Rota,İblisler,,ANGER,0.8955883383750916,Turkish
-652,Resit Kemal,İhanetini Doldurdum,,ANGER,0.707184910774231,Turkish
-653,Cem Karaca,İhtiyar Oldum,,JOY,0.869317352771759,Turkish
-654,Şam,İHTİRAS,,SADNESS,0.9909303784370422,Turkish
-655,Mustafa Sandal,İki Tas Çorba,,LOVE,0.9890015125274658,Turkish
-656,Özdemir Erdoğan,İkinci Bahar,,LOVE,0.5437153577804565,Turkish
-657,Killa Hakan,İlk Kural Saygı,,JOY,0.8464308381080627,Turkish
-658,Leman Sam,İlla,,LOVE,0.8777425289154053,Turkish
-659,Kibariye,İlle de Roman Olsun,,JOY,0.720611572265625,Turkish
-660,Tan Taşçı,İmkansız (Rüyalarım Olmasa),,JOY,0.7263270020484924,Turkish
-661,Anıl Piyancı,İnan İsterdim,,JOY,0.9982831478118896,Turkish
-662,Sagopa Kajmer,İnsafa Gel,,ANGER,0.8225544691085815,Turkish
-663,Allame,İnsan,,SADNESS,0.9802727699279785,Turkish
-664,Kurban,İnsanlar,,ANGER,0.8517637252807617,Turkish
-665,Rota,İrem,,JOY,0.4874638319015503,Turkish
-666,Kramp (TUR),İstanbul Sokakları,,SADNESS,0.8193060755729675,Turkish
-667,Flört,İstanbul,,LOVE,0.9711436629295349,Turkish
-668,Teoman,İstasyon İnsanları,,FEAR,0.49985823035240173,Turkish
-669,Yaşlı Amca,İstasyon,,ANGER,0.9977444410324097,Turkish
-670,Ahiyan,İstemem,,SADNESS,0.9981677532196045,Turkish
-671,Barış Akarsu,İsterdim,,LOVE,0.6614826917648315,Turkish
-672,Gaye Su Akyol,İstersen Hiç Başlamasın (Yeni Türkü Zamansız),,SADNESS,0.9975817203521729,Turkish
-673,Buray,İstersen,,SADNESS,0.9935240745544434,Turkish
-674,Şehinşah,İstila,,ANGER,0.9689804315567017,Turkish
-675,Batuhan Kordel,İtiraf,,SADNESS,0.6555704474449158,Turkish
-676,Şebnem Ferah,İyi - Kötü (Dans Pisti),,ANGER,0.9971144199371338,Turkish
-677,Sinan Akçıl,İyi Değilim,,SADNESS,0.5759152173995972,Turkish
-678,Can Bonomo,İyi Ki Doğdun,,SADNESS,0.9155454039573669,Turkish
-679,Gece,İyileşmiyor,,SADNESS,0.3917699158191681,Turkish
-680,No.1,İyilik Meleğim,,ANGER,0.9954965114593506,Turkish
-681,Hayko Cepkin,İçgüdü,,SADNESS,0.9542171359062195,Turkish
-682,İlhan İrem,İşte Hayat (Sensiz de Yaşanıyor),,SADNESS,0.9628792405128479,Turkish
-683,İstanbul Trip,ŞAFAK OPERASYONU,,ANGER,0.9970771074295044,Turkish
-684,Flört,Şakalar,,ANGER,0.6092630624771118,Turkish
-685,Hadise,Şampiyon (Gürcell Remix),,FEAR,0.8435788750648499,Turkish
-686,Hande Yener,Şansın Bol Olsun,,SADNESS,0.9811459183692932,Turkish
-687,Allame,Şehir,,SADNESS,0.8777679800987244,Turkish
-688,Şanışer,Şer’in Atlası,,JOY,0.997865617275238,Turkish
-689,Mavi Gri,Şiir Senin Yüzündür,,LOVE,0.9928117394447327,Turkish
-690,Suzan Hacigarip,Şimdi Biraz Uyu,,SADNESS,0.925359308719635,Turkish
-691,Yedinci Ev,Şimdi,,SADNESS,0.9739505648612976,Turkish
-692,Ati242,Şöhret,,ANGER,0.6070418357849121,Turkish
-693,Tarkan,Şımarık,,SADNESS,0.9704229831695557,Turkish
-694,SoLonely,​confused,,SADNESS,0.993425726890564,Turkish
-695,​kidnoir (TUR),​​aleyna tilki,,ANGER,0.7765706181526184,Turkish
-696,Finny Music,​​rockstar (Megamix),,JOY,0.9412893652915955,Turkish
-697,FACE,24 на 7,,SURPRISE,0.5876761674880981,Balkan
-698,Ritviz,Aaj Na,,JOY,0.5546770691871643,Balkan
-699,The Jackson 5,ABC,,JOY,0.9954808950424194,Balkan
-700,Virgil,Aeneid (Liber VI),,JOY,0.9064012765884399,Balkan
-701,Swono,Album History,,JOY,0.9533695578575134,Balkan
-702,ANIMA PRODUCCIONES,Alexander Hamilton (Cover en Español)-Hamilton El Musical,,JOY,0.9232520461082458,Balkan
-703,Smash Mouth,All Star,,JOY,0.3324402868747711,Balkan
-704,2Pac,Ambitionz Az a Ridah,,ANGER,0.4309677481651306,Balkan
-705,Don McLean,American Pie,,SADNESS,0.8833155035972595,Balkan
-706,Django,Anthracite,,FEAR,0.6197335124015808,Balkan
-707,Şehinşah,Az,,JOY,0.9789444208145142,Balkan
-708,Bucovina,Așteaptă-mă dincolo de moarte,,SADNESS,0.9974675178527832,Balkan
-709,Costa Gold,Backstage,,JOY,0.7126696109771729,Balkan
-710,Billie Eilish,bad guy,,ANGER,0.9931201934814453,Balkan
-711,Ritviz,Barso,,JOY,0.3169601261615753,Balkan
-712,Imagine Dragons,Believer,,LOVE,0.3095940053462982,Balkan
-713,Carly Rae Jepsen,Call Me Maybe,,LOVE,0.9889827370643616,Balkan
-714,OneRepublic,Counting Stars,,JOY,0.3476851284503937,Balkan
-715,Moonica Mac,Dalarna,,LOVE,0.5070685148239136,Balkan
-716,ABBA,Dancing Queen,,JOY,0.8299607038497925,Balkan
-717,Ceg,Dedemin Anadol’u,,ANGER,0.9869279265403748,Balkan
-718,Olivia Rodrigo,deja vu,,JOY,0.9965230226516724,Balkan
-719,Mnogoznaal,DOF,,SADNESS,0.5400566458702087,Balkan
-720,No Doubt,Don’t Speak,,SADNESS,0.9859035611152649,Balkan
-721,The Human League,Don’t You Want Me,,JOY,0.8603653907775879,Balkan
-722,Swedish House Mafia,Don’t You Worry Child (Radio Edit),,JOY,0.749294638633728,Balkan
-723,UNIAIKA,En Keksi Mitään,,SADNESS,0.5317919254302979,Balkan
-724,Neon Trees,Everybody Talks,,SADNESS,0.9220137000083923,Balkan
-725,Lauren Spencer Smith,Fingers Crossed,,ANGER,0.9198872447013855,Balkan
-726,RÆVE (FRA),Firefly,,JOY,0.685567319393158,Balkan
-727,Tom Petty,Free Fallin’,,JOY,0.9720205068588257,Balkan
-728,Michelle (DEU),Für mich bist du die Welt,,SADNESS,0.9982898831367493,Balkan
-729,LAOISE,Healthy,,JOY,0.997523844242096,Balkan
-730,Glass Animals,Heat Waves,,JOY,0.7493230104446411,Balkan
-731,Good Times Ahead,Hit It!,,JOY,0.9025512337684631,Balkan
-732,Black Eyed Peas,I Gotta Feeling,,SADNESS,0.6190012693405151,Balkan
-733,182,I Miss You-blink,,SADNESS,0.7247112393379211,Balkan
-734,​Surf Mesa,ily (i love you baby),,LOVE,0.945507824420929,Balkan
-735,Plastilina Mosh,JAJAJA,,ANGER,0.8664513826370239,Balkan
-736,Octobre Rouge,J’ai passé l’âge,,SADNESS,0.9727809429168701,Balkan
-737,Akcent,Kylie,,JOY,0.8024861216545105,Balkan
-738,Residente,La Cátedra,,SADNESS,0.8453738689422607,Balkan
-739,KIDZ BOP Kids,Levitating,,JOY,0.9953985810279846,Balkan
-740,Alex S,Life As We Know It (feat. Odyssey),,JOY,0.9974204301834106,Balkan
-741,Bon Jovi,Livin’ on a Prayer,,LOVE,0.6100798845291138,Balkan
-742,Anıl Emre Daldal,M.,,SADNESS,0.9671091437339783,Balkan
-743,Jonas Blue,Mama,,LOVE,0.9684532284736633,Balkan
-744,Bikki Gurung,Marijau,,JOY,0.5685447454452515,Balkan
-745,Claustrofobia,Metal Malóka,,LOVE,0.6115672588348389,Balkan
-746,Cesária Évora,Milca ti Lidia,,ANGER,0.938626229763031,Balkan
-747,Dustero,MORE BOUNCE,,JOY,0.9645882248878479,Balkan
-748,Counting Crows,Mr. Jones,,JOY,0.6787415742874146,Balkan
-749,Depresszio,Nem akarok elszakadni,,JOY,0.5443458557128906,Balkan
-750,Rita Lee,"Nem Luxo, Nem Lixo",,JOY,0.9942029118537903,Balkan
-751,MC Kako,Neurótico,,FEAR,0.9953987002372742,Balkan
-752,Sean Paul,No Lie,,FEAR,0.9864397644996643,Balkan
-753,Nordjevel,Norges sorte himmel,,JOY,0.9821723103523254,Balkan
-754,Mezsiah,Novacane,,ANGER,0.9978950023651123,Balkan
-755,Em Beihold,Numb Little Bug,,JOY,0.997934103012085,Balkan
-756,NAVACHA,Pegasus,,ANGER,0.997655987739563,Balkan
-757,SAMBATA,Pinnak,,JOY,0.6052473187446594,Balkan
-758,Ritviz,Pran,,SADNESS,0.6848371028900146,Balkan
-759,Andrea Bocelli,"Quizàs, Quizàs, Quizàs",,SADNESS,0.6910819411277771,Balkan
-760,Kompany,Ragnarok,,JOY,0.9938608407974243,Balkan
-761,Rap Genius,Rap names explained,,ANGER,0.9862082004547119,Balkan
-762,Blokovski,Reci šta imaš,,JOY,0.9908545017242432,Balkan
-763,Bishop Briggs,River,,JOY,0.7693929076194763,Balkan
-764,Sickflip,Roshni,,JOY,0.6041628122329712,Balkan
-765,Hiperkarma,Rád talált,,FEAR,0.9839330911636353,Balkan
-766,Alessia Cara,Scars to Your Beautiful,,JOY,0.7673450112342834,Balkan
-767,Keane,Somewhere Only We Know,,SADNESS,0.4879875183105469,Balkan
-768,Jolagreen23,STALINGRAD,,JOY,0.9595751762390137,Balkan
-769,Fall Out Boy,"Sugar, We’re Goin Down",,JOY,0.561941385269165,Balkan
-770,A.S.I.A. (Band),Sună periculos,,ANGER,0.9884882569313049,Balkan
-771,Samael,Telepath,,JOY,0.997806966304779,Balkan
-772,Resa Saffa Park,Tendencies,,SADNESS,0.7687546014785767,Balkan
-773,Don Henley,The Boys of Summer,,JOY,0.9937800765037537,Balkan
-774,Queen Lili’uokalani,The Kumilopo - Era 12,,JOY,0.985403835773468,Balkan
-775,Jimmy Eat World,The Middle,,ANGER,0.41924434900283813,Balkan
-776,Hoobastank,The Reason,,SADNESS,0.9901037812232971,Balkan
-777,Montague Summers,"The Vampire, His Kith And Kin - Chapter 1",,FEAR,0.9754860997200012,Balkan
-778,Imagine Dragons,Thunder,,LOVE,0.40610751509666443,Balkan
-779,MC Davi,Tudo no Privê,,ANGER,0.9555887579917908,Balkan
-780,Umbrtka,Uhlí,,JOY,0.6482758522033691,Balkan
-781,Sissel,"Upp gledjest alle, gledjest no",,JOY,0.6152336597442627,Balkan
-782,Gifta,Vé Pa,,JOY,0.9401395916938782,Balkan
-783,Avicii,Wake Me Up (EDX Miami Sunset Radio Edit),,JOY,0.86299729347229,Balkan
-784,Avicii,Wake Me Up,,JOY,0.8171916007995605,Balkan
-785,Julia Michaels,What a Time,,JOY,0.7799598574638367,Balkan
-786,Hidra,Zehir,,ANGER,0.8576366305351257,Balkan
-787,Soolking,Zemër,,JOY,0.9895035028457642,Balkan
-788,PHARAOH,Акид (Acis),,SADNESS,0.75627201795578,Balkan
-789,Wildways,Ветивер (Vetiver),,JOY,0.9854558110237122,Balkan
-790,BLUNTHOUSE,"Дико, например [Pharaoh cover]",,JOY,0.9935374855995178,Balkan
-791,Электрофорез (Electroforez),Зло (Evil),,ANGER,0.47203466296195984,Balkan
-792,quiizzzmeow,сети (nets),,SADNESS,0.949134349822998,Balkan
-793,Ben Platt,​imagine,,SADNESS,0.4872339069843292,Balkan
-794,Eve (JPN),廻廻奇譚 (Kaikai Kitan),,FEAR,0.9627351760864258,Balkan
+original_id,artists,track name,emotion_type,emotion_score,culture
+102482,Emre Fel,Sevgilim Biz Ayrıldık,SADNESS,0.9873722791671753,Turkish
+102649,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+102799,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+102882,Sera Savaş,Anlatsam Anlatamam,SADNESS,0.9788092970848083,Turkish
+102903,Ufuk Beydemir,Ay Tenli Kadın,LOVE,0.4738219380378723,Turkish
+102934,Burcu Güneş,Yansın Geceler,SADNESS,0.6678830981254578,Turkish
+102981,Suzan Hacigarip,Şimdi Biraz Uyu,SADNESS,0.925359308719635,Turkish
+102983,Kaan Tangöze,Bir Kız Bana Emmi Dedi,ANGER,0.8581915497779846,Turkish
+102992,Barış Kocatürk,Kalmalısın,JOY,0.9962220191955566,Turkish
+102997,Melike Şahin,Nasır (Live at Zorlu PSM),FEAR,0.5114221572875977,Turkish
+112001,Lil Zey,Eskisi Gibi,SADNESS,0.9987748265266418,Turkish
+112002,Serhat Durmus,Gesi Bağları,SADNESS,0.8858768343925476,Turkish
+112020,Khontkar,Ondan Böyleyim,SADNESS,0.5941985249519348,Turkish
+112021,Pinhani,Çok Alıştım Sana,SADNESS,0.4994170367717743,Turkish
+112022,Scoochie Boochie,Big Space Battle,JOY,0.9461897611618042,Turkish
+112024,Mavi (TUR),ama hala,JOY,0.6108287572860718,Turkish
+112027,Ayna,Severek Ayrılanlar,LOVE,0.9835783243179321,Turkish
+112028,Flört,Bir Tek Sen Gelmedin,JOY,0.9552338719367981,Turkish
+112029,Şehinşah,Hiphop Okulu,ANGER,0.9694929718971252,Turkish
+112032,Anıl Piyancı,Beraber Büyüdük,JOY,0.9968848824501038,Turkish
+112034,Anıl Piyancı,Beraber Büyüdük,JOY,0.9968848824501038,Turkish
+112035,Lvbel C5,10 NUMARA,ANGER,0.9871715903282166,Turkish
+112037,Hüsnü Arkan,Öyle Bir Rüya,SADNESS,0.961372435092926,Turkish
+112038,Ceg,Neden,SADNESS,0.9549638628959656,Turkish
+112039,Duman,Her Şeyi Yak,SADNESS,0.8356033563613892,Turkish
+112040,No.1,Ateş ve Barut,JOY,0.7593369483947754,Turkish
+112042,Vega (TUR),Bu Sabahların Bir Anlamı Olmalı,ANGER,0.6674341559410095,Turkish
+112043,Teoman,Gemiler,JOY,0.8043980598449707,Turkish
+112044,Teoman,Sevdim Seni Bir Kere,LOVE,0.9568387269973755,Turkish
+112045,Teoman,Sevdim Seni Bir Kere,LOVE,0.9568387269973755,Turkish
+112047,Emir Can İğrek,Kaptan,ANGER,0.9923267960548401,Turkish
+112048,Teoman,Paramparça,SADNESS,0.99797123670578,Turkish
+112056,Şehinşah,Koyu,ANGER,0.8884848356246948,Turkish
+112060,Anıl Piyancı,Beraber Büyüdük,JOY,0.9968848824501038,Turkish
+112064,Nev,Susma,SADNESS,0.9953711628913879,Turkish
+112065,Nev,Benmişim,FEAR,0.6093745827674866,Turkish
+112067,Hidra,Neden Mi İllegal 3,FEAR,0.9371110796928406,Turkish
+112068,Şehinşah,Türlü Bela,SADNESS,0.5093435049057007,Turkish
+112071,Nev,Mühürlü Kaderim,JOY,0.3808412551879883,Turkish
+112072,Joker,Yaşamak Öldürür P2,SADNESS,0.9867970943450928,Turkish
+112074,Birileri,...aynı yer,JOY,0.9518194794654846,Turkish
+112075,Emir Can İğrek,Bıraktım Şaşırmayı,SURPRISE,0.9709441661834717,Turkish
+112076,Ceg,Onlar Acımı Bilemez Hacım,JOY,0.9959561228752136,Turkish
+112078,Athena,Geberiyorum (Nâzım Hikmet Ran Günler Şiiri),SADNESS,0.9467319846153259,Turkish
+112079,Şehinşah,Kunteper,ANGER,0.8148376941680908,Turkish
+112080,Contra,Ötesi,ANGER,0.9904622435569763,Turkish
+112082,Emre Fel,Sevgilim Biz Ayrıldık,SADNESS,0.9873722791671753,Turkish
+112083,Teoman,Seninim Son Kez,ANGER,0.914705753326416,Turkish
+112084,Hidra,Karıncalar,SADNESS,0.9953072667121887,Turkish
+112085,Sefir,Rehber,SADNESS,0.6119734048843384,Turkish
+112087,Şehinşah,Güller Ve Rhyme,ANGER,0.6289631128311157,Turkish
+112089,Genius Türkiye,Mart 2021 Tekli Yayınlama Takvimi,JOY,0.8206664323806763,Turkish
+112092,Ne Jupiter,Gökyüzüm Siyah Olsa Da,FEAR,0.9936422109603882,Turkish
+112093,Şanışer,Benim Aklımdan Zorum Var - Live,FEAR,0.76829594373703,Turkish
+112094,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+112095,Umut Kaya,Öpüyorum,SADNESS,0.9730436205863953,Turkish
+112097,Tan Taşçı,Eski Sevgilim (Live),JOY,0.9234562516212463,Turkish
+112098,Emir Can İğrek,Franco,ANGER,0.9373036623001099,Turkish
+112099,Saian,Ay Şarkısı,FEAR,0.9713341593742371,Turkish
+112103,Ahiyan,Akıllanamadım,ANGER,0.8507758378982544,Turkish
+112108,Ezhel,Gerçek Sandım,SADNESS,0.9818423986434937,Turkish
+112109,Anıl Piyancı,Yeşillendir,FEAR,0.9556401371955872,Turkish
+112111,Hidra,Bağırın,SADNESS,0.9442179799079895,Turkish
+112114,YoungQueenz,"Dragontown, Pt. III",JOY,0.9503048658370972,Turkish
+112115,Şebnem Ferah,Kalbim Mezar,JOY,0.7278368473052979,Turkish
+112116,Beta Berk Bayındır,Her Şey Aynı,ANGER,0.6392353177070618,Turkish
+112117,Büyük Ev Ablukada,BENİM KAFAM SİKTİRMİŞ GİTMİŞ,ANGER,0.9893869161605835,Turkish
+112118,Ezginin Günlüğü,Zerdaliler,ANGER,0.7534574270248413,Turkish
+112119,Saian,Birkaç Güzel Gün İçin,SADNESS,0.7127531170845032,Turkish
+112120,Şanışer,Belki Bir Gün Barışırız,JOY,0.866226077079773,Turkish
+112121,Pinhani,Bülbülüm Altın Kafeste,LOVE,0.976747453212738,Turkish
+112124,Saian,Yeni Beyaz,SADNESS,0.5218939185142517,Turkish
+112126,Hidra,Burası Dünya Değil,SADNESS,0.9963476061820984,Turkish
+112127,Contra,Hayırlara Ola,ANGER,0.4691745936870575,Turkish
+112128,Ceg,Kafamın İçi Dolu,JOY,0.9975069165229797,Turkish
+112129,Grogi,Cayır Cayır,SADNESS,0.5741552710533142,Turkish
+112131,İlhan İrem,Yemyeşil Bir Deniz,JOY,0.47608229517936707,Turkish
+112132,Tan Taşçı,Ağla Ağla (Live),SADNESS,0.9977443218231201,Turkish
+112139,No.1,Karanlıkta Güneşlenenler,SURPRISE,0.9166619181632996,Turkish
+112141,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+112142,Stabil,Aynalarımda,SADNESS,0.6645976305007935,Turkish
+112143,Haluk Levent,Ankara,SADNESS,0.9970364570617676,Turkish
+112144,Ajda Pekkan,Sana Neler Edeceğim,JOY,0.46471384167671204,Turkish
+112146,Zakkum,Dile Kolay Kalbe Değil,JOY,0.914189875125885,Turkish
+112148,Tan Taşçı,Kalbime Gömüyorum (Live),SADNESS,0.9900715351104736,Turkish
+112149,Ahiyan,İstemem,SADNESS,0.9981677532196045,Turkish
+112150,Ufuk Beydemir,Ay Tenli Kadın,LOVE,0.4738219380378723,Turkish
+112153,Sansar Salvo,Koptu Kayış,ANGER,0.9957935810089111,Turkish
+112155,Şam,Kör Kurşun,ANGER,0.9920755624771118,Turkish
+112158,Ati242,NERDESİN,ANGER,0.6657439470291138,Turkish
+112160,Pinhani,Unutuldular,SURPRISE,0.7499650716781616,Turkish
+112161,Şanışer,Beni Kır,JOY,0.9927114248275757,Turkish
+112162,Birkan Nasuhoğlu,Sevda,LOVE,0.9600228667259216,Turkish
+112163,No.1,İyilik Meleğim,ANGER,0.9954965114593506,Turkish
+112166,Gece,22,JOY,0.46548739075660706,Turkish
+112172,Yaşlı Amca,Sanki Yapamadım,SADNESS,0.8234971165657043,Turkish
+112174,Yeni Türkü,Olmasa Mektubun,SADNESS,0.9980514049530029,Turkish
+112175,Burcu Güneş,Yansın Geceler,SADNESS,0.6678830981254578,Turkish
+112176,Pantera,Suicide Note Pt. I,JOY,0.9603738188743591,Turkish
+112177,Veys Çolak,Kimsenin Kimsesi,ANGER,0.6955439448356628,Turkish
+112179,Yüzyüzeyken Konuşuruz,Kendi Evimde Deplasmandayım,SADNESS,0.9608378410339355,Turkish
+112180,Batu Akdeniz,Ona Gitme,SADNESS,0.9045012593269348,Turkish
+112181,Güncel Gürsel Artıktay,Kanar,SADNESS,0.4068138897418976,Turkish
+112182,Gece,Derbeder,SADNESS,0.9950942993164062,Turkish
+112183,Şanışer,Güya,JOY,0.9357829093933105,Turkish
+112186,Emir Can İğrek,Beni Uğurla,SADNESS,0.9867345094680786,Turkish
+112188,Ati242,KAPA GÖZLERİNİ,ANGER,0.8498247861862183,Turkish
+112190,Sera Savaş,Anlatsam Anlatamam,SADNESS,0.9788092970848083,Turkish
+112191,Tan Taşçı,Ben Her Bahar Mutsuzum (Live),SADNESS,0.9963055849075317,Turkish
+112194,Kayra,Çok Yaşlıyım,ANGER,0.6857054233551025,Turkish
+112196,Teoman,Renkli Rüyalar Oteli,JOY,0.9697572588920593,Turkish
+112200,Zeynep Bastık,Ara,LOVE,0.9903848171234131,Turkish
+112203,Cem Karaca,Çökertme,SADNESS,0.9298498630523682,Turkish
+112205,Sokrat St,Bunu Sen Seçtin,SADNESS,0.9736846685409546,Turkish
+112206,Sehabe,Siyah,ANGER,0.7580470442771912,Turkish
+112207,Teoman,Kalbin Yok mu,LOVE,0.9819042086601257,Turkish
+112208,Keişan,"Ateş, Elbet",ANGER,0.9260197281837463,Turkish
+112210,Cash Flow,600 Watt,ANGER,0.9381812810897827,Turkish
+112214,Ezhel,Sekiz 2,ANGER,0.4533577561378479,Turkish
+112215,Şanışer,Anlamı Yok,ANGER,0.9969208240509033,Turkish
+112216,No.1,Yokluğuma Alışma,SADNESS,0.8472615480422974,Turkish
+112217,seco (TUR),ANNE YAŞLANDIĞIMI HİSSEDİYORUM,ANGER,0.6069305539131165,Turkish
+112220,No.1,Sarhoş,SADNESS,0.9532257914543152,Turkish
+112221,Tan Taşçı,Beş Dakika (Live),SADNESS,0.9900291562080383,Turkish
+112223,Şehinşah,İstila,ANGER,0.9689805507659912,Turkish
+112224,Hayki,Bu Kendime Son Gelişim,JOY,0.9223735928535461,Turkish
+112226,Hidra,Lirikal Ağ,JOY,0.9502065777778625,Turkish
+112227,Bağzıları,Sizin Olsun Dünyalar,SADNESS,0.9807658195495605,Turkish
+112231,Şanışer,Yanıma Gelmesinler,ANGER,0.803322434425354,Turkish
+112232,Mavi Gri,Şiir Senin Yüzündür,LOVE,0.9928117394447327,Turkish
+112234,Teoman,Rapsodi İstanbul,SADNESS,0.7134565114974976,Turkish
+112235,Ceg,Herşeyin Bir Bedeli Var,SADNESS,0.7848988175392151,Turkish
+112237,Ceg,Dün Gece,SADNESS,0.7779124975204468,Turkish
+112238,İstanbul Trip,Kural Ne Bilmiyorum,ANGER,0.5202348232269287,Turkish
+112239,Saian,Kanunsuzlar,JOY,0.6155869364738464,Turkish
+112240,Ayten Alpman,Ben Böyleyim,ANGER,0.9974331259727478,Turkish
+112241,Can Bonomo,Bardak Taşıyor,SADNESS,0.9959806203842163,Turkish
+112243,Bağzıları,Allı Turnam,SADNESS,0.995554506778717,Turkish
+112244,Grup Yorum,Sevda Türküsü,LOVE,0.9939627051353455,Turkish
+112245,Sansar Salvo,RAPertuar,JOY,0.7608810663223267,Turkish
+112247,Sezen Aksu,Karşıyım,ANGER,0.7928307056427002,Turkish
+112249,Ajda Pekkan,Son Yolcu (Senza Fiato),SADNESS,0.9208920001983643,Turkish
+112250,EDIS,Arıyorum,SADNESS,0.9898430705070496,Turkish
+112253,Gülşen,Seyre Dursun Aşk (Akustik),SADNESS,0.9590604305267334,Turkish
+112254,Lil Zey,Avaz Avaz,JOY,0.5269051790237427,Turkish
+112255,Anıl Piyancı,Keyif Pezevengi,JOY,0.9924856424331665,Turkish
+112258,Ati242,Dondu Puşt,ANGER,0.9727134704589844,Turkish
+112259,Asil Slang,BANA Bİ’ŞEY OLMAZ,SADNESS,0.9462366104125977,Turkish
+112260,TNK,Ruhum Boğaziçi,LOVE,0.36077558994293213,Turkish
+112261,Anıl Piyancı,BANA DİK DİK BAKMA,JOY,0.8808681964874268,Turkish
+112262,Şanışer,Artık Anlamıyorum,ANGER,0.9978917241096497,Turkish
+112263,Son Feci Bisiklet,Modern Zamanlar,LOVE,0.9233137369155884,Turkish
+112264,Killa Hakan,İlk Kural Saygı,JOY,0.8464304208755493,Turkish
+112266,Şehinşah,Intro (of 666),FEAR,0.554804265499115,Turkish
+112267,Şebnem Ferah,Babam Oğlum,SADNESS,0.9945980310440063,Turkish
+112269,Kayra,Hayırsız Evlat,SADNESS,0.983737051486969,Turkish
+112271,Şehinşah,Sendeliyorum,SADNESS,0.8928536176681519,Turkish
+112272,Şanışer,Yazamam Ecele,SADNESS,0.9620153903961182,Turkish
+112273,Gökhan Türkmen,Biraz Ayrılık,SADNESS,0.7194632887840271,Turkish
+112274,Cem Adrian,Duymak İstiyorum,SADNESS,0.7546107769012451,Turkish
+112275,Asya (TUR),Pişmanım,SADNESS,0.9511646032333374,Turkish
+112276,Gece,Yarım,JOY,0.8103833794593811,Turkish
+112277,Kibariye,Kara Gözlü Çingenem (Roman),LOVE,0.6787610054016113,Turkish
+112278,Sokrat St,Gregoryen,ANGER,0.7905737161636353,Turkish
+112280,Şüphe (TUR),Bitsin,SADNESS,0.8028550744056702,Turkish
+112284,Yaşar,O’nun Vedası,SADNESS,0.765925943851471,Turkish
+112285,Melike Şahin,Nasır (Live at Zorlu PSM),FEAR,0.5114221572875977,Turkish
+112290,Barış Kocatürk,Kalmalısın,JOY,0.9962220191955566,Turkish
+112292,Yedinci Ev,Eninde Sonunda,JOY,0.9972652196884155,Turkish
+112293,Nazan Öncel,Beni Bu Koca Şehirde Yalnız Bırakma,SADNESS,0.868894636631012,Turkish
+112296,Cash Flow,Hergün Bela Devam,JOY,0.619591474533081,Turkish
+112299,Kamuran Akkor,Beni Kaybettin Artık,SADNESS,0.9881658554077148,Turkish
+112301,Şam,Artık,ANGER,0.6995185017585754,Turkish
+112302,Şanışer,Ölüm Aklımı Çelmek Üzere,ANGER,0.9821826815605164,Turkish
+112303,Ocean (gråta djävulen),Ded Memories (soul food),ANGER,0.968679666519165,Turkish
+112307,Şam,Ailem İçin,ANGER,0.5567516088485718,Turkish
+112308,Kaan Tangöze,Bir Kız Bana Emmi Dedi,ANGER,0.8581915497779846,Turkish
+112311,Şehinşah,Hadi Yaparsın,SADNESS,0.5256054997444153,Turkish
+112312,Yaşlı Amca,Her Şey Sen,ANGER,0.9521288871765137,Turkish
+112315,Nazan Öncel,Beni Hatırla,ANGER,0.7292203903198242,Turkish
+112316,Çağrı Sinci,Daha Neler,FEAR,0.9945300221443176,Turkish
+112320,Melike Şahin,Aşk Bitti,SADNESS,0.9406167268753052,Turkish
+112321,Nova Norda,Yüreğim Ellerinde,SADNESS,0.9825200438499451,Turkish
+112322,Yedinci Ev,Şimdi,SADNESS,0.9739505648612976,Turkish
+112324,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+112326,Cem Adrian,Hüzün Kovan Kuşu,JOY,0.6797847151756287,Turkish
+112327,Genius Türkçe Çeviriler,Drake - Pain 1993 ft. Playboi Carti (Türkçe Çeviri),ANGER,0.5474616885185242,Turkish
+112329,Arman Yekta,Agarta International,ANGER,0.9970320463180542,Turkish
+112332,KÖFN,Sensiz N’aparım Ben,ANGER,0.4794410169124603,Turkish
+112333,Kibariye,Gülü Soldurmam,LOVE,0.8538486361503601,Turkish
+112334,Ayna,Çayımın Şekeri,JOY,0.9697614312171936,Turkish
+112335,Mode XL,Toz Konduramazsın,FEAR,0.9857529997825623,Turkish
+112336,Gülden Karaböcek,Hatıran Yeter,JOY,0.7630580067634583,Turkish
+112339,Müzeyyen Senar,Akşam oldu hüzünlendim ben yine,LOVE,0.9906399250030518,Turkish
+112340,Allame,Fare Kapanı,ANGER,0.7338548898696899,Turkish
+112342,Ceg,Tanrı,ANGER,0.6688631772994995,Turkish
+112343,Saian,Al Sevgilim Kanser Ol Bununla,SADNESS,0.9778838157653809,Turkish
+112344,Yüksek Sadakat,Onlar Bizi Dinlerler,JOY,0.6496410965919495,Turkish
+112345,Zakkum,Mürekkep,SADNESS,0.43400290608406067,Turkish
+112346,Hayko Cepkin,Destina (Yeni Türkü Zamansız),ANGER,0.5558938980102539,Turkish
+112348,Sagopa Kajmer,Toplamam Yerde Kalır Kırıntın,SADNESS,0.9763209223747253,Turkish
+112351,Hepsi,Olmaz Böyle Şey,SADNESS,0.8603169322013855,Turkish
+112353,Birsen Tezer,Kadın,FEAR,0.8367798328399658,Turkish
+112358,Asil Slang,Çıkmadın Aklımdan,ANGER,0.930681586265564,Turkish
+112359,Khontkar,Hepsi Geçecek,ANGER,0.5646389126777649,Turkish
+112360,Ceza,Sabah Bastı Geceyi (Savaş Çocukları Part 2),ANGER,0.9882508516311646,Turkish
+112363,Khontkar,Hiç Uğraşma,SADNESS,0.9337565302848816,Turkish
+112364,punkart,Renkler (Sü),SADNESS,0.9965877532958984,Turkish
+112367,İkiye On Kala,Ben Bu Kafayla Napıcam,SADNESS,0.9336217045783997,Turkish
+112368,Güney Marlen,Nasıl Düştüm Bu Derde,SADNESS,0.9430473446846008,Turkish
+112369,Nilüfer,Ara Sıra Bazı Bazı,JOY,0.9900528788566589,Turkish
+112371,Peyk,Gidin,SADNESS,0.9984851479530334,Turkish
+112372,Yaku,LEGO,FEAR,0.5051641464233398,Turkish
+112375,Sezen Aksu,Yanmışım Sönmüşüm Ben,JOY,0.773500919342041,Turkish
+112377,Sagopa Kajmer,Bir Çok Kez Öldüm,SADNESS,0.9985363483428955,Turkish
+112380,Hayko Cepkin,Görmüyorsun,SADNESS,0.970996618270874,Turkish
+112381,Ferdi Tayfur,Ayrılacağım,ANGER,0.8976439237594604,Turkish
+112384,Ahiyan,Kurtulamadım,ANGER,0.9967305660247803,Turkish
+112386,Kibariye,Tepecikli,JOY,0.6968647837638855,Turkish
+112387,İlhan İrem,Konuşamıyorum (Sazlıklardan Havalanan),FEAR,0.996815025806427,Turkish
+112389,Rana Alagöz,Her Şey Bitmedi Bitemez,SADNESS,0.9932947754859924,Turkish
+112390,Teoman,Ruhun Sarışın,SADNESS,0.9975029826164246,Turkish
+112391,Sertab Erener,Benim Annem Güzel Annem,LOVE,0.8601500988006592,Turkish
+112392,Hidra,Kadınlar,ANGER,0.6553478240966797,Turkish
+112393,Ferhat Göçer,Adını Tek Geçerim,ANGER,0.41531893610954285,Turkish
+112394,Barış Kocatürk,Çirkin Olunca,SADNESS,0.944133460521698,Turkish
+112395,Hidra,Ölüme İnat 2,FEAR,0.7226043939590454,Turkish
+112396,Stabil,Ortaya Karışık,SADNESS,0.78598552942276,Turkish
+112398,No.1,Das Ist No.1,SADNESS,0.6781843900680542,Turkish
+112403,Can Bonomo,İyi Ki Doğdun,SADNESS,0.9155451059341431,Turkish
+112405,Sagopa Kajmer,Bir Dizi İz (2021 Tek Edit),FEAR,0.9941709637641907,Turkish
+112406,Çağrı Sinci,Kusursuz Gün,SADNESS,0.9982197880744934,Turkish
+112408,Suzan Hacigarip,Şimdi Biraz Uyu,SADNESS,0.925359308719635,Turkish
+112409,Yedinci Ev,O Olmasa,SADNESS,0.9985383749008179,Turkish
+112410,Kezzo,Doğar Ya Güneş 2,SADNESS,0.9723485112190247,Turkish
+112412,Çilekeş,Yetmiyor,LOVE,0.9630045294761658,Turkish
+112414,İlhan İrem,Yazık Oldu Yarınlara,SADNESS,0.993062436580658,Turkish
+112416,Teoman,İstasyon İnsanları,FEAR,0.49985721707344055,Turkish
+112417,Sibel Can,Takiptesin,FEAR,0.9950574636459351,Turkish
+112418,UZI,Makina,SADNESS,0.9255279898643494,Turkish
+112421,No.1,Kırmızı Bandana,FEAR,0.5056241750717163,Turkish
+112422,Joker,Son Kale,FEAR,0.9558586478233337,Turkish
+112423,Genius Türkiye,Temmuz 2021 Tekli Yayınlama Takvimi,SADNESS,0.48433148860931396,Turkish
+112424,Allame,Şehir,SADNESS,0.8777679800987244,Turkish
+112425,Ceno,Yakaza Cypher Vol.3,JOY,0.9930428266525269,Turkish
+112426,Hidra,Ölüm Kalım Günü,JOY,0.47720372676849365,Turkish
+112427,Emel Sayın,Bak Yeşil Yeşil,LOVE,0.9204056859016418,Turkish
+112428,Teoman,Koma Hali,FEAR,0.9047586917877197,Turkish
+112431,Stap,Nasıl Bilirdiniz,ANGER,0.6629723310470581,Turkish
+112434,Rota,Bir Yalan Söyle Bana,ANGER,0.9980442523956299,Turkish
+112435,Deniz Tekin,Hep Oturup Bekledim,FEAR,0.9776809215545654,Turkish
+112436,Contra,YERDEN YÜKSEK,ANGER,0.9723569750785828,Turkish
+112440,Can Bonomo,Bardak Taşıyor,SADNESS,0.9959806203842163,Turkish
+112441,Hidra,Kudurtan Şehir,SADNESS,0.8007323145866394,Turkish
+112442,Kargo,Mazi Kalbimde Bir Yaradır,SADNESS,0.9964060187339783,Turkish
+112445,Melike Şahin,Serim & Hepsi Geçti (Live at Bostancı Gösteri Merkezi),SADNESS,0.9977444410324097,Turkish
+112446,Ceg,Anormal,ANGER,0.9977825284004211,Turkish
+112447,Nazan Öncel,Erkekler de yanar,ANGER,0.9877229928970337,Turkish
+112450,Gülşen,Nazar Değmesin,JOY,0.6076027750968933,Turkish
+112451,EDIS,Martılar,JOY,0.8803801536560059,Turkish
+112455,Tanju Okan,Dostlarım,SADNESS,0.9104444980621338,Turkish
+112458,Old G,Yaktım,JOY,0.9345479607582092,Turkish
+112459,İmpala & Rebossa,LANETİM OL,JOY,0.9032087326049805,Turkish
+112460,MFÖ (TUR),Bu Sabah Yağmur Var İstanbul’da,JOY,0.9173067808151245,Turkish
+112462,Resit Kemal,İhanetini Doldurdum,ANGER,0.707184374332428,Turkish
+112463,Yaşlı Amca,Kimsesiz,ANGER,0.5371307730674744,Turkish
+112464,Gülşen,Gözü Karalım,JOY,0.44805094599723816,Turkish
+112466,Emir Can İğrek,Kır Düğünü,JOY,0.530292272567749,Turkish
+112471,Aspova,Öpünce geçer mi,SADNESS,0.9966391324996948,Turkish
+112472,Hayki,Hangisi Doğru,ANGER,0.9869303703308105,Turkish
+112475,Teoman,Sus Konuşma,SADNESS,0.9986159801483154,Turkish
+112476,Levent Yüksel,Bi’ Daha (Kıvanç Kutlumuş Vers. 1 Remix),ANGER,0.40664175152778625,Turkish
+112480,Arda Gezer,Nefret,JOY,0.9867497086524963,Turkish
+112481,Nazan Öncel,Beyoğlu,JOY,0.6277749538421631,Turkish
+112485,Anıl Piyancı,Fiyasko,JOY,0.8514439463615417,Turkish
+112486,Revart,nereye giderdim,JOY,0.9958174824714661,Turkish
+112488,No.1,Harikalar Diyarında,JOY,0.9932461977005005,Turkish
+112489,Leman Sam,İlla,LOVE,0.87774258852005,Turkish
+112490,No.1,Beklerken Durakta,SADNESS,0.5749845504760742,Turkish
+112491,Ceg,Uyuşana Dek,SADNESS,0.9979471564292908,Turkish
+112493,Eskitilmiş Yaz,Korkuyu Al İçimden,SADNESS,0.7497221827507019,Turkish
+112494,Sezen Aksu,Değer mi,JOY,0.7479653358459473,Turkish
+112496,Şebnem Ferah,Okyanus,JOY,0.9957577586174011,Turkish
+112498,Teoman,Zamparanın Ölümü (İkinci Ve Son Bölüm),SADNESS,0.477567195892334,Turkish
+112499,Genius,May 2020 Album Release Calendar,JOY,0.8763562440872192,Turkish
+112500,Tarkan,Şımarık,SADNESS,0.9518537521362305,Turkish
+112501,Feride Hilal Akın,Gizli Aşk,FEAR,0.9429867267608643,Turkish
+112504,Kibariye,İlle de Roman Olsun,JOY,0.7206111550331116,Turkish
+112506,Aşkın Nur Yengi,Karanfil,ANGER,0.9930799603462219,Turkish
+112507,Yedinci Ev,Eylül,JOY,0.45520180463790894,Turkish
+112508,Pinhani,Dur Söyleme,SADNESS,0.7562078237533569,Turkish
+112509,RamoBeroo,sarkı,ANGER,0.5792544484138489,Turkish
+112510,Emir Can İğrek,Güya,SADNESS,0.981767475605011,Turkish
+112513,Kargo,Kehribar,ANGER,0.7422372698783875,Turkish
+112516,Vice (TUR),Yalanlar ve Gerçekler,ANGER,0.9961541295051575,Turkish
+112517,Kenan Doğulu,Sımsıkı Sıkı Sıkı,SADNESS,0.7304670810699463,Turkish
+112518,Kıraç,Olur Ya,JOY,0.9915015697479248,Turkish
+112519,Ayşe özyılmazel,Sabıkalı,ANGER,0.9945003986358643,Turkish
+112520,Teoman,Terlemeden Sevişenler,JOY,0.5770045518875122,Turkish
+112522,Ersay Üner,Nokta,FEAR,0.993579626083374,Turkish
+112523,Saian,Kanunsuzlar,JOY,0.6155869364738464,Turkish
+112524,Rota,İrem,JOY,0.48746415972709656,Turkish
+112525,Barış Akarsu,İsterdim,LOVE,0.6614812612533569,Turkish
+112526,Genius Türkçe Çeviriler,Don Omar & Tego Calderón - Bandoleros (Türkçe Çeviri),ANGER,0.7657736539840698,Turkish
+112527,Sokrat St,Korkularıma Dair,ANGER,0.974371612071991,Turkish
+112531,Şanışer,Anlat Bana,JOY,0.706269383430481,Turkish
+112532,Nasıl Derler Bilirsin,Tertemiz Delirdim,JOY,0.9980373978614807,Turkish
+112534,Brandy,"Top of the World, Pt. II (No Rap Version)",JOY,0.8131011724472046,Turkish
+112535,Manuş Baba,Bir Acı Türkü,ANGER,0.9848200082778931,Turkish
+112537,Contra,YERDEN YÜKSEK 2,ANGER,0.9569353461265564,Turkish
+112538,Ahmet Kaya,Beni Tarihle Yargıla,LOVE,0.993547260761261,Turkish
+112539,Gece,Gamsiz,ANGER,0.815143883228302,Turkish
+112541,Grogi,Bu Gece Bizim,SADNESS,0.9958653450012207,Turkish
+112542,Malt,Gol,ANGER,0.9658023715019226,Turkish
+112544,Saian,Feleğin Çemberine 40 Kurşun,ANGER,0.9689176678657532,Turkish
+112545,Müzeyyen Senar,Benzemez Kimse Sana,SADNESS,0.9967716336250305,Turkish
+112547,Düşüngeç,Sor Sakalım,ANGER,0.9912876486778259,Turkish
+112548,Emel Sayın,Rüyalar Gerçek Olsa,LOVE,0.8950154781341553,Turkish
+112549,Sayha Mira,"Sazım, Sözüm",JOY,0.994785726070404,Turkish
+112552,Aspova,Benmişim,SADNESS,0.526056706905365,Turkish
+112557,Şanışer,Kış Yağmuru,SADNESS,0.9967638254165649,Turkish
+112559,Barış Akarsu,Mavi,LOVE,0.9645846486091614,Turkish
+112562,Khontkar,Hiçbir Şeyim Yok,SADNESS,0.5245295166969299,Turkish
+112563,Spade427,Bakınca Gökyüzüne,JOY,0.8874655365943909,Turkish
+112564,ONAL,ÇAT ÇAT ÇAT ES,SADNESS,0.6987807154655457,Turkish
+112566,Şanışer,Bu Sabah,LOVE,0.9886112809181213,Turkish
+112567,Duman,Haberin Yok Ölüyorum,LOVE,0.9874136447906494,Turkish
+112570,Can Gox,Drama Köprüsü,ANGER,0.9933671355247498,Turkish
+112571,Ravend,Rahatımı Bozamam,SADNESS,0.9986843466758728,Turkish
+112572,Umut Kaya,Canım Çok Yanıyor,SADNESS,0.9457371234893799,Turkish
+112573,Tan Taşçı,Ona Söyle (Live),LOVE,0.9353080987930298,Turkish
+112576,Duman,Saldır,ANGER,0.7123966217041016,Turkish
+112577,Redd,Bugün Herkes Ölsün İstedim,SADNESS,0.617625892162323,Turkish
+112580,Şebnem Ferah,Fırtına,JOY,0.9468062520027161,Turkish
+112581,Mustafa Sandal,İki Tas Çorba,LOVE,0.9890015125274658,Turkish
+112583,Barış Manço,Ömrümün Sonbaharında,SADNESS,0.9969958066940308,Turkish
+112586,Ümit Besen,Alışmak Sevmekten Zor,LOVE,0.7281234264373779,Turkish
+112587,Barış Kocatürk,Vurdum Kendimi Yola,SADNESS,0.9948740601539612,Turkish
+112588,Şebnem Ferah,Sana Bilmediğin Bir Şey Söyleyemem,JOY,0.9237047433853149,Turkish
+112591,Tan Taşçı,Bilir Mi (Live),ANGER,0.996728777885437,Turkish
+112592,Tan Taşçı,Yalvarırım (Live),LOVE,0.3983985483646393,Turkish
+112594,Candan Erçetin,Unut Sevme,SADNESS,0.996992826461792,Turkish
+112595,Can Bonomo,Senin Olmadan Ölemem,ANGER,0.9787778854370117,Turkish
+112596,Levent Yüksel,Aşk Mümkün Müdür Hala,JOY,0.9295424818992615,Turkish
+112598,Pera,Düşüyorum Sana,LOVE,0.9847187399864197,Turkish
+112599,Nilüfer,Kavak Yelleri,FEAR,0.5175461173057556,Turkish
+112600,FFG,OPERASYON,JOY,0.9886775612831116,Turkish
+112602,RM,Closer,LOVE,0.8304328322410583,Turkish
+112603,Şanışer,Belki - Live,JOY,0.8841094970703125,Turkish
+112605,Hepsi,Çok Güzelsin,JOY,0.9976874589920044,Turkish
+112608,​mor ve ötesi,Bazen,JOY,0.986556351184845,Turkish
+112610,Yedinci Ev,Dolunay,SADNESS,0.9094178080558777,Turkish
+112611,No.1,Sinekler Soğukta Salak,SADNESS,0.9790177941322327,Turkish
+112614,Kezzo,Yangın,SADNESS,0.9973147511482239,Turkish
+112619,Genius Türkçe Çeviriler,J. Cole - Die Together (Türkçe Çeviri),JOY,0.5186671614646912,Turkish
+112620,Kaan Boşnak,Güzel Değil,JOY,0.8974665403366089,Turkish
+112621,Yedinci Ev,Gitmeden Önce,SADNESS,0.9905847907066345,Turkish
+112622,Şanışer,Bıktım Dünyadan,ANGER,0.686134397983551,Turkish
+112623,Sayedar,Bela Gelir Bulur Bizi,ANGER,0.996032178401947,Turkish
+112624,Rüzgar,Qisasımı Aldım,JOY,0.5944828391075134,Turkish
+112625,Kenan Doğulu,Bir İleri İki Geri,LOVE,0.9373835325241089,Turkish
+112627,No.1,Kalmadım,ANGER,0.9720962047576904,Turkish
+112628,Sezen Aksu,Kalbim Ege’de Kaldı,LOVE,0.9882062077522278,Turkish
+112629,Duman,Sınana Sınana,SURPRISE,0.8396270275115967,Turkish
+112630,GIMS,GROSSE BLETA,ANGER,0.6604816913604736,Turkish
+112632,Ceg,Yatmadan Önce,ANGER,0.9013665914535522,Turkish
+112633,​mor ve ötesi,Oyunbozan (Canlı),JOY,0.8052946925163269,Turkish
+112634,Hidra,Türkçe Rap,SADNESS,0.9938779473304749,Turkish
+112637,Hayko Cepkin,Ben Gideyim,JOY,0.9574756622314453,Turkish
+112640,Müzeyyen Senar,Gündüzüm Seninle,SADNESS,0.9834499955177307,Turkish
+112642,Kolpa,Ne Sevmeyi Bildik Biz Ne Sevilmeyi,SADNESS,0.6315198540687561,Turkish
+112644,TUGO,Geriye Dönemem,SADNESS,0.8805185556411743,Turkish
+112645,Tankurt Manas,Yükseklere,FEAR,0.9840951561927795,Turkish
+112646,Malt,Aşkın Gözü,ANGER,0.48188555240631104,Turkish
+112647,Ceg,Mangır,JOY,0.9725238084793091,Turkish
+112648,Pilli Bebek,Anlıyorum,SADNESS,0.908030092716217,Turkish
+112653,Old G,COnnection 2,JOY,0.9956477284431458,Turkish
+112654,Orkundk,Ananın Amına Kadar Yolun Var,ANGER,0.9962548017501831,Turkish
+112655,Şam,Çok Derin,SADNESS,0.9953435063362122,Turkish
+112656,Şam,Psikoz,SADNESS,0.9767698645591736,Turkish
+112658,Sufle,Seninle,SADNESS,0.9942458271980286,Turkish
+112659,Son Feci Bisiklet,Çikolata,SURPRISE,0.9546854496002197,Turkish
+112661,Birkan Nasuhoğlu,DİKEN,JOY,0.815238356590271,Turkish
+112663,Şanışer,Kendim İçin,SADNESS,0.9958809614181519,Turkish
+112664,Mavi Işıklar,Sevgilim,LOVE,0.993822455406189,Turkish
+112665,Dramelodi Project,Kandan Adam,FEAR,0.8575114011764526,Turkish
+112667,Teoman,Motosikletli Kız,SADNESS,0.7539125680923462,Turkish
+112670,Ravend,24'e 5 kala,JOY,0.4839869439601898,Turkish
+112672,​maNga,Bize Müsaade Ettim,ANGER,0.5427408218383789,Turkish
+112673,Tan Taşçı,Yok Başka Hayalim,SADNESS,0.6454706192016602,Turkish
+112674,Emre Altuğ,Çifte Kavrulmuş,LOVE,0.9825412631034851,Turkish
+112675,Şanışer,Dünyadan Alacaklarım Var,ANGER,0.9881247282028198,Turkish
+112678,Rota,İblisler,ANGER,0.8955875039100647,Turkish
+112680,Moğollar,Çaya Kaç Şeker,JOY,0.9758283495903015,Turkish
+112681,Ahiyan,Mahkeme Şarkısı,ANGER,0.8938533663749695,Turkish
+112685,Şebnem Ferah,Delgeç,ANGER,0.5159417986869812,Turkish
+112687,Sertab Erener,Uyusun Da Büyüsün,LOVE,0.9153034687042236,Turkish
+112688,Haluk Levent,Zülüf,SADNESS,0.5007843971252441,Turkish
+112690,Pinhani,Masal,LOVE,0.8638577461242676,Turkish
+112692,Sagopa Kajmer,İnsafa Gel,ANGER,0.8225548267364502,Turkish
+112693,OG Keemo,Vertigo,FEAR,0.5457432866096497,Turkish
+112694,Sertab Erener,Çamlıbel’den Çıktım Yayan,ANGER,0.6051978468894958,Turkish
+112695,Şebnem Ferah,Başka Bir Yol Var,FEAR,0.966366171836853,Turkish
+112696,Teoman,Yıldızları Yakalamak,ANGER,0.750417172908783,Turkish
+112703,Bossy,Fiyakalı Yok Oluşlar,ANGER,0.9602984189987183,Turkish
+112704,​rody dünyada,Keşif,SADNESS,0.9977743029594421,Turkish
+112708,Defa,Gerçek Rüya,ANGER,0.39400121569633484,Turkish
+112710,MAW,Ötesi Yok,LOVE,0.934076726436615,Turkish
+112712,Tan Taşçı,İmkansız (Rüyalarım Olmasa),JOY,0.7263273596763611,Turkish
+112715,Şanışer,Cinayet,ANGER,0.6456354260444641,Turkish
+112716,Anıl Piyancı,Sen Olmazsan,SADNESS,0.91961270570755,Turkish
+112717,Emre Nalbantoğlu,Sen Nerden Çıktın,FEAR,0.9184934496879578,Turkish
+112718,Göksel,Tam da Şu An,LOVE,0.7493089437484741,Turkish
+112719,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+112720,Perdenin Ardındakiler,Meseleler,ANGER,0.9376102089881897,Turkish
+112721,Kenan Doğulu,Kime Ne,JOY,0.5966667532920837,Turkish
+112722,Duman,Sen Ben,SADNESS,0.9293376803398132,Turkish
+112723,Ati242,Uçuyoz Gökyüzüne,ANGER,0.6242374777793884,Turkish
+112724,Gece Yolcuları,Ölüm de Var,SADNESS,0.7275670766830444,Turkish
+112728,Ayben,Yol Ver,JOY,0.6684927940368652,Turkish
+112729,Anıl Durmuş,Çıkmaz Sokak,ANGER,0.8404170870780945,Turkish
+112730,No.1,Gün Size Günaydı,SADNESS,0.7972619533538818,Turkish
+112731,Maestro,Fütüristik Rhyme,JOY,0.5191733837127686,Turkish
+112733,Sertab Erener,Aç Sesini,ANGER,0.6984103322029114,Turkish
+112736,Tan Taşçı,Söyleme (Live),SADNESS,0.9285463094711304,Turkish
+112737,Teoman,Gecenin Sonuna Yolculuk,SADNESS,0.7520100474357605,Turkish
+112738,Melek Mosso,Kızgınım,SADNESS,0.7926746010780334,Turkish
+112744,Moğollar,Dinleyiverin Gari,ANGER,0.9098262190818787,Turkish
+112745,Patron,Gör (Kovala Orijinal Film Müziği),ANGER,0.9084015488624573,Turkish
+112746,Gazi,Pembe Şeyler,SADNESS,0.9908617734909058,Turkish
+112748,Grup Yorum,Büyü,ANGER,0.625948429107666,Turkish
+112749,Barış Akarsu,Yaz Demedim,SADNESS,0.5645972490310669,Turkish
+112752,Ozbi,Bana Yol Söyle,JOY,0.88289874792099,Turkish
+112753,Sertab Erener,Sessiz Gemi,SADNESS,0.49495556950569153,Turkish
+112754,Şanışer,N.A.P.İ.M,ANGER,0.8611035346984863,Turkish
+112755,Orkundk,Marsa Gönder Beni Elon Musk,SADNESS,0.7803399562835693,Turkish
+112756,Barış Manço,Kol Düğmeleri,SADNESS,0.9729858040809631,Turkish
+112757,​kidnoir (TUR),​​aleyna tilki,ANGER,0.776573121547699,Turkish
+112758,Sagopa Kajmer,Bu Böyledir (2021 Tek Edit),JOY,0.9167653918266296,Turkish
+112760,Artz,Sizle Muhattabım,FEAR,0.7046783566474915,Turkish
+112761,Sertab Erener,Belki de Aşk Lazım Değildir,JOY,0.6150439381599426,Turkish
+112764,Allame,Işıklar,FEAR,0.7492192387580872,Turkish
+112766,Kaan Tangöze,Kıyamet,ANGER,0.5938102602958679,Turkish
+112767,Kalben,Kaybolmuş,ANGER,0.9646021127700806,Turkish
+112769,Ogün Sanlısoy,Bu Ne Biçim Aşk,ANGER,0.5555212497711182,Turkish
+112770,Tankurt Manas,Çene Kemiklerimi Kırdım,SADNESS,0.6726229190826416,Turkish
+112771,Tan Taşçı,Benim Gibi Olmayacak (Live),SADNESS,0.990658164024353,Turkish
+112772,Birkan Nasuhoğlu,Yollar Bitmez,SADNESS,0.7971969246864319,Turkish
+112774,Grünt,Grünt #1,JOY,0.9925916194915771,Turkish
+112775,Can Gox,Sorma,SADNESS,0.79865962266922,Turkish
+112776,Şehinşah,Dilemma x Kuytu,SADNESS,0.9934437274932861,Turkish
+112778,Sagopa Kajmer,Sahibinin Sesi,LOVE,0.8128105998039246,Turkish
+112780,Redd,Tutmuyor Frenler,ANGER,0.49231064319610596,Turkish
+112781,Hande Yener,Şansın Bol Olsun,SADNESS,0.9811459183692932,Turkish
+112782,Şanışer,Şer’in Atlası,JOY,0.997865617275238,Turkish
+112783,163,Kedimle Aram,SADNESS,0.9407035112380981,Turkish
+112785,Hayko Cepkin,Eller Aldı,SADNESS,0.49043750762939453,Turkish
+112786,Batuflex,Başka Yolu Yok,SADNESS,0.8280383348464966,Turkish
+112788,Beta Berk Bayındır,Pardon Aşkım,ANGER,0.9903544187545776,Turkish
+112789,Hayko Cepkin,Yarası Saklı,FEAR,0.973120391368866,Turkish
+112790,Sezen Aksu,Alâturka,ANGER,0.9757030606269836,Turkish
+112791,Onur Can Özcan,Bu Değildi,JOY,0.5368133187294006,Turkish
+112792,Sertab Erener,Uyu Yavrum Yine Sabah Oluyor,JOY,0.9690915942192078,Turkish
+112796,Erol Evgin,Aldım Başımı Gidiyorum,SADNESS,0.9520998597145081,Turkish
+112797,Motive,Bi Sıkıntı Yok,JOY,0.6870571374893188,Turkish
+112798,Saian,Al Sevgilim Anne Ol Bununla,SURPRISE,0.9366836547851562,Turkish
+112801,Aydilge,Kiralık Aşk (Sen misin İlacım),JOY,0.6864373087882996,Turkish
+112804,​rody dünyada,Add,JOY,0.501946747303009,Turkish
+112805,Özdemir Erdoğan,İkinci Bahar,LOVE,0.5437139868736267,Turkish
+112807,Artz,Düşünmemek (Remix),ANGER,0.5482513904571533,Turkish
+112808,J.R.R. Tolkien,The Hobbit (Bölüm 1 Beklenmedik Bir Parti) [Türkçe],JOY,0.9464417695999146,Turkish
+112810,Ravend,Yudumlarım,SADNESS,0.99859219789505,Turkish
+112811,Ahiyan,İstemem,SADNESS,0.9981677532196045,Turkish
+112812,Ayben,Başkan,SADNESS,0.9909859895706177,Turkish
+112817,Onur Can Özcan,Bu Mevsimde,ANGER,0.9919712543487549,Turkish
+112818,Cem Karaca,Kara Sevda,ANGER,0.651334285736084,Turkish
+112819,Çağrı Sinci,Kaçamadım,SADNESS,0.8712888360023499,Turkish
+112822,Yaşar,Esirinim,ANGER,0.9909584522247314,Turkish
+112823,Tepki,Üzgünüm Anne,ANGER,0.8748785853385925,Turkish
+112824,Hayki,Hiç Sevmedim Seni,SADNESS,0.6123820543289185,Turkish
+112826,Tarkan,Akşam Oldu Hüzünlendim Ben Yine,LOVE,0.9879276156425476,Turkish
+112830,Tan Taşçı,Söyleme (Live),SADNESS,0.9285463094711304,Turkish
+112833,Yıldız Tilbe,Yalnız Çiçek,LOVE,0.4012712836265564,Turkish
+112835,Hidra,Burası Dünya,SADNESS,0.9829891324043274,Turkish
+112837,Nilüfer,Of Aman Aman,ANGER,0.9454864263534546,Turkish
+112838,Allame,Tanınmayanlar,JOY,0.35985878109931946,Turkish
+112839,No.1,Hasta Olmak İçin,JOY,0.9958032965660095,Turkish
+112841,Tan Taşçı,Nasıl Seveceğim (Live),JOY,0.5022666454315186,Turkish
+112843,Kurban,İnsanlar,ANGER,0.8517627716064453,Turkish
+112844,Grup Gündoğarken,Gördüğüme Sevindim,JOY,0.7825307250022888,Turkish
+112847,İlhan İrem,Olanlar Olmuş,JOY,0.6331069469451904,Turkish
+112849,Teoman,Sardunyalar Arasında,SADNESS,0.4533173739910126,Turkish
+112850,Kıvılcım Ural,Aşk Laftan Anlamaz,JOY,0.45039916038513184,Turkish
+112854,İzel,Kıyamadım,SADNESS,0.9973781108856201,Turkish
+112858,Maestro,Semt İşi,ANGER,0.9868865609169006,Turkish
+112859,Allame,İnsan,SADNESS,0.9802728891372681,Turkish
+112860,Onur Uğur,Kafamın İçini Görsen Ne Güzel Olurdu,SADNESS,0.752575695514679,Turkish
+112861,Batu Akdeniz,Bir Sebebi Var,FEAR,0.907774806022644,Turkish
+112863,İmpala,KENDİMİ NASIL ESKİTTİM,SADNESS,0.8885396718978882,Turkish
+112865,Perdenin Ardındakiler,Yalnız Kalmışım,ANGER,0.9660929441452026,Turkish
+112866,Sokrat St,Zor Bir Gün,SADNESS,0.9389100074768066,Turkish
+112870,Sansar Salvo,Sigara Yanınca,SADNESS,0.985281765460968,Turkish
+112871,Teoman,Viski Ve Lazanya,SADNESS,0.40882235765457153,Turkish
+112873,Kayra,Olmadım Say,SADNESS,0.9880868196487427,Turkish
+112874,Redd,Hâlâ Aşk Var Mı,ANGER,0.6899868845939636,Turkish
+112877,Sagopa Kajmer,Dalgın,SADNESS,0.8996342420578003,Turkish
+112878,Allame,Deli Masalı,JOY,0.9702044725418091,Turkish
+112880,Cem Karaca,Üryan Geldim,LOVE,0.4920436441898346,Turkish
+112881,Finny Music,​​rockstar (Megamix),JOY,0.941289484500885,Turkish
+112882,101Barz,Megasessie - Beats by Esko,LOVE,0.8136227130889893,Turkish
+112883,Volkan Konak,Feriğim,SADNESS,0.9884008169174194,Turkish
+112884,Zeki Müren,Bir Gülü Sevdim,FEAR,0.9621383547782898,Turkish
+112886,Tan Taşçı,Kusura Bakma (Live),SADNESS,0.9263481497764587,Turkish
+112889,AchtVier,Intro (Der alte Achti Vol. 3),ANGER,0.6582814455032349,Turkish
+112891,Nesrin Sipahi,Arım Balım Peteğim,SADNESS,0.9538841843605042,Turkish
+112892,Emel Sayın,At Kadehi Elinden,SADNESS,0.946871817111969,Turkish
+112893,Oğuz Atay,Dün Bugün Yarın (Tutunamayanlar),JOY,0.48177066445350647,Turkish
+112895,Rashness,Mum,ANGER,0.9917565584182739,Turkish
+112896,Animus,Kanaken Freestyle,JOY,0.7800544500350952,Turkish
+112897,Ceg,Skimde Değil,SADNESS,0.9061844944953918,Turkish
+112898,Ajda Pekkan,Eline Gözüne Dizine Dursun,ANGER,0.9976794123649597,Turkish
+112899,Stabil,Rüya & Gerçek,SADNESS,0.982632040977478,Turkish
+112902,Şam,İHTİRAS,SADNESS,0.9909303784370422,Turkish
+112905,Şam,PARASIZ İNSAN ÇÖPLÜĞÜ,SADNESS,0.9322002530097961,Turkish
+112908,Son Feci Bisiklet,Müptezel,SADNESS,0.995417594909668,Turkish
+112910,Kum,Adam,SADNESS,0.996760904788971,Turkish
+112911,Ben Fero,Sıkı Dur,JOY,0.7417178153991699,Turkish
+112912,Özgün,Bu kadar mi zor,LOVE,0.9127491116523743,Turkish
+112917,Göksel,Karar Verdim,ANGER,0.9815688133239746,Turkish
+112918,Evrencan Gündüz,Benimle Evlensen,LOVE,0.6942257285118103,Turkish
+112922,Büyük Ev Ablukada,Tayyar Ahmet’in Sonsuz Sayılı Günleri,FEAR,0.7599390149116516,Turkish
+112923,Ferdi Özbeğen,Yok Yok Yalan Deme,LOVE,0.8802590370178223,Turkish
+112924,Sagopa Kajmer,Bulun,SADNESS,0.463746577501297,Turkish
+112925,Çilekeş,Siyah,SADNESS,0.9985834360122681,Turkish
+112926,Şanışer,Aşılmaz Yollar,SADNESS,0.9503757953643799,Turkish
+112927,Gaye Su Akyol,Yıllar Yılan,SADNESS,0.9848639369010925,Turkish
+112928,Nazan Öncel,Bu Havada Gidilmez,SADNESS,0.6324250102043152,Turkish
+112929,Anıl Piyancı,İnan İsterdim,JOY,0.9982831478118896,Turkish
+112930,Cem Adrian,Herkes Gider Mi (Live),SADNESS,0.862551748752594,Turkish
+112933,Kaçak (TUR),Ölünür De,SADNESS,0.9702657461166382,Turkish
+112935,Poizi,DOLDURDUM TABANCAMI,ANGER,0.6464064121246338,Turkish
+112936,Yaşlı Amca,İstasyon,ANGER,0.9977444410324097,Turkish
+112938,Kid X,Se7en,JOY,0.9154782891273499,Turkish
+112939,Candan Erçetin,Hayranım Sana,ANGER,0.9841639399528503,Turkish
+112940,Sagopa Kajmer,Kendim İçin (2021 Tek Edit),ANGER,0.9839751124382019,Turkish
+112943,Pickpocket,Ne Farkeder,SADNESS,0.5283783674240112,Turkish
+112945,Richard Francis Burton,"Arabian Nights, Vol. 2 (Chap. 3)",ANGER,0.9966256618499756,Turkish
+112946,Malt,Motor,FEAR,0.603775143623352,Turkish
+112948,Zeki Müren,Gözlerin Doğuyor Gecelerime,SADNESS,0.6461772918701172,Turkish
+112950,Barış Manço,Kol Düğmeleri,SADNESS,0.9729858040809631,Turkish
+112955,Fettah Can,Duvar,SADNESS,0.8142777681350708,Turkish
+112956,Ati242,Şöhret,ANGER,0.607042670249939,Turkish
+112957,5 Adım,Kara Dilber,ANGER,0.9950249791145325,Turkish
+112958,Allame,Varsayım,FEAR,0.5442379117012024,Turkish
+112959,Yaşlı Amca,Evleniyor,LOVE,0.47209665179252625,Turkish
+112961,Duman,Bu Aşk Beni Yorar,SADNESS,0.9254947900772095,Turkish
+112962,Badem,Bir Ben Gibi Sev,SADNESS,0.9357659220695496,Turkish
+112963,Ati242,Düşledim,JOY,0.5013256669044495,Turkish
+112966,Kutay Uçar,Özlemiş Gibisin Sen De,SADNESS,0.9972317814826965,Turkish
+112967,Ahiyan,Deli Diyorlar,ANGER,0.9969483017921448,Turkish
+112970,Şebnem Ferah,İyi - Kötü (Dans Pisti),ANGER,0.9972810745239258,Turkish
+112971,Vera (TUR),Güzel Bir Kadın,SADNESS,0.973637580871582,Turkish
+112973,Candan Erçetin,Yaşıyorum,JOY,0.934141218662262,Turkish
+112974,Bağzıları,Leyla,JOY,0.9978669285774231,Turkish
+112975,Sagopa Kajmer,Durdur Beni,SADNESS,0.9967749714851379,Turkish
+112976,Hidra,Yarılamışım,SADNESS,0.9893803596496582,Turkish
+112977,Sinan Akçıl,İyi Değilim,SADNESS,0.5759137868881226,Turkish
+112979,Orkundk,Bir Boş Evim Yok,FEAR,0.8190333247184753,Turkish
+112981,Hayko Cepkin,İçgüdü,SADNESS,0.9542170763015747,Turkish
+112983,Contra,Flowlarım Çok Zengin,JOY,0.9946961402893066,Turkish
+112984,Levent Yüksel,Bu Aşkın Katili Sensin,SADNESS,0.9362940788269043,Turkish
+112986,Dolu Kadehi Ters Tut,Aldattın Mı,ANGER,0.9610271453857422,Turkish
+112987,Cem Karaca,Hep Kahır,ANGER,0.7526170611381531,Turkish
+112988,Cemiyette Pişiyorum,Supradin,SADNESS,0.9882959723472595,Turkish
+112989,Adamlar,Bizim Zamanımız,ANGER,0.8671026825904846,Turkish
+112990,Stabil,Bana Söyle,JOY,0.9877840876579285,Turkish
+112991,Batuhan Kordel,İtiraf,SADNESS,0.6555700302124023,Turkish
+112992,Adamlar,Kendime Çaylar,JOY,0.77629154920578,Turkish
+112993,Richard Francis Burton,"Arabian Nights, Vol. 3 (Chap. 1.001)",ANGER,0.5727459192276001,Turkish
+112994,Ayla Dikmen,Alyanaklım,JOY,0.9977760910987854,Turkish
+112995,Ebru Yaşar,Öldüm Sahiden,SADNESS,0.969813346862793,Turkish
+112997,Melike Şahin,Uykumun Boynunu Bükme (Live at Bostancı Gösteri Merkezi),ANGER,0.9968515038490295,Turkish
+112998,Hayko Cepkin,Geç Kaldım (Akustik),SADNESS,0.995487630367279,Turkish
+1259,Jor’dan Armstrong,SHE,ANGER,0.455893874168396,Turkish
+2160,Duman,Her Şeyi Yak,SADNESS,0.8356033563613892,Turkish
+23294,Hadise,Melek,JOY,0.8924366235733032,Turkish
+23340,Buray,Senin Yüzünden,SADNESS,0.46536877751350403,Turkish
+23435,SoLonely,​confused,SADNESS,0.993425726890564,Turkish
+23509,Hadise,Küçük Bir Yol,JOY,0.3464306890964508,Turkish
+23544,Hadise,Şampiyon (Gürcell Remix),FEAR,0.8435786962509155,Turkish
+23606,Buray,İstersen,SADNESS,0.9935240745544434,Turkish
+23666,Hadise,Yaz Günü,ANGER,0.432439923286438,Turkish
+23752,Angela Carter,The Lady of the House of Love,ANGER,0.7703831195831299,Turkish
+23851,Buray,Deli Kız,SADNESS,0.6507691144943237,Turkish
+23950,Emrah Karaduman,Cevapsız Çınlama,SADNESS,0.9922292828559875,Turkish
+23952,Hadise,Sıfır Tolerans,ANGER,0.9933850169181824,Turkish
+23954,Bali Baby,Game Over,ANGER,0.8882431983947754,Turkish
+2472,Flört,Bir Tek Sen Gelmedin,JOY,0.9552338719367981,Turkish
+2625,Ne Jupiter,Gökyüzüm Siyah Olsa Da,FEAR,0.9936422109603882,Turkish
+2769,Birileri,...aynı yer,JOY,0.9518194794654846,Turkish
+2816,Büyük Ev Ablukada,BENİM KAFAM SİKTİRMİŞ GİTMİŞ,ANGER,0.9893869161605835,Turkish
+2910,Gece,22,JOY,0.46548739075660706,Turkish
+2926,Yaşlı Amca,Sanki Yapamadım,SADNESS,0.8234971165657043,Turkish
+2929,Yüzyüzeyken Konuşuruz,Kendi Evimde Deplasmandayım,SADNESS,0.9608378410339355,Turkish
+2965,seco (TUR),ANNE YAŞLANDIĞIMI HİSSEDİYORUM,ANGER,0.6069305539131165,Turkish
+2970,Gece,Derbeder,SADNESS,0.9950942993164062,Turkish
+2973,Batu Akdeniz,Ona Gitme,SADNESS,0.9045012593269348,Turkish
+30784,Louis Aragon,"Arma virumque cano, préface",FEAR,0.7824645638465881,Turkish
+3315,Duman,Her Şeyi Yak,SADNESS,0.8356033563613892,Turkish
+34637,Vio,Yükseklere,ANGER,0.9951853156089783,Turkish
+34729,Zeki Müren,Seni Sordum Yıldızlara,ANGER,0.5368419289588928,Turkish
+34986,Ezginin Günlüğü,Zerdaliler,ANGER,0.7534574270248413,Turkish
+34995,No.1,Das Ist No.1,SADNESS,0.6781843900680542,Turkish
+36564,Soolking,Meleğim,JOY,0.6526560187339783,Turkish
+3724,Flört,Bir Tek Sen Gelmedin,JOY,0.9552338719367981,Turkish
+39172,MERO,Konum Gizli,JOY,0.9812120795249939,Turkish
+41238,She Past Away,Gerçekten Özleyince,JOY,0.9725440740585327,Turkish
+41987,She Past Away,Kuruyordu Nehir,SADNESS,0.8504965901374817,Turkish
+43706,DJ Tarkan,Oldu Olanlar,SADNESS,0.8992329835891724,Turkish
+62246,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+62345,Ezginin Günlüğü,Zerdaliler,ANGER,0.7534574270248413,Turkish
+62346,İlhan İrem,Yemyeşil Bir Deniz,JOY,0.47608229517936707,Turkish
+62349,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+62395,Ayten Alpman,Ben Böyleyim,ANGER,0.9974331259727478,Turkish
+62448,Leman Sam,Ayrılığa Dayanamam,SADNESS,0.9838639497756958,Turkish
+62490,Levent Yüksel,Bi’ Daha,SADNESS,0.3574150502681732,Turkish
+62493,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+62496,İlhan İrem,Konuşamıyorum (Sazlıklardan Havalanan),FEAR,0.996815025806427,Turkish
+62540,Yeni Türkü,Maskeli Balo,SADNESS,0.8894323110580444,Turkish
+62541,İlhan İrem,Yazık Oldu Yarınlara,SADNESS,0.993062436580658,Turkish
+62547,Sertab Erener,Benim Annem Güzel Annem,LOVE,0.8601500988006592,Turkish
+62576,MFÖ (TUR),Bu Sabah Yağmur Var İstanbul’da,JOY,0.9173067808151245,Turkish
+62585,Tanju Okan,Dostlarım,SADNESS,0.9104444980621338,Turkish
+62599,Levent Yüksel,Aşk Mümkün Müdür Hala,JOY,0.9295424818992615,Turkish
+62645,Leman Sam,İlla,LOVE,0.87774258852005,Turkish
+62648,Nazan Öncel,Erkekler de yanar,ANGER,0.9877229928970337,Turkish
+62695,Gazi,Pembe Şeyler,SADNESS,0.9908617734909058,Turkish
+62739,Nazan Öncel,Beyoğlu,JOY,0.6277749538421631,Turkish
+62744,Sertab Erener,Çamlıbel’den Çıktım Yayan,ANGER,0.6051978468894958,Turkish
+62746,Grup Gündoğarken,Gördüğüme Sevindim,JOY,0.7825307250022888,Turkish
+62747,Sertab Erener,Uyusun Da Büyüsün,LOVE,0.9153034687042236,Turkish
+62778,Özdemir Erdoğan,İkinci Bahar,LOVE,0.5437139868736267,Turkish
+62792,Sertab Erener,Aç Sesini,ANGER,0.6984103322029114,Turkish
+62795,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+62797,İlhan İrem,Olanlar Olmuş,JOY,0.6331069469451904,Turkish
+62799,Sertab Erener,Uyu Yavrum Yine Sabah Oluyor,JOY,0.9690915942192078,Turkish
+62833,Sertab Erener,Sessiz Gemi,SADNESS,0.49495556950569153,Turkish
+62843,Sertab Erener,Belki de Aşk Lazım Değildir,JOY,0.6150439381599426,Turkish
+62847,Levent Yüksel,Bu Aşkın Katili Sensin,SADNESS,0.9362940788269043,Turkish
+62874,Nükhet Duru,Seninle,SADNESS,0.9979128241539001,Turkish
+62895,Grup Gündoğarken,Gördüğüme Sevindim,JOY,0.7825307250022888,Turkish
+63092,Zeki Müren,Seni Sordum Yıldızlara,ANGER,0.5368419289588928,Turkish
+63094,Hüsnü Arkan,Öyle Bir Rüya,SADNESS,0.961372435092926,Turkish
+63141,Ezginin Günlüğü,Zerdaliler,ANGER,0.7534574270248413,Turkish
+63142,İlhan İrem,Yemyeşil Bir Deniz,JOY,0.47608229517936707,Turkish
+63143,Leman Sam,Ayrılığa Dayanamam,SADNESS,0.9838639497756958,Turkish
+63172,Birsen Tezer,Kadın,FEAR,0.8367798328399658,Turkish
+63178,Peyk,Gidin,SADNESS,0.9984851479530334,Turkish
+63189,Yeni Türkü,Maskeli Balo,SADNESS,0.8894323110580444,Turkish
+63190,Ayten Alpman,Ben Böyleyim,ANGER,0.9974331259727478,Turkish
+63192,Genius Türkiye,Temmuz 2021 Tekli Yayınlama Takvimi,SADNESS,0.48433148860931396,Turkish
+63195,İlhan İrem,Konuşamıyorum (Sazlıklardan Havalanan),FEAR,0.996815025806427,Turkish
+63196,Müzeyyen Senar,Akşam oldu hüzünlendim ben yine,LOVE,0.9906399250030518,Turkish
+63229,Tanju Okan,Dostlarım,SADNESS,0.9104444980621338,Turkish
+63230,MFÖ (TUR),Bu Sabah Yağmur Var İstanbul’da,JOY,0.9173067808151245,Turkish
+63238,İlhan İrem,Yazık Oldu Yarınlara,SADNESS,0.993062436580658,Turkish
+63239,Moğollar,Çaya Kaç Şeker,JOY,0.9758283495903015,Turkish
+63242,Zeki Müren,Gökyüzünde Yalnız Gezen Yıldızlar,SADNESS,0.9645896553993225,Turkish
+63292,Leman Sam,İlla,LOVE,0.87774258852005,Turkish
+63295,Moğollar,Dinleyiverin Gari,ANGER,0.9098262190818787,Turkish
+63298,Müzeyyen Senar,Benzemez Kimse Sana,SADNESS,0.9967716336250305,Turkish
+63333,Evrencan Gündüz,Benimle Evlensen,LOVE,0.6942257285118103,Turkish
+63347,Müzeyyen Senar,Gündüzüm Seninle,SADNESS,0.9834499955177307,Turkish
+63349,İlhan İrem,Olanlar Olmuş,JOY,0.6331069469451904,Turkish
+63374,Özdemir Erdoğan,İkinci Bahar,LOVE,0.5437139868736267,Turkish
+63377,Gaye Su Akyol,Yıllar Yılan,SADNESS,0.9848639369010925,Turkish
+63393,Zeki Müren,Beklenen Şarkı,ANGER,0.9886476397514343,Turkish
+63428,Richard Francis Burton,"Arabian Nights, Vol. 8 (Chap. 5)",ANGER,0.8136433959007263,Turkish
+63447,Zeki Müren,Bir Gülü Sevdim,FEAR,0.9621383547782898,Turkish
+63448,Zeki Müren,Gözlerin Doğuyor Gecelerime,SADNESS,0.6461772918701172,Turkish
+63449,101Barz,Megasessie - Beats by Esko,LOVE,0.8136227130889893,Turkish
+63485,Hümeyra,Sessiz Gemi,SADNESS,0.49495556950569153,Turkish
+63490,Orkundk,Bir Boş Evim Yok,FEAR,0.8190333247184753,Turkish
+63491,Zülfü Livaneli,Kan Çiçekleri,SADNESS,0.9648160934448242,Turkish
+6350,Батюшка (Batushka),Ектения I Очищение (Yekteniya I),JOY,0.9594070315361023,Turkish
+63519,Bülent Ortaçgil,Çoktular Ama Hiç Yoktular,SADNESS,0.967309296131134,Turkish
+63521,Düş sokağı sakinleri,Ayrılık,SURPRISE,0.9264069199562073,Turkish
+63569,Bülent Ortaçgil,Değirmenler,SADNESS,0.9968528151512146,Turkish
+63590,Ajda Pekkan,Sevdalı Başım,SADNESS,0.6886597871780396,Turkish
+63591,Yasemin Mori,Konuşmak,SADNESS,0.9510798454284668,Turkish
+63593,Zülfü Livaneli,Böyledir Bizim Sevdamız,ANGER,0.9952664375305176,Turkish
+63594,Yaşar Kurt,Dokuz Altı Yolları,LOVE,0.364290714263916,Turkish
+63596,Yeni Türkü,Deliler,FEAR,0.8768190145492554,Turkish
+63597,Ceza,İt Dalaşı,JOY,0.5905441641807556,Turkish
+63636,Yeni Türkü,Destina,SADNESS,0.5946901440620422,Turkish
+63644,Zeki Müren,Bir Yangının Külünü Yeniden Yakıp Geçtin,SADNESS,0.9958213567733765,Turkish
+63648,İlhan İrem,İşte Hayat (Sensiz de Yaşanıyor),SADNESS,0.9628791809082031,Turkish
+63649,S.U.R (TUR),5 Karat,FEAR,0.9594841599464417,Turkish
+63678,Peyk,Piç,SADNESS,0.996020495891571,Turkish
+63690,Yavuz Çetin,Bul Beni,FEAR,0.7123456597328186,Turkish
+63693,Evrencan Gündüz,Yeni Bir Şarkı,LOVE,0.9776173830032349,Turkish
+63696,Zeki Müren,Ne Olursun,JOY,0.9682596921920776,Turkish
+63698,J.R.R. Tolkien,The Hobbit (Bölüm 1 Beklenmedik Bir Parti) [Türkçe],JOY,0.9464417695999146,Turkish
+63735,Ceylan Ertem,Ütopyalar Güzeldir,JOY,0.3709375560283661,Turkish
+63748,İlhan İrem,Sen Bilirsin,LOVE,0.8081371188163757,Turkish
+63749,Müzeyyen Senar,Agora Meyhanesi,LOVE,0.525120735168457,Turkish
+63775,MFÖ (TUR),Ruh Halim Yerlerde,FEAR,0.5585842728614807,Turkish
+63794,101Barz,Megasessie - Beats by Esko,LOVE,0.8136227130889893,Turkish
+63796,Yeni Türkü,Gözlerin,FEAR,0.6552387475967407,Turkish
+63799,Zeki Müren,Mihrabım Diyerek,LOVE,0.814740777015686,Turkish
+63839,Gaye Su Akyol,İstersen Hiç Başlamasın (Yeni Türkü Zamansız),SADNESS,0.9976376295089722,Turkish
+63848,Zeki Müren,Ben Zeki Müren,JOY,0.5904089212417603,Turkish
+63879,Gaye Su Akyol,Abbas,LOVE,0.5526289343833923,Turkish
+63885,Ezginin Günlüğü,Düşler Sokağı,ANGER,0.3944994807243347,Turkish
+63886,Birsen Tezer,Nefes,SADNESS,0.9980613589286804,Turkish
+63892,Ceylan Ertem,Bugünüm Sensiz Geçti,SADNESS,0.9592783451080322,Turkish
+63894,Zeki Müren,Akşam Olunca Yarelerim Sızlar,LOVE,0.9881139397621155,Turkish
+63895,Düş sokağı sakinleri,Kan Revan İçindeyim,LOVE,0.39954516291618347,Turkish
+63898,Zeki Müren,Seviyorum İşte Var Mı Diyeceğin,JOY,0.7149307727813721,Turkish
+63899,Müzeyyen Senar,Sigaramın Dumanı,SADNESS,0.7089203000068665,Turkish
+63905,MFÖ (TUR),Bu Aşk Olur Mu,SADNESS,0.9857139587402344,Turkish
+63926,Bulutsuzluk Özlemi,Ankara Sokakları,SADNESS,0.9962683320045471,Turkish
+63929,Zeki Müren,Biz Ayrılamayız,JOY,0.33174487948417664,Turkish
+63949,Khiladi,Sukoon,JOY,0.9676746726036072,Turkish
+64511,Hüsnü Arkan,Öyle Bir Rüya,SADNESS,0.961372435092926,Turkish
+64578,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+64656,Zeki Müren,Seni Sordum Yıldızlara,ANGER,0.5368419289588928,Turkish
+64662,İlhan İrem,Yemyeşil Bir Deniz,JOY,0.47608229517936707,Turkish
+64678,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+64724,Birsen Tezer,Kadın,FEAR,0.8367798328399658,Turkish
+64731,Ezginin Günlüğü,Zerdaliler,ANGER,0.7534574270248413,Turkish
+64733,Ayten Alpman,Ben Böyleyim,ANGER,0.9974331259727478,Turkish
+64737,Leman Sam,Ayrılığa Dayanamam,SADNESS,0.9838639497756958,Turkish
+64764,Peyk,Gidin,SADNESS,0.9984851479530334,Turkish
+64769,Genius Türkçe Çeviriler,Alain Souchon - Ultra moderne solitude (Türkçe çeviri by Levent Pamukcu),FEAR,0.5437827110290527,Turkish
+64773,Yeni Türkü,Maskeli Balo,SADNESS,0.8894323110580444,Turkish
+64774,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+64775,Genius Türkiye,Temmuz 2021 Tekli Yayınlama Takvimi,SADNESS,0.48433148860931396,Turkish
+64778,İlhan İrem,Konuşamıyorum (Sazlıklardan Havalanan),FEAR,0.996815025806427,Turkish
+64779,Müzeyyen Senar,Akşam oldu hüzünlendim ben yine,LOVE,0.9906399250030518,Turkish
+64816,Tanju Okan,Dostlarım,SADNESS,0.9104444980621338,Turkish
+64819,MFÖ (TUR),Bu Sabah Yağmur Var İstanbul’da,JOY,0.9173067808151245,Turkish
+64824,Zeki Müren,Gökyüzünde Yalnız Gezen Yıldızlar,SADNESS,0.9645896553993225,Turkish
+64828,İlhan İrem,Yazık Oldu Yarınlara,SADNESS,0.993062436580658,Turkish
+64834,Leman Sam,İlla,LOVE,0.87774258852005,Turkish
+64835,Levent Yüksel,Aşk Mümkün Müdür Hala,JOY,0.9295424818992615,Turkish
+64843,Sertab Erener,Benim Annem Güzel Annem,LOVE,0.8601500988006592,Turkish
+64847,Nazan Öncel,Erkekler de yanar,ANGER,0.9877229928970337,Turkish
+64864,Moğollar,Çaya Kaç Şeker,JOY,0.9758283495903015,Turkish
+64870,Nazan Öncel,Beyoğlu,JOY,0.6277749538421631,Turkish
+64878,Moğollar,Dinleyiverin Gari,ANGER,0.9098262190818787,Turkish
+64879,Grup Gündoğarken,Gördüğüme Sevindim,JOY,0.7825307250022888,Turkish
+64881,Gazi,Pembe Şeyler,SADNESS,0.9908617734909058,Turkish
+64884,Müzeyyen Senar,Benzemez Kimse Sana,SADNESS,0.9967716336250305,Turkish
+64913,Evrencan Gündüz,Benimle Evlensen,LOVE,0.6942257285118103,Turkish
+64923,Sertab Erener,Aç Sesini,ANGER,0.6984103322029114,Turkish
+64928,Sertab Erener,Çamlıbel’den Çıktım Yayan,ANGER,0.6051978468894958,Turkish
+64929,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+64930,Müzeyyen Senar,Gündüzüm Seninle,SADNESS,0.9834499955177307,Turkish
+64931,İlhan İrem,Olanlar Olmuş,JOY,0.6331069469451904,Turkish
+64934,Sertab Erener,Uyusun Da Büyüsün,LOVE,0.9153034687042236,Turkish
+64942,Sertab Erener,Uyu Yavrum Yine Sabah Oluyor,JOY,0.9690915942192078,Turkish
+64966,Sertab Erener,Sessiz Gemi,SADNESS,0.49495556950569153,Turkish
+64969,Gaye Su Akyol,Yıllar Yılan,SADNESS,0.9848639369010925,Turkish
+64978,Levent Yüksel,Bu Aşkın Katili Sensin,SADNESS,0.9362940788269043,Turkish
+64981,Sertab Erener,Belki de Aşk Lazım Değildir,JOY,0.6150439381599426,Turkish
+71538,DEHA INC.,Baskın,JOY,0.5778186917304993,Turkish
+71880,Malt,Gol,ANGER,0.9658023715019226,Turkish
+71985,Pentagram (TUR),Doğmadan Önce,ANGER,0.8788160681724548,Turkish
+71986,Malt,Aşkın Gözü,ANGER,0.48188555240631104,Turkish
+79432,Fazıl Say,Yiğidim Aslanım Burda Yatıyor,SADNESS,0.5520475506782532,Turkish
+81604,Pratsofficial,Aziyat,JOY,0.9878232479095459,Turkish
+84128,Flört,Bir Tek Sen Gelmedin,JOY,0.9552338719367981,Turkish
+84178,Cem Karaca,Çökertme,SADNESS,0.9298498630523682,Turkish
+84219,Mavi Işıklar,Sevgilim,LOVE,0.993822455406189,Turkish
+84244,Kamuran Akkor,Beni Kaybettin Artık,SADNESS,0.9881658554077148,Turkish
+84252,Barış Manço,Kol Düğmeleri,SADNESS,0.9729858040809631,Turkish
+84263,Barış Manço,Kol Düğmeleri,SADNESS,0.9729858040809631,Turkish
+84284,Cem Karaca,Kara Sevda,ANGER,0.651334285736084,Turkish
+84286,Cem Karaca,Üryan Geldim,LOVE,0.4920436441898346,Turkish
+84294,Cem Karaca,Hep Kahır,ANGER,0.7526170611381531,Turkish
+84297,Animus,Kanaken Freestyle,JOY,0.7800544500350952,Turkish
+84308,Barış Manço,Ayrılık,SADNESS,0.6796119809150696,Turkish
+84316,Selda Bağcan,Yuh Yuh,ANGER,0.7844085097312927,Turkish
+84330,Cem Karaca,Sakın Reddetme,ANGER,0.5383713245391846,Turkish
+84342,Barış Manço,Söyle Zalim Sultan,ANGER,0.9740240573883057,Turkish
+84345,Flört,Dün TRT’de İzledim,JOY,0.6118873357772827,Turkish
+84361,Cem Karaca,Lümüne,SADNESS,0.3547089397907257,Turkish
+84362,Barış Manço,Cacık,ANGER,0.6819509863853455,Turkish
+84370,Barış Manço,Bahçede Hanımeli,JOY,0.45564818382263184,Turkish
+84372,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),ANGER,0.9964800477027893,Turkish
+84375,Selda Bağcan,Zam Zam,SADNESS,0.5634170174598694,Turkish
+84385,Cem Karaca,Herkes Gibisin,SADNESS,0.9960759282112122,Turkish
+84386,Barış Manço,Kazma,JOY,0.9972188472747803,Turkish
+84387,Barış Manço,Yolla Yarim Tez Yolla,LOVE,0.9897059202194214,Turkish
+84389,Flört,Cemiyette Pişiyoruz,JOY,0.6803861856460571,Turkish
+84393,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),ANGER,0.9964800477027893,Turkish
+84395,Animus,Kanaken Freestyle,JOY,0.7800544500350952,Turkish
+84396,Flört,Sevmez Olaydım,LOVE,0.7093027234077454,Turkish
+84420,Cem Karaca,Ölüm,ANGER,0.4965897798538208,Turkish
+84424,Barış Manço,Gül Bebeğim,ANGER,0.8255520462989807,Turkish
+84429,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),ANGER,0.9964800477027893,Turkish
+84443,Cem Karaca,Canım Benim,JOY,0.6517272591590881,Turkish
+84481,Flört,Kolay Mı Sanki,SADNESS,0.9946632385253906,Turkish
+84488,Sâhir a.k.a. Order,Kadavra Kadar,ANGER,0.8844916224479675,Turkish
+84490,Doğu Bosphorus,Kendimi Bulamam,SADNESS,0.9979466795921326,Turkish
+84492,Bassi Maestro,Cosa Succede!,JOY,0.9972965121269226,Turkish
+84498,Cem Karaca,Yarım Porsiyon Aydınlık,ANGER,0.5180056691169739,Turkish
+84521,Cem Karaca,Kara Sevda,ANGER,0.651334285736084,Turkish
+84524,Cem Karaca,Kara Sevda,ANGER,0.651334285736084,Turkish
+84525,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),ANGER,0.9964800477027893,Turkish
+84530,Cem Karaca,Sen Duymadın,FEAR,0.7033126354217529,Turkish
+84531,Cem Karaca,Yolumuz Gurbete Düştü,LOVE,0.8973031640052795,Turkish
+84536,Cem Karaca,Ay Karanlık,ANGER,0.996868908405304,Turkish
+84537,Animus,Kanaken Freestyle,JOY,0.7800544500350952,Turkish
+84562,Cem Karaca,İhtiyar Oldum,JOY,0.8693169951438904,Turkish
+84567,Cem Karaca,Bu Son Olsun,SADNESS,0.5886147618293762,Turkish
+84570,Barış Manço,Seher Vakti,LOVE,0.7207739949226379,Turkish
+84578,Flört,Senden Kalan,ANGER,0.6720104217529297,Turkish
+84579,Flört,İstanbul,LOVE,0.9753771424293518,Turkish
+84583,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),ANGER,0.9964800477027893,Turkish
+84588,Erkut Taçkın,Beyaz Ev,JOY,0.6834719181060791,Turkish
+84590,Barış Manço,Yine Yol Göründü Gurbete...,FEAR,0.807421088218689,Turkish
+84611,Barış Manço,Kağızman,ANGER,0.9258545637130737,Turkish
+84614,Selda Bağcan,Felek Çakmağını Üstüme Çaktı,SADNESS,0.7587915062904358,Turkish
+84636,Barış Manço,Geçti Dost Kervanı,JOY,0.9361695647239685,Turkish
+84645,Benjamin Franklin,The Autobiography of Benjamin Franklin (Part Two),JOY,0.8461986780166626,Turkish
+84648,Kamuran Akkor,Ben Sarhoş Oldum,LOVE,0.9933691620826721,Turkish
+84649,RobotWisdom,A logarithmic timeline of the universe,ANGER,0.5319654941558838,Turkish
+84666,Barış Manço,Kızılcıklar Oldu Mu,ANGER,0.9089603424072266,Turkish
+84677,Kramp (TUR),İstanbul Sokakları,SADNESS,0.8193064332008362,Turkish
+84680,Flört,Yola Devam,FEAR,0.5195398330688477,Turkish
+84692,Barış Manço,Domates Biber Patlıcan,SADNESS,0.7735041379928589,Turkish
+84694,Barış Manço,Sahilde,JOY,0.7250990271568298,Turkish
+84701,Selda Bağcan,Gesi Bağları,SADNESS,0.7263585925102234,Turkish
+84722,Flört,Onun Adı Hasan,SADNESS,0.7284821271896362,Turkish
+84727,3 Hürel,Sana Değmez,SADNESS,0.981054425239563,Turkish
+84748,Cem Karaca,Tatlı Dillim (Neredesin),JOY,0.7456515431404114,Turkish
+84763,Flört,Şakalar,ANGER,0.5581896305084229,Turkish
+84783,Cem Karaca,Oğluma,LOVE,0.7709526419639587,Turkish
+84794,Kamuran Akkor,Üstüme Düşme Benim,SADNESS,0.4961511492729187,Turkish
+84820,3 Hürel,Ağlarsa Anam Ağlar,SADNESS,0.8864253163337708,Turkish
+84829,Boikot,Hablarán Las Calles,SADNESS,0.9646311402320862,Turkish
+84861,Barış Manço,Çıt Çıt Çedene,LOVE,0.9138973355293274,Turkish
+84864,Barış Manço,Eski Bir Fincan,SADNESS,0.9392828345298767,Turkish
+84871,Barış Manço,Süper Babaanne,JOY,0.5623316764831543,Turkish
+84873,Kramp (TUR),Bir Dünya Arıyorum,JOY,0.9987228512763977,Turkish
+84874,Cem Karaca,1 Mayıs,JOY,0.9867287278175354,Turkish
+84879,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),ANGER,0.9964800477027893,Turkish
+84881,Genius Türkçe Çeviriler,Lil Baby - The Bigger Picture (Türkçe Çeviri),SADNESS,0.8796922564506531,Turkish
+84884,Barış Manço,Ham Meyvayı Kopardılar Dalından,ANGER,0.7269536852836609,Turkish
+84889,Cem Karaca,Nöbetçinin Türküsü,JOY,0.6144645810127258,Turkish
+84894,Cem Karaca,Bedava Yaşıyoruz,JOY,0.9536274671554565,Turkish
+84905,Barış Manço,Unutamıyorum,JOY,0.9890148043632507,Turkish
+84932,Scorpion Gang,Champions Leak - Summer Cem’s Scorpion Bars (Vol. 3),ANGER,0.9964800477027893,Turkish
+84961,Selda Bağcan,Adaletin Bu mu Dünya,JOY,0.7579251527786255,Turkish
+84965,Flört,Bu Havalarda Dönme Bana,SADNESS,0.4001064598560333,Turkish
+84971,Cem Karaca,Lümüne,SADNESS,0.3547089397907257,Turkish
+84972,Selda Bağcan,Niye Çattın Kaşlarını,ANGER,0.48603013157844543,Turkish
+84973,Kamuran Akkor,Kimbilir,SADNESS,0.9981794357299805,Turkish
+84979,Kamuran Akkor,Yalvarırım Affet,SADNESS,0.9809354543685913,Turkish
+84980,Selda Bağcan,Adaletin Bu mu Dünya,JOY,0.7579251527786255,Turkish
+84984,Barış Manço,Gibi Gibi,SADNESS,0.8023791313171387,Turkish
+84989,Barış Manço,Yolverin Ağalar Beyler!..,LOVE,0.8729287385940552,Turkish
+84990,J.R.R. Tolkien,The Hobbit (Bölüm 3 Kısa Bir Dinlenme) [Türkçe],FEAR,0.929990291595459,Turkish
+84992,Barış Manço,Anahtar,LOVE,0.607883095741272,Turkish
+84995,Cem Karaca,Bu Son Olsun,SADNESS,0.5886147618293762,Turkish
+85113,Athena,Geberiyorum (Nâzım Hikmet Ran Günler Şiiri),SADNESS,0.9467319846153259,Turkish
+85405,Çilekeş,Yetmiyor,LOVE,0.9630045294761658,Turkish
+85618,Cemiyette Pişiyorum,Supradin,SADNESS,0.9882959723472595,Turkish
+85663,Kaçak (TUR),Ölünür De,SADNESS,0.9702657461166382,Turkish
+85668,Montague Summers,"The Vampire, His Kith And Kin - Chapter 1",FEAR,0.9754859805107117,Turkish
+85706,Çilekeş,Siyah,SADNESS,0.9985834360122681,Turkish
+85758,Athena,Yorulmak Olmaz,SADNESS,0.7601174712181091,Turkish
+85766,Pickpocket,Ne Farkeder,SADNESS,0.5283783674240112,Turkish
+85770,Cemiyette Pişiyorum,Beynim Yok,SADNESS,0.9976856708526611,Turkish
+85777,Cemiyette Pişiyorum,Gripin,JOY,0.8147135972976685,Turkish
+85858,Athena,Köpek,JOY,0.6974414587020874,Turkish
+85908,Athena,Mamak Türküsü (Yeni Türkü Zamansız),JOY,0.9219421744346619,Turkish
+85968,Kolera,Dön Dünya,JOY,0.7227703928947449,Turkish
+86169,Athena,Geberiyorum (Nâzım Hikmet Ran Günler Şiiri),SADNESS,0.9467319846153259,Turkish
+86659,Çilekeş,Yetmiyor,LOVE,0.9630045294761658,Turkish
+86807,Kilink,Oc (Aslında Alkol Hala Damarımda),JOY,0.8416199684143066,Turkish
+86866,Montague Summers,"The Vampire, His Kith And Kin - Chapter 1",FEAR,0.9754859805107117,Turkish
+86869,Cemiyette Pişiyorum,Supradin,SADNESS,0.9882959723472595,Turkish
+86908,Kaçak (TUR),Ölünür De,SADNESS,0.9702657461166382,Turkish
+86961,Kilink,Torba Var Mı Beyler,ANGER,0.9764228463172913,Turkish
+86967,Drunk High Jinks,Hayal Gücümde Ölücem,JOY,0.7713238596916199,Turkish
+98142,İntizam,Lütfen,SADNESS,0.9860633015632629,Turkish
+98269,Patron,Hayat Bilgisi,ANGER,0.6485065817832947,Turkish
+98871,Keişan,Yüzüm Yok,SADNESS,0.9973962306976318,Turkish
+99482,Emre Fel,Sevgilim Biz Ayrıldık,SADNESS,0.9873722791671753,Turkish
+99649,Sertab Erener,Dandini Dandini Dastana,ANGER,0.3828654885292053,Turkish
+99799,Sertab Erener,Fış Fış Kayıkçı,JOY,0.9973301887512207,Turkish
+99880,Sera Savaş,Anlatsam Anlatamam,SADNESS,0.9788092970848083,Turkish
+99903,Ufuk Beydemir,Ay Tenli Kadın,LOVE,0.4738219380378723,Turkish
+99934,Burcu Güneş,Yansın Geceler,SADNESS,0.6678830981254578,Turkish
+99979,Suzan Hacigarip,Şimdi Biraz Uyu,SADNESS,0.925359308719635,Turkish
+99981,Kaan Tangöze,Bir Kız Bana Emmi Dedi,ANGER,0.8581915497779846,Turkish
+99995,Melike Şahin,Nasır (Live at Zorlu PSM),FEAR,0.5114221572875977,Turkish
+99996,Barış Kocatürk,Kalmalısın,JOY,0.9962220191955566,Turkish
+101306,Umbrtka,Uhlí,JOY,0.6091399192810059,Balkan
+101763,Blokovski,Reci šta imaš,JOY,0.9908545017242432,Balkan
+102188,Lauren Spencer Smith,Fingers Crossed,ANGER,0.9198869466781616,Balkan
+102221,Em Beihold,Numb Little Bug,JOY,0.997934103012085,Balkan
+102282,Tom Petty,Free Fallin’,JOY,0.9720205068588257,Balkan
+102442,Don McLean,American Pie,SADNESS,0.8833143711090088,Balkan
+102546,Don Henley,The Boys of Summer,JOY,0.9937799572944641,Balkan
+103354,The Jackson 5,ABC,JOY,0.9954808950424194,Balkan
+105182,Resa Saffa Park,Tendencies,SADNESS,0.7687572836875916,Balkan
+105756,We Are Apex,Dior,SADNESS,0.9803588390350342,Balkan
+106018,ABBA,Dancing Queen,JOY,0.8299615383148193,Balkan
+106280,Moonica Mac,Dalarna,LOVE,0.5070686340332031,Balkan
+107089,The Human League,Don’t You Want Me,JOY,0.8603650331497192,Balkan
+107225,Электрофорез (Electroforez),Зло (Evil),ANGER,0.47203508019447327,Balkan
+109801,Michelle (DEU),Für mich bist du die Welt,SADNESS,0.9982898831367493,Balkan
+112167,Şehinşah,Az,JOY,0.9789443016052246,Balkan
+112373,Hidra,Zehir,ANGER,0.8576370477676392,Balkan
+112400,Anıl Emre Daldal,M.,SADNESS,0.9671090245246887,Balkan
+112433,Ceg,Dedemin Anadol’u,ANGER,0.9869279265403748,Balkan
+112452,KRU2,Tú,SADNESS,0.9984750151634216,Balkan
+1163,Plastilina Mosh,JAJAJA,ANGER,0.8664516806602478,Balkan
+14022,KIDZ BOP Kids,Levitating,JOY,0.9953985810279846,Balkan
+1557,Octobre Rouge,J’ai passé l’âge,SADNESS,0.9727809429168701,Balkan
+17203,Alex S,Life As We Know It (feat. Odyssey),JOY,0.9974204301834106,Balkan
+1928,Șatra B.E.N.Z.,Atenție,JOY,0.554707407951355,Balkan
+19632,Don Henley,The Boys of Summer,JOY,0.9937799572944641,Balkan
+20158,Avicii,Wake Me Up,JOY,0.8171916604042053,Balkan
+20541,Avicii,Wake Me Up (EDX Miami Sunset Radio Edit),JOY,0.8629971742630005,Balkan
+20564,Sean Paul,No Lie,FEAR,0.9864397644996643,Balkan
+20591,Black Eyed Peas,I Gotta Feeling,SADNESS,0.6190000772476196,Balkan
+20641,Black Eyed Peas,I Gotta Feeling,SADNESS,0.6190000772476196,Balkan
+21089,Sean Paul,No Lie,FEAR,0.9864397644996643,Balkan
+21670,Gifta,Vé Pa,JOY,0.940139889717102,Balkan
+2194,Counting Crows,Mr. Jones,JOY,0.9730173349380493,Balkan
+2243,No Doubt,Don’t Speak,SADNESS,0.9859035015106201,Balkan
+22472,Claustrofobia,Metal Malóka,LOVE,0.611566960811615,Balkan
+2247,Jimmy Eat World,The Middle,ANGER,0.4192450940608978,Balkan
+2268,Neon Trees,Everybody Talks,SADNESS,0.9220139384269714,Balkan
+2277,Smash Mouth,All Star,JOY,0.33243969082832336,Balkan
+2299,Swono,Album History,JOY,0.9533686637878418,Balkan
+2327,Hoobastank,The Reason,SADNESS,0.9901037812232971,Balkan
+23309,Three 6 Mafia,Destruction Terror,JOY,0.8924117684364319,Balkan
+23656,RÆVE (FRA),Firefly,JOY,0.6855674982070923,Balkan
+2383,Bishop Briggs,River,JOY,0.7693929076194763,Balkan
+25904,Akcent,Kylie,JOY,0.8024855852127075,Balkan
+28672,Kompany,Ragnarok,JOY,0.9938608407974243,Balkan
+29537,Kompany,Ragnarok,JOY,0.9938608407974243,Balkan
+30050,Ritviz,Aaj Na,JOY,0.554677426815033,Balkan
+30059,Avicii,Wake Me Up,JOY,0.8171916604042053,Balkan
+30181,Avicii,Wake Me Up (EDX Miami Sunset Radio Edit),JOY,0.8629971742630005,Balkan
+30284,Swedish House Mafia,Don’t You Worry Child (Radio Edit),JOY,0.7492935061454773,Balkan
+30386,Jonas Blue,Mama,LOVE,0.9684532284736633,Balkan
+30511,Ritviz,Barso,JOY,0.31696033477783203,Balkan
+30557,Ritviz,Pran,SADNESS,0.6848365664482117,Balkan
+31033,Billie Eilish,bad guy,ANGER,0.9931201934814453,Balkan
+31192,Swedish House Mafia,Don’t You Worry Child (Radio Edit),JOY,0.7492935061454773,Balkan
+31378,Julia Michaels,What a Time,JOY,0.7799603939056396,Balkan
+31421,Alessia Cara,Scars to Your Beautiful,JOY,0.7673452496528625,Balkan
+31593,Carly Rae Jepsen,Call Me Maybe,LOVE,0.9889827370643616,Balkan
+31659,Sickflip,Roshni,JOY,0.6041624546051025,Balkan
+32064,Sickflip,Roshni,JOY,0.6041624546051025,Balkan
+32154,Sickflip,Roshni,JOY,0.6041624546051025,Balkan
+32354,Good Times Ahead,Hit It!,JOY,0.9025512337684631,Balkan
+32754,Mnogoznaal,DOF,SADNESS,0.5400567650794983,Balkan
+33031,Fall Out Boy,"Sugar, We’re Goin Down",JOY,0.5619410276412964,Balkan
+33092,Jimmy Eat World,The Middle,ANGER,0.4192450940608978,Balkan
+3331,Counting Crows,Mr. Jones,JOY,0.9730173349380493,Balkan
+33354,FACE,24 на 7,SURPRISE,0.6921876668930054,Balkan
+33402,BLUNTHOUSE,"Дико, например [Pharaoh cover]",JOY,0.9935374855995178,Balkan
+33510,quiizzzmeow,сети (nets),SADNESS,0.949134349822998,Balkan
+33807,PHARAOH,Акид (Acis),SADNESS,0.7562722563743591,Balkan
+3416,Smash Mouth,All Star,JOY,0.33243969082832336,Balkan
+34186,Tom Petty,Free Fallin’,JOY,0.9720205068588257,Balkan
+3425,No Doubt,Don’t Speak,SADNESS,0.9859035015106201,Balkan
+34290,Don McLean,American Pie,SADNESS,0.8833143711090088,Balkan
+34440,Don Henley,The Boys of Summer,JOY,0.9937799572944641,Balkan
+3472,Neon Trees,Everybody Talks,SADNESS,0.9220139384269714,Balkan
+3479,Jimmy Eat World,The Middle,ANGER,0.4192450940608978,Balkan
+34992,Hiperkarma,Rád talált,FEAR,0.9839330911636353,Balkan
+3529,Hoobastank,The Reason,SADNESS,0.9901037812232971,Balkan
+3547,Swono,Album History,JOY,0.9533686637878418,Balkan
+3620,Bishop Briggs,River,JOY,0.7693929076194763,Balkan
+36563,Django,Anthracite,FEAR,0.6197410821914673,Balkan
+36610,Soolking,Zemër,JOY,0.9895036220550537,Balkan
+37217,2Pac,Ambitionz Az a Ridah,ANGER,0.4309677481651306,Balkan
+37328,MC Davi,Tudo no Privê,ANGER,0.9555887579917908,Balkan
+37331,Hoobastank,The Reason,SADNESS,0.9901037812232971,Balkan
+37721,MC Kako,Neurótico,FEAR,0.9953987002372742,Balkan
+39720,NAVACHA,Pegasus,ANGER,0.997655987739563,Balkan
+4307,Residente,La Cátedra,SADNESS,0.845373272895813,Balkan
+44080,Hoobastank,The Reason,SADNESS,0.9901037812232971,Balkan
+4513,ANIMA PRODUCCIONES,Alexander Hamilton (Cover en Español)-Hamilton El Musical,JOY,0.923251748085022,Balkan
+45651,​autumnn,“All the songs i enjoy listening to because i feel like making it”,SADNESS,0.9663488864898682,Balkan
+46313,Mac Miller,Family Lives,ANGER,0.9839149713516235,Balkan
+47342,A.S.I.A. (Band),Sună periculos,ANGER,0.9884883761405945,Balkan
+5005,Eve (JPN),廻廻奇譚 (Kaikai Kitan),FEAR,0.9627355933189392,Balkan
+51351,Ritviz,Aaj Na,JOY,0.554677426815033,Balkan
+51760,SAMBATA,Pinnak,JOY,0.6052489876747131,Balkan
+53193,Swedish House Mafia,Don’t You Worry Child (Radio Edit),JOY,0.7492935061454773,Balkan
+53382,Jonas Blue,Mama,LOVE,0.9684532284736633,Balkan
+53887,​Surf Mesa,ily (i love you baby),LOVE,0.9455076456069946,Balkan
+55102,Ritviz,Aaj Na,JOY,0.554677426815033,Balkan
+55508,Ritviz,Barso,JOY,0.31696033477783203,Balkan
+55553,Ritviz,Pran,SADNESS,0.6848365664482117,Balkan
+55654,Sickflip,Roshni,JOY,0.6041624546051025,Balkan
+56005,Ritviz,Aaj Na,JOY,0.554677426815033,Balkan
+56078,Glass Animals,Heat Waves,JOY,0.7493231892585754,Balkan
+56092,Glass Animals,Heat Waves,JOY,0.7493231892585754,Balkan
+56212,Ritviz,Barso,JOY,0.31696033477783203,Balkan
+56260,Ritviz,Pran,SADNESS,0.6848365664482117,Balkan
+56487,Neon Trees,Everybody Talks,SADNESS,0.9220139384269714,Balkan
+56659,Bikki Gurung,Marijau,SADNESS,0.5709213018417358,Balkan
+57005,Ritviz,Aaj Na,JOY,0.554677426815033,Balkan
+57127,Glass Animals,Heat Waves,JOY,0.7493231892585754,Balkan
+57128,Glass Animals,Heat Waves,JOY,0.7493231892585754,Balkan
+57411,Ritviz,Barso,JOY,0.31696033477783203,Balkan
+57461,Ritviz,Pran,SADNESS,0.6848365664482117,Balkan
+57932,Neon Trees,Everybody Talks,SADNESS,0.9220139384269714,Balkan
+5801,Eve (JPN),廻廻奇譚 (Kaikai Kitan),FEAR,0.9627355933189392,Balkan
+59319,Sayedar,Bedel,ANGER,0.919826090335846,Balkan
+60327,James Joyce,Finnegans Wake (Chap. 2.1),JOY,0.9241195917129517,Balkan
+60823,Loose Buttons,617,FEAR,0.9657505750656128,Balkan
+6097,Bucovina,Așteaptă-mă dincolo de moarte,SADNESS,0.9974675178527832,Balkan
+6779,Samael,Telepath,JOY,0.997806966304779,Balkan
+6816,Nordjevel,Norges sorte himmel,JOY,0.9821723103523254,Balkan
+71022,Bon Jovi,Livin’ on a Prayer,LOVE,0.6100801229476929,Balkan
+71228,Hoobastank,The Reason,SADNESS,0.9901037812232971,Balkan
+72243,Spotify,New Music Friday 122719,ANGER,0.8040071725845337,Balkan
+72606,Wildways,Ветивер (Vetiver),JOY,0.9854560494422913,Balkan
+73860,Community Lists,Genius Picks Songs 2014,JOY,0.9370652437210083,Balkan
+74478,Rita Lee,"Nem Luxo, Nem Lixo",JOY,0.9942029118537903,Balkan
+76250,Andrea Bocelli,"Quizàs, Quizàs, Quizàs",SADNESS,0.6910809278488159,Balkan
+76837,Sissel,"Upp gledjest alle, gledjest no",JOY,0.6152307391166687,Balkan
+79015,OneRepublic,Counting Stars,JOY,0.34768542647361755,Balkan
+79077,Keane,Somewhere Only We Know,SADNESS,0.581712007522583,Balkan
+79085,Keane,Somewhere Only We Know,SADNESS,0.581712007522583,Balkan
+79504,Residente,La Cátedra,SADNESS,0.845373272895813,Balkan
+80401,Ritviz,Aaj Na,JOY,0.554677426815033,Balkan
+81526,Billie Eilish,bad guy,ANGER,0.9931201934814453,Balkan
+81752,Olivia Rodrigo,deja vu,JOY,0.9965230226516724,Balkan
+82033,Jimmy Eat World,The Middle,ANGER,0.4192450940608978,Balkan
+83045,Swedish House Mafia,Don’t You Worry Child (Radio Edit),JOY,0.7492935061454773,Balkan
+85006,182,I Miss You-blink,SADNESS,0.7247115969657898,Balkan
+85048,Jimmy Eat World,The Middle,ANGER,0.4192450940608978,Balkan
+85693,Depresszio,Nem akarok elszakadni,JOY,0.5443454384803772,Balkan
+86005,182,I Miss You-blink,SADNESS,0.7247115969657898,Balkan
+86127,Jimmy Eat World,The Middle,ANGER,0.4192450940608978,Balkan
+86948,Depresszio,Nem akarok elszakadni,JOY,0.5443454384803772,Balkan
+87043,Swono,Album History,JOY,0.9533686637878418,Balkan
+87632,Rita Lee,"Nem Luxo, Nem Lixo",JOY,0.9942029118537903,Balkan
+91029,Imagine Dragons,Believer,LOVE,0.3095937669277191,Balkan
+91036,Imagine Dragons,Thunder,LOVE,0.40610700845718384,Balkan
+91066,OneRepublic,Counting Stars,JOY,0.34768542647361755,Balkan
+91169,182,I Miss You-blink,SADNESS,0.7247115969657898,Balkan
+91218,Fall Out Boy,"Sugar, We’re Goin Down",JOY,0.5619410276412964,Balkan
+91287,Bon Jovi,Livin’ on a Prayer,LOVE,0.6100801229476929,Balkan
+91300,Eve (JPN),廻廻奇譚 (Kaikai Kitan),FEAR,0.9627355933189392,Balkan
+91463,Keane,Somewhere Only We Know,SADNESS,0.581712007522583,Balkan
+91834,Tom Petty,Free Fallin’,JOY,0.9720205068588257,Balkan
+91887,Counting Crows,Mr. Jones,JOY,0.9730173349380493,Balkan
+94059,Benighted Illusion,Lurker of the Barathrum,SADNESS,0.5267611742019653,Balkan
+94324,Mezsiah,Novacane,ANGER,0.9978950023651123,Balkan
+98065,Ben Platt,​imagine,SADNESS,0.4872341454029083,Balkan
+9854,Costa Gold,Backstage,JOY,0.7126712203025818,Balkan
+99187,Lauren Spencer Smith,Fingers Crossed,ANGER,0.9198869466781616,Balkan
+99220,Em Beihold,Numb Little Bug,JOY,0.997934103012085,Balkan
+99282,Tom Petty,Free Fallin’,JOY,0.9720205068588257,Balkan
+99442,Don McLean,American Pie,SADNESS,0.8833143711090088,Balkan
+99544,Don Henley,The Boys of Summer,JOY,0.9937799572944641,Balkan

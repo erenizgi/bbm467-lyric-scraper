@@ -3,6 +3,10 @@ import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 
+// Dosya ismi temizleme fonksiyonunu buraya da ekleyelim (veya utils'den import edebilirsin)
+function sanitize(str) {
+  return str.replace(/[<>:"/\\|?*]+/g, '').trim();
+}
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
@@ -12,7 +16,6 @@ export async function GET(request) {
   if (!song || !artist) {
     return Response.json({ error: 'Song or artist missing' }, { status: 400 });
   }
-
   
   const token = process.env.CLIENT_TOKEN;
 
@@ -34,8 +37,7 @@ export async function GET(request) {
       return Response.json({ error: 'No songs found' }, { status: 404 });
     }
 
-    
-    console.log(`Found lyrics URL:`);
+    console.log(`Found lyrics URL: ${hit.result.url}`);
 
     const pageResponse = await axios.get(hit.result.url);
     const $ = cheerio.load(pageResponse.data);  
@@ -44,10 +46,8 @@ export async function GET(request) {
       let currLine = "";
       $(el).contents().each((_, node) => {
         if (node.type === "text") {
-          
           currLine += node.data;
         } else if (node.name === "br") {
-          
           if (currLine.trim() !== "") {
             lines.push(currLine.trim());
             currLine = "";
@@ -64,13 +64,17 @@ export async function GET(request) {
     }
     const lyrics = lines.join('\n');
 
-
-
-    const safeArtist = hit.result.primary_artist.name;
-    const safeSong = hit.result.title;
-    const fileName = `${safeSong}-${safeArtist}.txt`;
+    // --- DEĞİŞİKLİK BURADA ---
+    const safeArtist = sanitize(hit.result.primary_artist.name);
+    const safeSong = sanitize(hit.result.title);
+    
+    // Manuel aramalar için ID'yi '0' veriyoruz ki Python kodu patlamasın.
+    const manualId = '0'; 
+    const fileName = `${manualId}_${safeSong}-${safeArtist}.txt`;
+    
     const saveDir = path.join(process.cwd(), 'lyrics_files');
     const savePath = path.join(saveDir, fileName);
+    
     if (!fs.existsSync(saveDir)) {
       fs.mkdirSync(saveDir, { recursive: true });
     }

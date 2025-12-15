@@ -4,10 +4,12 @@ from deep_translator import GoogleTranslator
 from tqdm import tqdm
 
 # --- AYARLAR ---
+# Python dosyanın alt klasörde olduğunu varsayarak bir üst dizine (../) çıkıyoruz.
+# Eğer kodun ana dizindeyse "../" kısımlarını silip "./" yapmalısın.
 FOLDERS_TO_TRANSLATE = {
     "Turkish": {
-        "input": "../lyrics_files_turkish",           # Kaynak (Orijinal)
-        "output": "../lyrics_files_turkish_translated" # Hedef (İngilizce)
+        "input": "../lyrics_files_turkish",
+        "output": "../lyrics_files_turkish_translated"
     },
     "Balkan": {
         "input": "../lyrics_files_balkan",
@@ -22,50 +24,42 @@ def run_translation():
         input_dir = paths["input"]
         output_dir = paths["output"]
 
-        # Hedef klasörü oluştur
-        if not os.path.exists(output_dir):
-            os.makedirs(output_dir)
-
-        # Klasör yoksa atla
+        if not os.path.exists(output_dir): os.makedirs(output_dir)
         if not os.path.exists(input_dir):
             print(f"⚠️ {input_dir} bulunamadı, geçiliyor.")
             continue
 
         files = [f for f in os.listdir(input_dir) if f.endswith(".txt")]
-        print(f"\n🌍 {culture} Şarkıları Çevriliyor ({len(files)} dosya)...")
+        print(f"\n🌍 {culture} Çevriliyor ({len(files)} dosya)...")
 
-        for filename in tqdm(files, desc=f"{culture} Çeviri"):
-            input_path = os.path.join(input_dir, filename)
+        for filename in tqdm(files, desc=f"{culture}"):
             output_path = os.path.join(output_dir, filename)
 
-            # 1. Zaten çevrildiyse tekrar yapma (Cache mantığı)
-            if os.path.exists(output_path):
-                continue
+            # Zaten çevrildiyse atla (Zaman kazancı)
+            if os.path.exists(output_path): continue
 
             try:
-                # 2. Dosyayı Oku
-                with open(input_path, "r", encoding="utf-8") as f:
-                    original_text = f.read()
+                with open(os.path.join(input_dir, filename), "r", encoding="utf-8") as f:
+                    text = f.read()
 
-                if len(original_text) < 10: continue
+                # Boş veya çok kısa dosyaları atla
+                if len(text) < 10: continue
 
-                # 3. Çevir (İlk 600 karakter yeterli)
-                chunk = original_text[:600]
-                translated_text = translator.translate(chunk)
+                # BERT sınırı ve Hız için ilk 600 karakteri çeviriyoruz
+                translated = translator.translate(text[:600])
 
-                # 4. Kaydet
-                if translated_text:
+                if translated:
                     with open(output_path, "w", encoding="utf-8") as f:
-                        f.write(translated_text)
+                        f.write(translated)
                     
-                    # API Ban yememek için minik bekleme
+                    # Google API engelini aşmak için minik bekleme
                     time.sleep(0.5)
 
             except Exception as e:
-                print(f"Hata ({filename}): {e}")
+                # Hata olsa bile durma, sonrakine geç
                 continue
     
-    print("\n✅ ÇEVİRİ İŞLEMİ TAMAMLANDI!")
+    print("\n✅ ÇEVİRİ TAMAMLANDI!")
 
 if __name__ == "__main__":
     run_translation()

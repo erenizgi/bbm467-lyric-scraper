@@ -4,127 +4,90 @@ import torch
 from transformers import pipeline
 from tqdm import tqdm
 
-# --- CONFIGURATION ---
+# --- AYARLAR ---
 TRANSLATED_FOLDERS = {
     "Turkish": "../lyrics_files_turkish_translated",
     "Balkan": "../lyrics_files_balkan_translated"
 }
-
 FINAL_CSV_NAME = "final_music_analysis_dataset.csv"
 MODEL_NAME = "bhadresh-savani/bert-base-uncased-emotion"
 
 def run_analysis():
-    # 1. GPU Check
-    device = 0 if torch.cuda.is_available() else -1
-    device_name = torch.cuda.get_device_name(0) if device == 0 else "CPU"
-    print(f"⏳ Loading Model... (Device: {device_name})")
+    # --- DEĞİŞİKLİK BURADA: Zorla CPU (-1) kullanıyoruz ---
+    # RTX 5060 uyumsuzluğu yüzünden GPU'yu kapatıyoruz.
+    device = -1 
+    print(f"⏳ Model Yükleniyor... (CPU Modu Aktif)")
 
-    emotion_classifier = pipeline(
-        "text-classification", 
-        model=MODEL_NAME, 
-        top_k=None, 
-        truncation=True,
-        device=device
-    )
-
+    classifier = pipeline("text-classification", model=MODEL_NAME, top_k=None, truncation=True, device=device)
     all_data = []
-    global_id_counter = 1
-    
-    # --- PREPARATION STEP: GATHER ALL FILES FIRST ---
-    # We collect all files into a single list to have one global progress bar
-    all_tasks = []
-    
-    print("\n🔍 Scanning folders...")
-    for culture, folder_path in TRANSLATED_FOLDERS.items():
-        if not os.path.exists(folder_path):
-            print(f"⚠️ Warning: {folder_path} not found. Skipping.")
-            continue
-            
-        files = [f for f in os.listdir(folder_path) if f.endswith(".txt")]
-        for filename in files:
-            full_path = os.path.join(folder_path, filename)
-            # Add to the task list: (path, filename, culture)
-            all_tasks.append((full_path, filename, culture))
 
-    total_files = len(all_tasks)
-    if total_files == 0:
-        print("❌ No files found to analyze.")
-        return
+    print("\n🔍 Dosyalar taranıyor...")
+    tasks = []
+    for culture, path in TRANSLATED_FOLDERS.items():
+        if os.path.exists(path):
+            files = [f for f in os.listdir(path) if f.endswith(".txt")]
+            for f in files: tasks.append((os.path.join(path, f), f, culture))
 
-    print(f"✅ Found {total_files} total songs. Starting analysis...\n")
+    if not tasks:
+        print("❌ Dosya bulunamadı."); return
 
-    # --- EXECUTION STEP: SINGLE PROGRESS BAR ---
-    # tqdm will now show: [Progress Bar] 25% | 150/600 [00:30<01:30, 5.00it/s]
-    for file_path, filename, culture in tqdm(all_tasks, desc="Total NLP Progress", unit="song"):
-        
-        # --- A. Parse Artist/Track ---
+    for path, filename, culture in tqdm(tasks, desc="NLP Analizi"):
         try:
-            base_name = filename.replace(".txt", "")
-            if "-" in base_name:
-                parts = base_name.rsplit("-", 1)
-                track_name = parts[0].strip()
-                artist_name = parts[1].strip()
+            # --- ID PARSE ETME ---
+            if "_" in filename:
+                parts = filename.split("_", 1)
+                
+                # ID al
+                try:
+                    s_id = int(parts[0]) 
+                except ValueError:
+                    # Eğer ID sayı değilse (örn: manuel dosya), atla veya 0 ver
+                    continue
+
+                # İsimleri ayıkla
+                rest = parts[1].replace(".txt", "")
+                if "-" in rest:
+                    p = rest.rsplit("-", 1) 
+                    track, artist = p[0].strip(), p[1].strip()
+                else:
+                    track, artist = rest, "Unknown"
             else:
-                track_name = base_name
-                artist_name = "Unknown"
-        except:
-            track_name = filename
-            artist_name = "Unknown"
+                continue 
 
-        # --- B. Analysis ---
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                text_english = f.read()
+            # Dosyayı oku
+            with open(path, "r", encoding="utf-8") as f:
+                text = f.read()
             
-            if not text_english: continue
+            # Boş dosya kontrolü
+            if not text or len(text.strip()) == 0: 
+                continue
 
-            # Run the model
-            predictions = emotion_classifier(text_english)
-            scores = predictions[0]
-            
-            # Find dominant emotion
-            top_emotion = max(scores, key=lambda x: x['score'])
-            
-            # --- C. Append to List ---
+            # Analiz et
+            pred = classifier(text)
+            top = max(pred[0], key=lambda x: x['score'])
+
             all_data.append({
-                "id": global_id_counter,
-                "artists": artist_name,
-                "track name": track_name,
-                "emotionality": "", # Placeholder for your friend
-                "emotion_type": top_emotion['label'].upper(),
-                "emotion_score": top_emotion['score'],
+                "original_id": s_id,
+                "artists": artist,
+                "track name": track,
+                "emotion_type": top['label'].upper(),
+                "emotion_score": top['score'],
                 "culture": culture
             })
-
-            global_id_counter += 1
-
         except Exception as e:
-            # tqdm.write allows printing without breaking the progress bar layout
-            tqdm.write(f"Error processing {filename}: {e}")
+            # Hata olursa ekrana basalım ki görelim
+            # tqdm.write ilerleme çubuğunu bozmadan yazdırır
+            tqdm.write(f"Hata ({filename}): {e}")
             continue
 
-    # 3. Save CSV
     if all_data:
+        # CSV Kaydet
         df = pd.DataFrame(all_data)
-        
-        # Reorder columns
-        df = df[[
-            "id", 
-            "artists", 
-            "track name", 
-            "emotionality", 
-            "emotion_type", 
-            "emotion_score", 
-            "culture"
-        ]]
-        
         df.to_csv(FINAL_CSV_NAME, index=False)
-        print(f"\n✅ PROCESS COMPLETE! Saved to: {FINAL_CSV_NAME}")
-        print(f"Total Processed: {len(df)}")
-        print("-" * 30)
-        print(df.head())
+        print(f"\n✅ Analiz bitti! Sonuçlar '{FINAL_CSV_NAME}' dosyasına kaydedildi.")
+        print(f"Toplam İşlenen Şarkı: {len(df)}")
     else:
-        print("❌ No data processed.")
+        print("❌ Veri oluşturulamadı. Hiçbir dosya analiz edilemedi.")
 
 if __name__ == "__main__":
     run_analysis()
