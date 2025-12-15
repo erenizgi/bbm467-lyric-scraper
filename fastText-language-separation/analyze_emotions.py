@@ -4,7 +4,7 @@ import torch
 from transformers import pipeline
 from tqdm import tqdm
 
-# --- AYARLAR ---
+# --- SETTINGS ---
 TRANSLATED_FOLDERS = {
     "Turkish": "../lyrics_files_turkish_translated",
     "Balkan": "../lyrics_files_balkan_translated"
@@ -13,15 +13,24 @@ FINAL_CSV_NAME = "final_music_analysis_dataset.csv"
 MODEL_NAME = "bhadresh-savani/bert-base-uncased-emotion"
 
 def run_analysis():
-    # --- DEĞİŞİKLİK BURADA: Zorla CPU (-1) kullanıyoruz ---
-    # RTX 5060 uyumsuzluğu yüzünden GPU'yu kapatıyoruz.
-    device = -1 
-    print(f"⏳ Model Yükleniyor... (CPU Modu Aktif)")
+    # --- CHECK: GPU Check and Assignment ---
+    # If CUDA is available, use device=0 (GPU), otherwise -1 (CPU)
+    if torch.cuda.is_available():
+        device = 0
+        device_name = torch.cuda.get_device_name(0)
+        print(f"✅ GPU Found: {device_name}")
+        print(f"🚀 Operations will be performed on {device_name}.")
+    else:
+        device = -1
+        print("⚠️ GPU not found, running in CPU mode (might be slow).")
 
+    print(f"⏳ Loading Model...")
+
+    # Dynamically passing the device parameter to the pipeline
     classifier = pipeline("text-classification", model=MODEL_NAME, top_k=None, truncation=True, device=device)
     all_data = []
 
-    print("\n🔍 Dosyalar taranıyor...")
+    print("\n🔍 Scanning files...")
     tasks = []
     for culture, path in TRANSLATED_FOLDERS.items():
         if os.path.exists(path):
@@ -29,22 +38,23 @@ def run_analysis():
             for f in files: tasks.append((os.path.join(path, f), f, culture))
 
     if not tasks:
-        print("❌ Dosya bulunamadı."); return
+        print("❌ No files found."); return
 
-    for path, filename, culture in tqdm(tasks, desc="NLP Analizi"):
+    # Loop with TQDM progress bar
+    for path, filename, culture in tqdm(tasks, desc="NLP Analysis"):
         try:
-            # --- ID PARSE ETME ---
+            # --- ID PARSING ---
             if "_" in filename:
                 parts = filename.split("_", 1)
                 
-                # ID al
+                # Get ID
                 try:
                     s_id = int(parts[0]) 
                 except ValueError:
-                    # Eğer ID sayı değilse (örn: manuel dosya), atla veya 0 ver
+                    # Skip if ID is not a number
                     continue
 
-                # İsimleri ayıkla
+                # Extract names
                 rest = parts[1].replace(".txt", "")
                 if "-" in rest:
                     p = rest.rsplit("-", 1) 
@@ -54,15 +64,15 @@ def run_analysis():
             else:
                 continue 
 
-            # Dosyayı oku
+            # Read file
             with open(path, "r", encoding="utf-8") as f:
                 text = f.read()
             
-            # Boş dosya kontrolü
+            # Empty file check
             if not text or len(text.strip()) == 0: 
                 continue
 
-            # Analiz et
+            # Analyze (on GPU)
             pred = classifier(text)
             top = max(pred[0], key=lambda x: x['score'])
 
@@ -75,19 +85,17 @@ def run_analysis():
                 "culture": culture
             })
         except Exception as e:
-            # Hata olursa ekrana basalım ki görelim
-            # tqdm.write ilerleme çubuğunu bozmadan yazdırır
-            tqdm.write(f"Hata ({filename}): {e}")
+            tqdm.write(f"Error ({filename}): {e}")
             continue
 
     if all_data:
-        # CSV Kaydet
+        # Save CSV
         df = pd.DataFrame(all_data)
         df.to_csv(FINAL_CSV_NAME, index=False)
-        print(f"\n✅ Analiz bitti! Sonuçlar '{FINAL_CSV_NAME}' dosyasına kaydedildi.")
-        print(f"Toplam İşlenen Şarkı: {len(df)}")
+        print(f"\n✅ Analysis complete! Results saved to '{FINAL_CSV_NAME}'.")
+        print(f"Total Processed Songs: {len(df)}")
     else:
-        print("❌ Veri oluşturulamadı. Hiçbir dosya analiz edilemedi.")
+        print("❌ Data could not be generated. No files were analyzed.")
 
 if __name__ == "__main__":
     run_analysis()

@@ -4,93 +4,93 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.decomposition import PCA
 
-# --- AYARLAR ---
-NLP_CSV = "final_music_analysis_dataset.csv"  # analyze_emotions.py çıktısı
-AUDIO_CSV = "songs_with_language.csv"         # fastText çıktısı
-OUTPUT_CSV = "FINAL_PROJECT_DATASET.csv"      # SONUÇ
+# --- SETTINGS ---
+NLP_CSV = "final_music_analysis_dataset.csv"  # Output from analyze_emotions.py
+AUDIO_CSV = "songs_with_language.csv"         # Output from fastText
+OUTPUT_CSV = "FINAL_PROJECT_DATASET.csv"      # RESULT
 
 def create_final_dataset():
-    print("📂 Dosyalar yükleniyor...")
+    print("📂 Loading files...")
     
     if not os.path.exists(NLP_CSV) or not os.path.exists(AUDIO_CSV):
-        print("❌ HATA: Dosyalar eksik.")
+        print("❌ ERROR: Missing files.")
         return
 
     df_nlp = pd.read_csv(NLP_CSV)
     df_audio = pd.read_csv(AUDIO_CSV)
 
-    # ID Sütunu Hazırlığı
+    # ID Column Preparation
     if "original_id" not in df_audio.columns:
         if "Unnamed: 0" in df_audio.columns:
             df_audio = df_audio.rename(columns={"Unnamed: 0": "original_id"})
         else:
             df_audio["original_id"] = df_audio.index
 
-    # Tür dönüşümü
+    # Type conversion
     df_nlp["original_id"] = df_nlp["original_id"].astype(int)
     df_audio["original_id"] = df_audio["original_id"].astype(int)
 
-    # --- BİRLEŞTİRME ---
-    print("🔗 Veriler birleştiriliyor...")
+    # --- MERGING ---
+    print("🔗 Merging data...")
     
-    # PCA'da kullanacağımız sütunlar
+    # Columns to be used in PCA
     audio_cols = [
         "danceability", "energy", "loudness", "speechiness", 
         "acousticness", "instrumentalness", "liveness", 
         "valence", "tempo"
     ]
     
-    # Sadece gerekli sütunları alarak birleştir
+    # Merge only necessary columns
     cols_to_merge = ["original_id"] + audio_cols
     merged_df = pd.merge(df_nlp, df_audio[cols_to_merge], on="original_id", how="left")
 
-    # Temizlik
+    # Cleanup
     merged_df = merged_df.dropna(subset=['valence'])
     
     if merged_df.empty:
-        print("❌ HATA: Veri eşleşmedi."); return
+        print("❌ ERROR: Data did not match."); return
 
     print("-" * 30)
-    print(f"✅ Analiz İçin Hazır Şarkı Sayısı: {len(merged_df)}")
+    print(f"✅ Songs Ready for Analysis: {len(merged_df)}")
     print("-" * 30)
 
-    # --- PCA HESAPLAMA (Emotionality Index) ---
-    print("🧮 PCA ile Emotionality İndeksi Hesaplanıyor...")
+    # --- PCA CALCULATION (Emotionality Index) ---
+    print("🧮 Calculating Emotionality Index with PCA...")
 
-    # 1. Standartlaştırma (PCA için zorunlu)
+    # 1. Standardization (Mandatory for PCA)
     X = merged_df[audio_cols]
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
 
-    # 2. PCA Uygula (Tek bileşen: Emotionality Axis)
+    # 2. Apply PCA (Single component: Emotionality Axis)
     pca = PCA(n_components=1)
     principal_components = pca.fit_transform(X_scaled)
     
-    # 3. Yükleri (Weights) İncele ve Yönü Belirle
+    # 3. Examine Weights (Loadings) and Determine Direction
     loadings = pca.components_[0]
     loading_dict = dict(zip(audio_cols, loadings))
     
-    print("\n🔍 PCA Ağırlıkları (Data-Driven Formula):")
+    print("\n🔍 PCA Weights (Data-Driven Formula):")
     for k, v in loading_dict.items():
         print(f"   {k}: {v:.3f}")
 
-    # --- KRİTİK KONTROL: Yön Belirleme ---
-    # Biz "Emotionality" derken genelde "Hüzünlü/Sakin" kastediyoruz.
-    # Bu yüzden 'Valence' (Mutluluk) ve 'Energy' PCA sonucunda NEGATİF olmalı.
-    # Eğer PCA bunları Pozitif bulduysa, sonuçları ters çevirmeliyiz (-1 ile çarp).
+    # --- CRITICAL CHECK: Direction Determination ---
+    # When we say "Emotionality", we generally mean "Sad/Calm".
+    # Therefore, 'Valence' (Happiness) and 'Energy' should be NEGATIVE in the PCA result.
+    # If PCA found these as Positive, we must invert the results (multiply by -1).
     
-    # Valence'ın yüküne bakıyoruz:
+    # Checking the weight of Valence:
     if loading_dict['valence'] > 0:
-        print("\n🔄 Yön Düzeltme: PCA 'Mutluluk' yönünü pozitif buldu. 'Hüzün' için ters çevriliyor...")
+        print("\n🔄 Direction Correction: PCA found 'Happiness' direction as positive. Inverting for 'Sadness'...")
         principal_components = principal_components * -1
     else:
-        print("\n✅ Yön Doğru: PCA zaten 'Hüzün/Sakinlik' yönünü pozitif buldu.")
+        print("\n✅ Direction Correct: PCA already found 'Sadness/Calmness' direction as positive.")
 
-    # 4. Sonuçları 0-1 arasına sıkıştır (Normalize et)
+    # 4. Squeeze results between 0-1 (Normalize)
     min_max_scaler = MinMaxScaler()
     emotionality_scores = min_max_scaler.fit_transform(principal_components)
 
-    # DataFrame'e ekle
+    # Add to DataFrame
     merged_df["emotionality"] = emotionality_scores
 
     # --- FINAL FORMAT ---
@@ -102,7 +102,7 @@ def create_final_dataset():
     final_output = merged_df[final_cols]
     final_output.to_csv(OUTPUT_CSV, index=False)
     
-    print(f"\n✅ PROJE TAMAMLANDI! Dosya hazır: {OUTPUT_CSV}")
+    print(f"\n✅ PROJECT COMPLETED! File ready: {OUTPUT_CSV}")
     print(final_output.head())
 
 if __name__ == "__main__":
