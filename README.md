@@ -145,6 +145,6 @@ python dscp_analysis.py
 ***
 
 ## 👥 Contributors
-[Yusuf Emir Cömert] - Hacettepe University, AI Engineering
-[Eren İzgi] - Hacettepe University, Computer Engineering
+[Yusuf Emir Cömert] - Hacettepe University, AI Engineering\
+[Eren İzgi] - Hacettepe University, Computer Engineering\
 [Sudenaz Yazıcı] - Hacettepe University, Computer Engineering
